@@ -1,0 +1,27 @@
+block('highlight')(
+
+    js()({
+        lang: this.ctx.lang
+    }),
+
+    content()(function(){
+
+        var htmlEscape = function(html) {
+            return html.replace(/&/g, '&amp;')
+                       .replace(/>/g, '&gt;')
+                       .replace(/</g, '&lt;')
+                       .replace(/"/g, '&quot;')
+                       .replace(/'/g, '&apos;');
+        }
+
+        return {
+            tag: 'pre',
+            content: {
+                elem: 'code',
+                tag: 'code',
+                content: htmlEscape(this.ctx.content)
+            }
+        }
+    })
+
+)
