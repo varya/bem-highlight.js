@@ -1,17 +1,17 @@
 # CSS/JavaScript BEM block for code highlighting
 
-This repository contains `bem-highlight.js` block library. The library serves
-the `highlight` BEM block whose JavaScript paint code on a page with the help of
-remarkable [Highlight.js](http://highlightjs.org/).
+This repository contains `bem-highlight.js` block library. The library provides
+a `highlight` BEM block that adds syntax highlighting to code examples on web pages.
+The block uses well-known [Highlight.js](http://highlightjs.org/).
 
-*bem-core compalible*
+*bem-core compatible*
 
-Example of usage:
+Usage example:
 http://varya.me/bem-highlight.js/desktop.bundles/index/index.html
 
 ## HTML markup
 
-You provide a markup for highlight blocks:
+Here's the markup for highlight blocks:
 
 ```
 <div class="highlight highlight_theme_far i-bem" data-bem="{ 'highlight' : {
@@ -24,31 +24,30 @@ You provide a markup for highlight blocks:
 </div>
 ```
 
-The markup can be build with templates like `bemhtml`. Look at the
+The markup can be built with templates like `bemhtml`. See the
 [example](https://github.com/varya/bem-highlight.js/blob/master/desktop.bundles/index/blocks/highlight/highlight.bemhtml).
 
-With linking compiled JavaScript to the page you have you code highlighed within
-your BEM project!
+Just link the compiled JavaScript to a page in your BEM project to have your code highlighed!
 
 ## Using the library
 
 * Link library to the bem project using bower<br/>
 Example: https://github.com/varya/varya.github.com/blob/master/bower.json
-* Add library levels in the list of using block levels<br/>
+* Add library levels to the list of used block levels<br/>
 https://github.com/varya/varya.github.com/blob/master/.bem/make.js#L60
 * Include `highlight` block into the project<br/>
 https://github.com/varya/varya.github.com/blob/master/desktop.blocks/page/page.deps.js#L13
 
-Hacks can be easily provided thanks to flexible BEM redefining.
+Hacks can be easily added thanks to flexible BEM-based redefining:
 https://github.com/varya/varya.github.com/tree/master/desktop.blocks/highlight
 
-## Developing the library
+## Developing with the library
 
 ### Installation Requirements:
 
 - [node.js](http://nodejs.org/)
 
-You may also consider [installing bem-tools locally to your environment](http://bem.info/tools/bem/installation/) for [ease of use](#an-easier-more-beautiful-way), though it is **not required**
+You may also consider [installing bem-tools locally in your environment](http://bem.info/tools/bem/installation/) for [ease of use](#an-easier-more-beautiful-way), though it is **not required**
 
 ---
 
@@ -71,7 +70,7 @@ Now that `bem server` is running, check it out:
 Navigate to: http://localhost:8080/desktop.bundles/index/index.html
 ````
 
-(here, have a link: [http://localhost:8080/desktop.bundles/index/index.html](http://localhost:8080/desktop.bundles/index/index.html))
+(here is a link: [http://localhost:8080/desktop.bundles/index/index.html](http://localhost:8080/desktop.bundles/index/index.html))
 
 ---
 
