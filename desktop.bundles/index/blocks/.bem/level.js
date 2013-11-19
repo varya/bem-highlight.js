@@ -1,1 +1,1 @@
-exports.baseLevelPath = require.resolve('../../../../desktop.blocks/.bem/level.js');
+exports.baseLevelPath = require.resolve('../../../../blocks/.bem/level.js');
