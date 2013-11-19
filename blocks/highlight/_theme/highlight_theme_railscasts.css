@@ -4,178 +4,178 @@ Railscasts-like style (c) Visoft, Inc. (Damien White)
 
 */
 
-pre code {
+.highlight_theme_railscasts pre code {
   display: block;
   padding: 0.5em;
   background: #232323;
   color: #E6E1DC;
 }
 
-pre .comment,
-pre .template_comment,
-pre .javadoc,
-pre .shebang {
+.highlight_theme_railscasts pre .comment,
+.highlight_theme_railscasts pre .template_comment,
+.highlight_theme_railscasts pre .javadoc,
+.highlight_theme_railscasts pre .shebang {
   color: #BC9458;
   font-style: italic;
 }
 
-pre .keyword,
-pre .ruby .function .keyword,
-pre .request,
-pre .status,
-pre .nginx .title,
-pre .method,
-pre .list .title {
+.highlight_theme_railscasts pre .keyword,
+.highlight_theme_railscasts pre .ruby .function .keyword,
+.highlight_theme_railscasts pre .request,
+.highlight_theme_railscasts pre .status,
+.highlight_theme_railscasts pre .nginx .title,
+.highlight_theme_railscasts pre .method,
+.highlight_theme_railscasts pre .list .title {
   color: #C26230;
 }
 
-pre .string,
-pre .number,
-pre .regexp,
-pre .tag .value,
-pre .cdata,
-pre .filter .argument,
-pre .attr_selector,
-pre .apache .cbracket,
-pre .date,
-pre .tex .command,
-pre .markdown .link_label {
+.highlight_theme_railscasts pre .string,
+.highlight_theme_railscasts pre .number,
+.highlight_theme_railscasts pre .regexp,
+.highlight_theme_railscasts pre .tag .value,
+.highlight_theme_railscasts pre .cdata,
+.highlight_theme_railscasts pre .filter .argument,
+.highlight_theme_railscasts pre .attr_selector,
+.highlight_theme_railscasts pre .apache .cbracket,
+.highlight_theme_railscasts pre .date,
+.highlight_theme_railscasts pre .tex .command,
+.highlight_theme_railscasts pre .markdown .link_label {
   color: #A5C261;
 }
 
-pre .subst {
+.highlight_theme_railscasts pre .subst {
   color: #519F50;
 }
 
-pre .tag,
-pre .tag .keyword,
-pre .tag .title,
-pre .doctype,
-pre .sub .identifier,
-pre .pi,
-pre .input_number {
+.highlight_theme_railscasts pre .tag,
+.highlight_theme_railscasts pre .tag .keyword,
+.highlight_theme_railscasts pre .tag .title,
+.highlight_theme_railscasts pre .doctype,
+.highlight_theme_railscasts pre .sub .identifier,
+.highlight_theme_railscasts pre .pi,
+.highlight_theme_railscasts pre .input_number {
   color: #E8BF6A;
 }
 
-pre .identifier {
+.highlight_theme_railscasts pre .identifier {
   color: #D0D0FF;
 }
 
-pre .class .title,
-pre .haskell .type,
-pre .smalltalk .class,
-pre .javadoctag,
-pre .yardoctag,
-pre .phpdoc {
+.highlight_theme_railscasts pre .class .title,
+.highlight_theme_railscasts pre .haskell .type,
+.highlight_theme_railscasts pre .smalltalk .class,
+.highlight_theme_railscasts pre .javadoctag,
+.highlight_theme_railscasts pre .yardoctag,
+.highlight_theme_railscasts pre .phpdoc {
   text-decoration: none;
 }
 
-pre .constant {
+.highlight_theme_railscasts pre .constant {
   color: #DA4939;
 }
 
 
-pre .symbol,
-pre .built_in,
-pre .ruby .symbol .string,
-pre .ruby .symbol .identifier,
-pre .markdown .link_url,
-pre .attribute {
+.highlight_theme_railscasts pre .symbol,
+.highlight_theme_railscasts pre .built_in,
+.highlight_theme_railscasts pre .ruby .symbol .string,
+.highlight_theme_railscasts pre .ruby .symbol .identifier,
+.highlight_theme_railscasts pre .markdown .link_url,
+.highlight_theme_railscasts pre .attribute {
   color: #6D9CBE;
 }
 
-pre .markdown .link_url {
+.highlight_theme_railscasts pre .markdown .link_url {
   text-decoration: underline;
 }
 
 
 
-pre .params,
-pre .variable,
-pre .clojure .attribute {
+.highlight_theme_railscasts pre .params,
+.highlight_theme_railscasts pre .variable,
+.highlight_theme_railscasts pre .clojure .attribute {
   color: #D0D0FF;
 }
 
-pre .css .tag,
-pre .rules .property,
-pre .pseudo,
-pre .tex .special {
+.highlight_theme_railscasts pre .css .tag,
+.highlight_theme_railscasts pre .rules .property,
+.highlight_theme_railscasts pre .pseudo,
+.highlight_theme_railscasts pre .tex .special {
   color: #CDA869;
 }
 
-pre .css .class {
+.highlight_theme_railscasts pre .css .class {
   color: #9B703F;
 }
 
-pre .rules .keyword {
+.highlight_theme_railscasts pre .rules .keyword {
   color: #C5AF75;
 }
 
-pre .rules .value {
+.highlight_theme_railscasts pre .rules .value {
   color: #CF6A4C;
 }
 
-pre .css .id {
+.highlight_theme_railscasts pre .css .id {
   color: #8B98AB;
 }
 
-pre .annotation,
-pre .apache .sqbracket,
-pre .nginx .built_in {
+.highlight_theme_railscasts pre .annotation,
+.highlight_theme_railscasts pre .apache .sqbracket,
+.highlight_theme_railscasts pre .nginx .built_in {
   color: #9B859D;
 }
 
-pre .preprocessor,
-pre .preprocessor *{
+.highlight_theme_railscasts pre ..highlight_theme_railscasts preprocessor,
+.highlight_theme_railscasts pre ..highlight_theme_railscasts preprocessor *{
   color: #8996A8 !important;
 }
 
-pre .hexcolor,
-pre .css .value .number {
+.highlight_theme_railscasts pre .hexcolor,
+.highlight_theme_railscasts pre .css .value .number {
   color: #A5C261;
 }
 
-pre .title,
-pre .decorator,
-pre .css .function {
+.highlight_theme_railscasts pre .title,
+.highlight_theme_railscasts pre .decorator,
+.highlight_theme_railscasts pre .css .function {
   color: #FFC66D;
 }
 
-pre .diff .header,
-pre .chunk {
+.highlight_theme_railscasts pre .diff .header,
+.highlight_theme_railscasts pre .chunk {
   background-color: #2F33AB;
   color: #E6E1DC;
   display: inline-block;
   width: 100%;
 }
 
-pre .diff .change {
+.highlight_theme_railscasts pre .diff .change {
   background-color: #4A410D;
   color: #F8F8F8;
   display: inline-block;
   width: 100%;
 }
 
-pre .addition {
+.highlight_theme_railscasts pre .addition {
   background-color: #144212;
   color: #E6E1DC;
   display: inline-block;
   width: 100%;
 }
 
-pre .deletion {
+.highlight_theme_railscasts pre .deletion {
   background-color: #600;
   color: #E6E1DC;
   display: inline-block;
   width: 100%;
 }
 
-pre .coffeescript .javascript,
-pre .javascript .xml,
-pre .tex .formula,
-pre .xml .javascript,
-pre .xml .vbscript,
-pre .xml .css,
-pre .xml .cdata {
+.highlight_theme_railscasts pre .coffeescript .javascript,
+.highlight_theme_railscasts pre .javascript .xml,
+.highlight_theme_railscasts pre .tex .formula,
+.highlight_theme_railscasts pre .xml .javascript,
+.highlight_theme_railscasts pre .xml .vbscript,
+.highlight_theme_railscasts pre .xml .css,
+.highlight_theme_railscasts pre .xml .cdata {
   opacity: 0.7;
 }

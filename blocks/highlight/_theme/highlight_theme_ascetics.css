@@ -4,47 +4,47 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
 
 */
 
-pre code {
+.highlight_theme_ascetics pre code {
   display: block; padding: 0.5em;
   background: white; color: black;
 }
 
-pre .string,
-pre .tag .value,
-pre .filter .argument,
-pre .addition,
-pre .change,
-pre .apache .tag,
-pre .apache .cbracket,
-pre .nginx .built_in,
-pre .tex .formula {
+.highlight_theme_ascetics pre .string,
+.highlight_theme_ascetics pre .tag .value,
+.highlight_theme_ascetics pre .filter .argument,
+.highlight_theme_ascetics pre .addition,
+.highlight_theme_ascetics pre .change,
+.highlight_theme_ascetics pre .apache .tag,
+.highlight_theme_ascetics pre .apache .cbracket,
+.highlight_theme_ascetics pre .nginx .built_in,
+.highlight_theme_ascetics pre .tex .formula {
   color: #888;
 }
 
-pre .comment,
-pre .template_comment,
-pre .shebang,
-pre .doctype,
-pre .pi,
-pre .javadoc,
-pre .deletion,
-pre .apache .sqbracket {
+.highlight_theme_ascetics pre .comment,
+.highlight_theme_ascetics pre .template_comment,
+.highlight_theme_ascetics pre .shebang,
+.highlight_theme_ascetics pre .doctype,
+.highlight_theme_ascetics pre .pi,
+.highlight_theme_ascetics pre .javadoc,
+.highlight_theme_ascetics pre .deletion,
+.highlight_theme_ascetics pre .apache .sqbracket {
   color: #CCC;
 }
 
-pre .keyword,
-pre .tag .title,
-pre .ini .title,
-pre .lisp .title,
-pre .clojure .title,
-pre .http .title,
-pre .nginx .title,
-pre .css .tag,
-pre .winutils,
-pre .flow,
-pre .apache .tag,
-pre .tex .command,
-pre .request,
-pre .status {
+.highlight_theme_ascetics pre .keyword,
+.highlight_theme_ascetics pre .tag .title,
+.highlight_theme_ascetics pre .ini .title,
+.highlight_theme_ascetics pre .lisp .title,
+.highlight_theme_ascetics pre .clojure .title,
+.highlight_theme_ascetics pre .http .title,
+.highlight_theme_ascetics pre .nginx .title,
+.highlight_theme_ascetics pre .css .tag,
+.highlight_theme_ascetics pre .winutils,
+.highlight_theme_ascetics pre .flow,
+.highlight_theme_ascetics pre .apache .tag,
+.highlight_theme_ascetics pre .tex .command,
+.highlight_theme_ascetics pre .request,
+.highlight_theme_ascetics pre .status {
   font-weight: bold;
 }

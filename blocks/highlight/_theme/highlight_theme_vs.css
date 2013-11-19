@@ -3,86 +3,86 @@
 Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
 
 */
-pre code {
+.highlight_theme_vs pre code {
   display: block; padding: 0.5em;
   background: white; color: black;
 }
 
-pre .comment,
-pre .annotation,
-pre .template_comment,
-pre .diff .header,
-pre .chunk,
-pre .apache .cbracket {
+.highlight_theme_vs pre .comment,
+.highlight_theme_vs pre .annotation,
+.highlight_theme_vs pre .template_comment,
+.highlight_theme_vs pre .diff .header,
+.highlight_theme_vs pre .chunk,
+.highlight_theme_vs pre .apache .cbracket {
   color: rgb(0, 128, 0);
 }
 
-pre .keyword,
-pre .id,
-pre .built_in,
-pre .smalltalk .class,
-pre .winutils,
-pre .bash .variable,
-pre .tex .command,
-pre .request,
-pre .status,
-pre .nginx .title,
-pre .xml .tag,
-pre .xml .tag .value {
+.highlight_theme_vs pre .keyword,
+.highlight_theme_vs pre .id,
+.highlight_theme_vs pre .built_in,
+.highlight_theme_vs pre .smalltalk .class,
+.highlight_theme_vs pre .winutils,
+.highlight_theme_vs pre .bash .variable,
+.highlight_theme_vs pre .tex .command,
+.highlight_theme_vs pre .request,
+.highlight_theme_vs pre .status,
+.highlight_theme_vs pre .nginx .title,
+.highlight_theme_vs pre .xml .tag,
+.highlight_theme_vs pre .xml .tag .value {
   color: rgb(0, 0, 255);
 }
 
-pre .string,
-pre .title,
-pre .parent,
-pre .tag .value,
-pre .rules .value,
-pre .rules .value .number,
-pre .ruby .symbol,
-pre .ruby .symbol .string,
-pre .aggregate,
-pre .template_tag,
-pre .django .variable,
-pre .addition,
-pre .flow,
-pre .stream,
-pre .apache .tag,
-pre .date,
-pre .tex .formula,
-pre .coffeescript .attribute {
+.highlight_theme_vs pre .string,
+.highlight_theme_vs pre .title,
+.highlight_theme_vs pre .parent,
+.highlight_theme_vs pre .tag .value,
+.highlight_theme_vs pre .rules .value,
+.highlight_theme_vs pre .rules .value .number,
+.highlight_theme_vs pre .ruby .symbol,
+.highlight_theme_vs pre .ruby .symbol .string,
+.highlight_theme_vs pre .aggregate,
+.highlight_theme_vs pre .template_tag,
+.highlight_theme_vs pre .django .variable,
+.highlight_theme_vs pre .addition,
+.highlight_theme_vs pre .flow,
+.highlight_theme_vs pre .stream,
+.highlight_theme_vs pre .apache .tag,
+.highlight_theme_vs pre .date,
+.highlight_theme_vs pre .tex .formula,
+.highlight_theme_vs pre .coffeescript .attribute {
   color: rgb(163, 21, 21);
 }
 
-pre .ruby .string,
-pre .decorator,
-pre .filter .argument,
-pre .localvars,
-pre .array,
-pre .attr_selector,
-pre .pseudo,
-pre .pi,
-pre .doctype,
-pre .deletion,
-pre .envvar,
-pre .shebang,
-pre .preprocessor,
-pre .userType,
-pre .apache .sqbracket,
-pre .nginx .built_in,
-pre .tex .special,
-pre .prompt {
+.highlight_theme_vs pre .ruby .string,
+.highlight_theme_vs pre .decorator,
+.highlight_theme_vs pre .filter .argument,
+.highlight_theme_vs pre .localvars,
+.highlight_theme_vs pre .array,
+.highlight_theme_vs pre .attr_selector,
+.highlight_theme_vs pre .pseudo,
+.highlight_theme_vs pre .pi,
+.highlight_theme_vs pre .doctype,
+.highlight_theme_vs pre .deletion,
+.highlight_theme_vs pre .envvar,
+.highlight_theme_vs pre .shebang,
+.highlight_theme_vs pre ..highlight_theme_vs preprocessor,
+.highlight_theme_vs pre .userType,
+.highlight_theme_vs pre .apache .sqbracket,
+.highlight_theme_vs pre .nginx .built_in,
+.highlight_theme_vs pre .tex .special,
+.highlight_theme_vs pre .prompt {
   color: rgb(43, 145, 175);
 }
 
-pre .phpdoc,
-pre .javadoc,
-pre .xmlDocTag {
+.highlight_theme_vs pre .phpdoc,
+.highlight_theme_vs pre .javadoc,
+.highlight_theme_vs pre .xmlDocTag {
   color: rgb(128, 128, 128);
 }
 
-pre .vhdl .typename { font-weight: bold; }
-pre .vhdl .string { color: #666666; }
-pre .vhdl .literal { color: rgb(163, 21, 21); }
-pre .vhdl .attribute { color: #00B0E8; }
+.highlight_theme_vs pre .vhdl .typename { font-weight: bold; }
+.highlight_theme_vs pre .vhdl .string { color: #666666; }
+.highlight_theme_vs pre .vhdl .literal { color: rgb(163, 21, 21); }
+.highlight_theme_vs pre .vhdl .attribute { color: #00B0E8; }
 
-pre .xml .attribute { color: rgb(255, 0, 0); }
+.highlight_theme_vs pre .xml .attribute { color: rgb(255, 0, 0); }

@@ -6,99 +6,99 @@ Based on Solarized Style from http://ethanschoonover.com/solarized
 
 */
 
-pre code {
+.highlight_theme_pojoaque pre code {
   display: block; padding: 0.5em;
   color: #DCCF8F;
   background: url(./pojoaque.jpg) repeat scroll left top #181914;
 }
 
-pre .comment,
-pre .template_comment,
-pre .diff .header,
-pre .doctype,
-pre .lisp .string,
-pre .javadoc {
+.highlight_theme_pojoaque pre .comment,
+.highlight_theme_pojoaque pre .template_comment,
+.highlight_theme_pojoaque pre .diff .header,
+.highlight_theme_pojoaque pre .doctype,
+.highlight_theme_pojoaque pre .lisp .string,
+.highlight_theme_pojoaque pre .javadoc {
   color: #586e75;
   font-style: italic;
 }
 
-pre .keyword,
-pre .css .rule .keyword,
-pre .winutils,
-pre .javascript .title,
-pre .method,
-pre .addition,
-pre .css .tag,
-pre .clojure .title,
-pre .nginx .title {
+.highlight_theme_pojoaque pre .keyword,
+.highlight_theme_pojoaque pre .css .rule .keyword,
+.highlight_theme_pojoaque pre .winutils,
+.highlight_theme_pojoaque pre .javascript .title,
+.highlight_theme_pojoaque pre .method,
+.highlight_theme_pojoaque pre .addition,
+.highlight_theme_pojoaque pre .css .tag,
+.highlight_theme_pojoaque pre .clojure .title,
+.highlight_theme_pojoaque pre .nginx .title {
   color: #B64926;
 }
 
-pre .number,
-pre .command,
-pre .string,
-pre .tag .value,
-pre .phpdoc,
-pre .tex .formula,
-pre .regexp,
-pre .hexcolor {
+.highlight_theme_pojoaque pre .number,
+.highlight_theme_pojoaque pre .command,
+.highlight_theme_pojoaque pre .string,
+.highlight_theme_pojoaque pre .tag .value,
+.highlight_theme_pojoaque pre .phpdoc,
+.highlight_theme_pojoaque pre .tex .formula,
+.highlight_theme_pojoaque pre .regexp,
+.highlight_theme_pojoaque pre .hexcolor {
   color: #468966;
 }
 
-pre .title,
-pre .localvars,
-pre .function .title,
-pre .chunk,
-pre .decorator,
-pre .built_in,
-pre .lisp .title,
-pre .clojure .built_in,
-pre .identifier,
-pre .id {
+.highlight_theme_pojoaque pre .title,
+.highlight_theme_pojoaque pre .localvars,
+.highlight_theme_pojoaque pre .function .title,
+.highlight_theme_pojoaque pre .chunk,
+.highlight_theme_pojoaque pre .decorator,
+.highlight_theme_pojoaque pre .built_in,
+.highlight_theme_pojoaque pre .lisp .title,
+.highlight_theme_pojoaque pre .clojure .built_in,
+.highlight_theme_pojoaque pre .identifier,
+.highlight_theme_pojoaque pre .id {
   color: #FFB03B;
 }
 
-pre .attribute,
-pre .variable,
-pre .lisp .body,
-pre .smalltalk .number,
-pre .constant,
-pre .class .title,
-pre .parent,
-pre .haskell .type {
+.highlight_theme_pojoaque pre .attribute,
+.highlight_theme_pojoaque pre .variable,
+.highlight_theme_pojoaque pre .lisp .body,
+.highlight_theme_pojoaque pre .smalltalk .number,
+.highlight_theme_pojoaque pre .constant,
+.highlight_theme_pojoaque pre .class .title,
+.highlight_theme_pojoaque pre .parent,
+.highlight_theme_pojoaque pre .haskell .type {
   color: #b58900;
 }
 
-pre .css .attribute {
+.highlight_theme_pojoaque pre .css .attribute {
   color: #b89859;
 }
 
-pre .css .number,pre .css .hexcolor{
+.highlight_theme_pojoaque pre .css .number,.highlight_theme_pojoaque pre .css .hexcolor{
   color: #DCCF8F;
 }
 
-pre .css .class {
+.highlight_theme_pojoaque pre .css .class {
   color: #d3a60c;
 }
 
-pre .preprocessor,
-pre .pi,
-pre .shebang,
-pre .symbol,
-pre .symbol .string,
-pre .diff .change,
-pre .special,
-pre .attr_selector,
-pre .important,
-pre .subst,
-pre .cdata {
+.highlight_theme_pojoaque pre ..highlight_theme_pojoaque preprocessor,
+.highlight_theme_pojoaque pre .pi,
+.highlight_theme_pojoaque pre .shebang,
+.highlight_theme_pojoaque pre .symbol,
+.highlight_theme_pojoaque pre .symbol .string,
+.highlight_theme_pojoaque pre .diff .change,
+.highlight_theme_pojoaque pre .special,
+.highlight_theme_pojoaque pre .attr_selector,
+.highlight_theme_pojoaque pre .important,
+.highlight_theme_pojoaque pre .subst,
+.highlight_theme_pojoaque pre .cdata {
   color: #cb4b16;
 }
 
-pre .deletion {
+.highlight_theme_pojoaque pre .deletion {
   color: #dc322f;
 }
 
-pre .tex .formula {
+.highlight_theme_pojoaque pre .tex .formula {
   background: #073642;
 }

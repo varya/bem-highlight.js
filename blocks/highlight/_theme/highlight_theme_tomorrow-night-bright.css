@@ -1,51 +1,51 @@
 /* Tomorrow Night Bright Theme */
 /* Original theme - https://github.com/chriskempson/tomorrow-theme */
 /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
-.tomorrow-comment, pre .comment, pre .title {
+.tomorrow-comment, .highlight_theme_tomorrow-night-bright pre .comment, .highlight_theme_tomorrow-night-bright pre .title {
   color: #969896;
 }
 
-.tomorrow-red, pre .variable, pre .attribute, pre .tag, pre .regexp, pre .ruby .constant, pre .xml .tag .title, pre .xml .pi, pre .xml .doctype, pre .html .doctype, pre .css .id, pre .css .class, pre .css .pseudo {
+.tomorrow-red, .highlight_theme_tomorrow-night-bright pre .variable, .highlight_theme_tomorrow-night-bright pre .attribute, .highlight_theme_tomorrow-night-bright pre .tag, .highlight_theme_tomorrow-night-bright pre .regexp, .highlight_theme_tomorrow-night-bright pre .ruby .constant, .highlight_theme_tomorrow-night-bright pre .xml .tag .title, .highlight_theme_tomorrow-night-bright pre .xml .pi, .highlight_theme_tomorrow-night-bright pre .xml .doctype, .highlight_theme_tomorrow-night-bright pre .html .doctype, .highlight_theme_tomorrow-night-bright pre .css .id, .highlight_theme_tomorrow-night-bright pre .css .class, .highlight_theme_tomorrow-night-bright pre .css .pseudo {
   color: #d54e53;
 }
 
-.tomorrow-orange, pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
+.tomorrow-orange, .highlight_theme_tomorrow-night-bright pre .number, .highlight_theme_tomorrow-night-bright pre ..highlight_theme_tomorrow-night-bright preprocessor, .highlight_theme_tomorrow-night-bright pre .built_in, .highlight_theme_tomorrow-night-bright pre .literal, .highlight_theme_tomorrow-night-bright pre .params, .highlight_theme_tomorrow-night-bright pre .constant {
   color: #e78c45;
 }
 
-.tomorrow-yellow, pre .ruby .class .title, pre .css .rules .attribute {
+.tomorrow-yellow, .highlight_theme_tomorrow-night-bright pre .ruby .class .title, .highlight_theme_tomorrow-night-bright pre .css .rules .attribute {
   color: #e7c547;
 }
 
-.tomorrow-green, pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
+.tomorrow-green, .highlight_theme_tomorrow-night-bright pre .string, .highlight_theme_tomorrow-night-bright pre .value, .highlight_theme_tomorrow-night-bright pre .inheritance, .highlight_theme_tomorrow-night-bright pre .header, .highlight_theme_tomorrow-night-bright pre .ruby .symbol, .highlight_theme_tomorrow-night-bright pre .xml .cdata {
   color: #b9ca4a;
 }
 
-.tomorrow-aqua, pre .css .hexcolor {
+.tomorrow-aqua, .highlight_theme_tomorrow-night-bright pre .css .hexcolor {
   color: #70c0b1;
 }
 
-.tomorrow-blue, pre .function, pre .python .decorator, pre .python .title, pre .ruby .function .title, pre .ruby .title .keyword, pre .perl .sub, pre .javascript .title, pre .coffeescript .title {
+.tomorrow-blue, .highlight_theme_tomorrow-night-bright pre .function, .highlight_theme_tomorrow-night-bright pre .python .decorator, .highlight_theme_tomorrow-night-bright pre .python .title, .highlight_theme_tomorrow-night-bright pre .ruby .function .title, .highlight_theme_tomorrow-night-bright pre .ruby .title .keyword, .highlight_theme_tomorrow-night-bright pre .perl .sub, .highlight_theme_tomorrow-night-bright pre .javascript .title, .highlight_theme_tomorrow-night-bright pre .coffeescript .title {
   color: #7aa6da;
 }
 
-.tomorrow-purple, pre .keyword, pre .javascript .function {
+.tomorrow-purple, .highlight_theme_tomorrow-night-bright pre .keyword, .highlight_theme_tomorrow-night-bright pre .javascript .function {
   color: #c397d8;
 }
 
-pre code {
+.highlight_theme_tomorrow-night-bright pre code {
   display: block;
   background: black;
   color: #eaeaea;
   padding: 0.5em;
 }
 
-pre .coffeescript .javascript,
-pre .javascript .xml,
-pre .tex .formula,
-pre .xml .javascript,
-pre .xml .vbscript,
-pre .xml .css,
-pre .xml .cdata {
+.highlight_theme_tomorrow-night-bright pre .coffeescript .javascript,
+.highlight_theme_tomorrow-night-bright pre .javascript .xml,
+.highlight_theme_tomorrow-night-bright pre .tex .formula,
+.highlight_theme_tomorrow-night-bright pre .xml .javascript,
+.highlight_theme_tomorrow-night-bright pre .xml .vbscript,
+.highlight_theme_tomorrow-night-bright pre .xml .css,
+.highlight_theme_tomorrow-night-bright pre .xml .cdata {
   opacity: 0.5;
 }

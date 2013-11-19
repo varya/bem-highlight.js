@@ -4,98 +4,98 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 
 */
 
-pre code {
+.highlight_theme_monokai-sublime pre code {
   display: block;
   padding: 0.5em;
   background: #23241f;
 }
-pre .tag,
-pre code {
+.highlight_theme_monokai-sublime pre .tag,
+.highlight_theme_monokai-sublime pre code {
   color: #f8f8f2;
 }
-pre .keyword,
-pre .function,
-pre .literal,
-pre .change,
-pre .winutils,
-pre .flow,
-pre .lisp .title,
-pre .clojure .built_in,
-pre .nginx .title,
-pre .tex .special {
+.highlight_theme_monokai-sublime pre .keyword,
+.highlight_theme_monokai-sublime pre .function,
+.highlight_theme_monokai-sublime pre .literal,
+.highlight_theme_monokai-sublime pre .change,
+.highlight_theme_monokai-sublime pre .winutils,
+.highlight_theme_monokai-sublime pre .flow,
+.highlight_theme_monokai-sublime pre .lisp .title,
+.highlight_theme_monokai-sublime pre .clojure .built_in,
+.highlight_theme_monokai-sublime pre .nginx .title,
+.highlight_theme_monokai-sublime pre .tex .special {
   color: #66d9ef;
 }
-pre .variable,
-pre .params {
+.highlight_theme_monokai-sublime pre .variable,
+.highlight_theme_monokai-sublime pre .params {
   color: #fd9720;
 }
-pre .constant {
+.highlight_theme_monokai-sublime pre .constant {
   color: #66d9ef;
 }
-pre .title,
-pre .class .title,
-pre .css .class {
+.highlight_theme_monokai-sublime pre .title,
+.highlight_theme_monokai-sublime pre .class .title,
+.highlight_theme_monokai-sublime pre .css .class {
   color: #a6e22e;
 }
-pre .attribute,
-pre .symbol,
-pre .symbol .string,
-pre .tag .title,
-pre .value,
-pre .css .tag {
+.highlight_theme_monokai-sublime pre .attribute,
+.highlight_theme_monokai-sublime pre .symbol,
+.highlight_theme_monokai-sublime pre .symbol .string,
+.highlight_theme_monokai-sublime pre .tag .title,
+.highlight_theme_monokai-sublime pre .value,
+.highlight_theme_monokai-sublime pre .css .tag {
   color: #f92672;
 }
-pre .number,
-pre .preprocessor,
-pre .regexp {
+.highlight_theme_monokai-sublime pre .number,
+.highlight_theme_monokai-sublime pre ..highlight_theme_monokai-sublime preprocessor,
+.highlight_theme_monokai-sublime pre .regexp {
   color: #ae81ff;
 }
-pre .tag .value,
-pre .string,
-pre .css .id,
-pre .subst,
-pre .haskell .type,
-pre .ruby .class .parent,
-pre .built_in,
-pre .sql .aggregate,
-pre .django .template_tag,
-pre .django .variable,
-pre .smalltalk .class,
-pre .django .filter .argument,
-pre .smalltalk .localvars,
-pre .smalltalk .array,
-pre .attr_selector,
-pre .pseudo,
-pre .addition,
-pre .stream,
-pre .envvar,
-pre .apache .tag,
-pre .apache .cbracket,
-pre .tex .command,
-pre .prompt {
+.highlight_theme_monokai-sublime pre .tag .value,
+.highlight_theme_monokai-sublime pre .string,
+.highlight_theme_monokai-sublime pre .css .id,
+.highlight_theme_monokai-sublime pre .subst,
+.highlight_theme_monokai-sublime pre .haskell .type,
+.highlight_theme_monokai-sublime pre .ruby .class .parent,
+.highlight_theme_monokai-sublime pre .built_in,
+.highlight_theme_monokai-sublime pre .sql .aggregate,
+.highlight_theme_monokai-sublime pre .django .template_tag,
+.highlight_theme_monokai-sublime pre .django .variable,
+.highlight_theme_monokai-sublime pre .smalltalk .class,
+.highlight_theme_monokai-sublime pre .django .filter .argument,
+.highlight_theme_monokai-sublime pre .smalltalk .localvars,
+.highlight_theme_monokai-sublime pre .smalltalk .array,
+.highlight_theme_monokai-sublime pre .attr_selector,
+.highlight_theme_monokai-sublime pre .pseudo,
+.highlight_theme_monokai-sublime pre .addition,
+.highlight_theme_monokai-sublime pre .stream,
+.highlight_theme_monokai-sublime pre .envvar,
+.highlight_theme_monokai-sublime pre .apache .tag,
+.highlight_theme_monokai-sublime pre .apache .cbracket,
+.highlight_theme_monokai-sublime pre .tex .command,
+.highlight_theme_monokai-sublime pre .prompt {
   color: #e6db74;
 }
-pre .comment,
-pre .javadoc,
-pre .java .annotation,
-pre .python .decorator,
-pre .template_comment,
-pre .pi,
-pre .doctype,
-pre .deletion,
-pre .shebang,
-pre .apache .sqbracket,
-pre .tex .formula {
+.highlight_theme_monokai-sublime pre .comment,
+.highlight_theme_monokai-sublime pre .javadoc,
+.highlight_theme_monokai-sublime pre .java .annotation,
+.highlight_theme_monokai-sublime pre .python .decorator,
+.highlight_theme_monokai-sublime pre .template_comment,
+.highlight_theme_monokai-sublime pre .pi,
+.highlight_theme_monokai-sublime pre .doctype,
+.highlight_theme_monokai-sublime pre .deletion,
+.highlight_theme_monokai-sublime pre .shebang,
+.highlight_theme_monokai-sublime pre .apache .sqbracket,
+.highlight_theme_monokai-sublime pre .tex .formula {
   color: #75715e;
 }
-pre .coffeescript .javascript,
-pre .javascript .xml,
-pre .tex .formula {
+.highlight_theme_monokai-sublime pre .coffeescript .javascript,
+.highlight_theme_monokai-sublime pre .javascript .xml,
+.highlight_theme_monokai-sublime pre .tex .formula {
   opacity: 0.5;
 }
-pre .xml .javascript,
-pre .xml .vbscript,
-pre .xml .css,
-pre .xml .cdata {
+.highlight_theme_monokai-sublime pre .xml .javascript,
+.highlight_theme_monokai-sublime pre .xml .vbscript,
+.highlight_theme_monokai-sublime pre .xml .css,
+.highlight_theme_monokai-sublime pre .xml .cdata {
   opacity: 0.5;
 }

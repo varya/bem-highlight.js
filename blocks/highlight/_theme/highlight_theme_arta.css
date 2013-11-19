@@ -3,157 +3,157 @@ Date: 17.V.2011
 Author: pumbur <pumbur@pumbur.net>
 */
 
-pre code
+.highlight_theme_arta pre code
 {
   display: block; padding: 0.5em;
   background: #222;
 }
 
-pre .profile .header *,
-pre .ini .title,
-pre .nginx .title
+.highlight_theme_arta pre .profile .header *,
+.highlight_theme_arta pre .ini .title,
+.highlight_theme_arta pre .nginx .title
 {
   color: #fff;
 }
 
-pre .comment,
-pre .javadoc,
-pre .preprocessor,
-pre .preprocessor .title,
-pre .shebang,
-pre .profile .summary,
-pre .diff,
-pre .pi,
-pre .doctype,
-pre .tag,
-pre .template_comment,
-pre .css .rules,
-pre .tex .special
+.highlight_theme_arta pre .comment,
+.highlight_theme_arta pre .javadoc,
+.highlight_theme_arta pre ..highlight_theme_arta preprocessor,
+.highlight_theme_arta pre ..highlight_theme_arta preprocessor .title,
+.highlight_theme_arta pre .shebang,
+.highlight_theme_arta pre .profile .summary,
+.highlight_theme_arta pre .diff,
+.highlight_theme_arta pre .pi,
+.highlight_theme_arta pre .doctype,
+.highlight_theme_arta pre .tag,
+.highlight_theme_arta pre .template_comment,
+.highlight_theme_arta pre .css .rules,
+.highlight_theme_arta pre .tex .special
 {
   color: #444;
 }
 
-pre .string,
-pre .symbol,
-pre .diff .change,
-pre .regexp,
-pre .xml .attribute,
-pre .smalltalk .char,
-pre .xml .value,
-pre .ini .value,
-pre .clojure .attribute,
-pre .coffeescript .attribute
+.highlight_theme_arta pre .string,
+.highlight_theme_arta pre .symbol,
+.highlight_theme_arta pre .diff .change,
+.highlight_theme_arta pre .regexp,
+.highlight_theme_arta pre .xml .attribute,
+.highlight_theme_arta pre .smalltalk .char,
+.highlight_theme_arta pre .xml .value,
+.highlight_theme_arta pre .ini .value,
+.highlight_theme_arta pre .clojure .attribute,
+.highlight_theme_arta pre .coffeescript .attribute
 {
   color: #ffcc33;
 }
 
-pre .number,
-pre .addition
+.highlight_theme_arta pre .number,
+.highlight_theme_arta pre .addition
 {
   color: #00cc66;
 }
 
-pre .built_in,
-pre .literal,
-pre .vhdl .typename,
-pre .go .constant,
-pre .go .typename,
-pre .ini .keyword,
-pre .lua .title,
-pre .perl .variable,
-pre .php .variable,
-pre .mel .variable,
-pre .django .variable,
-pre .css .funtion,
-pre .smalltalk .method,
-pre .hexcolor,
-pre .important,
-pre .flow,
-pre .inheritance,
-pre .parser3 .variable
+.highlight_theme_arta pre .built_in,
+.highlight_theme_arta pre .literal,
+.highlight_theme_arta pre .vhdl .typename,
+.highlight_theme_arta pre .go .constant,
+.highlight_theme_arta pre .go .typename,
+.highlight_theme_arta pre .ini .keyword,
+.highlight_theme_arta pre .lua .title,
+.highlight_theme_arta pre .perl .variable,
+.highlight_theme_arta pre .php .variable,
+.highlight_theme_arta pre .mel .variable,
+.highlight_theme_arta pre .django .variable,
+.highlight_theme_arta pre .css .funtion,
+.highlight_theme_arta pre .smalltalk .method,
+.highlight_theme_arta pre .hexcolor,
+.highlight_theme_arta pre .important,
+.highlight_theme_arta pre .flow,
+.highlight_theme_arta pre .inheritance,
+.highlight_theme_arta pre .parser3 .variable
 {
   color: #32AAEE;
 }
 
-pre .keyword,
-pre .tag .title,
-pre .css .tag,
-pre .css .class,
-pre .css .id,
-pre .css .pseudo,
-pre .css .attr_selector,
-pre .lisp .title,
-pre .clojure .built_in,
-pre .winutils,
-pre .tex .command,
-pre .request,
-pre .status
+.highlight_theme_arta pre .keyword,
+.highlight_theme_arta pre .tag .title,
+.highlight_theme_arta pre .css .tag,
+.highlight_theme_arta pre .css .class,
+.highlight_theme_arta pre .css .id,
+.highlight_theme_arta pre .css .pseudo,
+.highlight_theme_arta pre .css .attr_selector,
+.highlight_theme_arta pre .lisp .title,
+.highlight_theme_arta pre .clojure .built_in,
+.highlight_theme_arta pre .winutils,
+.highlight_theme_arta pre .tex .command,
+.highlight_theme_arta pre .request,
+.highlight_theme_arta pre .status
 {
   color: #6644aa;
 }
 
-pre .title,
-pre .ruby .constant,
-pre .vala .constant,
-pre .parent,
-pre .deletion,
-pre .template_tag,
-pre .css .keyword,
-pre .objectivec .class .id,
-pre .smalltalk .class,
-pre .lisp .keyword,
-pre .apache .tag,
-pre .nginx .variable,
-pre .envvar,
-pre .bash .variable,
-pre .go .built_in,
-pre .vbscript .built_in,
-pre .lua .built_in,
-pre .rsl .built_in,
-pre .tail,
-pre .avrasm .label,
-pre .tex .formula,
-pre .tex .formula *
+.highlight_theme_arta pre .title,
+.highlight_theme_arta pre .ruby .constant,
+.highlight_theme_arta pre .vala .constant,
+.highlight_theme_arta pre .parent,
+.highlight_theme_arta pre .deletion,
+.highlight_theme_arta pre .template_tag,
+.highlight_theme_arta pre .css .keyword,
+.highlight_theme_arta pre .objectivec .class .id,
+.highlight_theme_arta pre .smalltalk .class,
+.highlight_theme_arta pre .lisp .keyword,
+.highlight_theme_arta pre .apache .tag,
+.highlight_theme_arta pre .nginx .variable,
+.highlight_theme_arta pre .envvar,
+.highlight_theme_arta pre .bash .variable,
+.highlight_theme_arta pre .go .built_in,
+.highlight_theme_arta pre .vbscript .built_in,
+.highlight_theme_arta pre .lua .built_in,
+.highlight_theme_arta pre .rsl .built_in,
+.highlight_theme_arta pre .tail,
+.highlight_theme_arta pre .avrasm .label,
+.highlight_theme_arta pre .tex .formula,
+.highlight_theme_arta pre .tex .formula *
 {
   color: #bb1166;
 }
 
-pre .yardoctag,
-pre .phpdoc,
-pre .profile .header,
-pre .ini .title,
-pre .apache .tag,
-pre .parser3 .title
+.highlight_theme_arta pre .yardoctag,
+.highlight_theme_arta pre .phpdoc,
+.highlight_theme_arta pre .profile .header,
+.highlight_theme_arta pre .ini .title,
+.highlight_theme_arta pre .apache .tag,
+.highlight_theme_arta pre .parser3 .title
 {
   font-weight: bold;
 }
 
-pre .coffeescript .javascript,
-pre .javascript .xml,
-pre .tex .formula,
-pre .xml .javascript,
-pre .xml .vbscript,
-pre .xml .css,
-pre .xml .cdata
+.highlight_theme_arta pre .coffeescript .javascript,
+.highlight_theme_arta pre .javascript .xml,
+.highlight_theme_arta pre .tex .formula,
+.highlight_theme_arta pre .xml .javascript,
+.highlight_theme_arta pre .xml .vbscript,
+.highlight_theme_arta pre .xml .css,
+.highlight_theme_arta pre .xml .cdata
 {
   opacity: 0.6;
 }
 
-pre code,
-pre .javascript,
-pre .css,
-pre .xml,
-pre .subst,
-pre .diff .chunk,
-pre .css .value,
-pre .css .attribute,
-pre .lisp .string,
-pre .lisp .number,
-pre .tail .params,
-pre .container,
-pre .haskell *,
-pre .erlang *,
-pre .erlang_repl *
+.highlight_theme_arta pre code,
+.highlight_theme_arta pre .javascript,
+.highlight_theme_arta pre .css,
+.highlight_theme_arta pre .xml,
+.highlight_theme_arta pre .subst,
+.highlight_theme_arta pre .diff .chunk,
+.highlight_theme_arta pre .css .value,
+.highlight_theme_arta pre .css .attribute,
+.highlight_theme_arta pre .lisp .string,
+.highlight_theme_arta pre .lisp .number,
+.highlight_theme_arta pre .tail .params,
+.highlight_theme_arta pre .container,
+.highlight_theme_arta pre .haskell *,
+.highlight_theme_arta pre .erlang *,
+.highlight_theme_arta pre .erlang_repl *
 {
   color: #aaa;
 }

@@ -2,130 +2,130 @@
 Docco style used in http://jashkenas.github.com/docco/ converted by Simon Madine (@thingsinjars)
 */
 
-pre code {
+.highlight_theme_docco pre code {
   display: block; padding: 0.5em;
   color: #000;
   background: #f8f8ff
 }
 
-pre .comment,
-pre .template_comment,
-pre .diff .header,
-pre .javadoc {
+.highlight_theme_docco pre .comment,
+.highlight_theme_docco pre .template_comment,
+.highlight_theme_docco pre .diff .header,
+.highlight_theme_docco pre .javadoc {
   color: #408080;
   font-style: italic
 }
 
-pre .keyword,
-pre .assignment,
-pre .literal,
-pre .css .rule .keyword,
-pre .winutils,
-pre .javascript .title,
-pre .lisp .title,
-pre .subst {
+.highlight_theme_docco pre .keyword,
+.highlight_theme_docco pre .assignment,
+.highlight_theme_docco pre .literal,
+.highlight_theme_docco pre .css .rule .keyword,
+.highlight_theme_docco pre .winutils,
+.highlight_theme_docco pre .javascript .title,
+.highlight_theme_docco pre .lisp .title,
+.highlight_theme_docco pre .subst {
   color: #954121;
 }
 
-pre .number,
-pre .hexcolor {
+.highlight_theme_docco pre .number,
+.highlight_theme_docco pre .hexcolor {
   color: #40a070
 }
 
-pre .string,
-pre .tag .value,
-pre .phpdoc,
-pre .tex .formula {
+.highlight_theme_docco pre .string,
+.highlight_theme_docco pre .tag .value,
+.highlight_theme_docco pre .phpdoc,
+.highlight_theme_docco pre .tex .formula {
   color: #219161;
 }
 
-pre .title,
-pre .id {
+.highlight_theme_docco pre .title,
+.highlight_theme_docco pre .id {
   color: #19469D;
 }
-pre .params {
+.highlight_theme_docco pre .params {
   color: #00F;
 }
 
-pre .javascript .title,
-pre .lisp .title,
-pre .subst {
+.highlight_theme_docco pre .javascript .title,
+.highlight_theme_docco pre .lisp .title,
+.highlight_theme_docco pre .subst {
   font-weight: normal
 }
 
-pre .class .title,
-pre .haskell .label,
-pre .tex .command {
+.highlight_theme_docco pre .class .title,
+.highlight_theme_docco pre .haskell .label,
+.highlight_theme_docco pre .tex .command {
   color: #458;
   font-weight: bold
 }
 
-pre .tag,
-pre .tag .title,
-pre .rules .property,
-pre .django .tag .keyword {
+.highlight_theme_docco pre .tag,
+.highlight_theme_docco pre .tag .title,
+.highlight_theme_docco pre .rules .property,
+.highlight_theme_docco pre .django .tag .keyword {
   color: #000080;
   font-weight: normal
 }
 
-pre .attribute,
-pre .variable,
-pre .instancevar,
-pre .lisp .body {
+.highlight_theme_docco pre .attribute,
+.highlight_theme_docco pre .variable,
+.highlight_theme_docco pre .instancevar,
+.highlight_theme_docco pre .lisp .body {
   color: #008080
 }
 
-pre .regexp {
+.highlight_theme_docco pre .regexp {
   color: #B68
 }
 
-pre .class {
+.highlight_theme_docco pre .class {
   color: #458;
   font-weight: bold
 }
 
-pre .symbol,
-pre .ruby .symbol .string,
-pre .ruby .symbol .keyword,
-pre .ruby .symbol .keymethods,
-pre .lisp .keyword,
-pre .tex .special,
-pre .input_number {
+.highlight_theme_docco pre .symbol,
+.highlight_theme_docco pre .ruby .symbol .string,
+.highlight_theme_docco pre .ruby .symbol .keyword,
+.highlight_theme_docco pre .ruby .symbol .keymethods,
+.highlight_theme_docco pre .lisp .keyword,
+.highlight_theme_docco pre .tex .special,
+.highlight_theme_docco pre .input_number {
   color: #990073
 }
 
-pre .builtin,
-pre .constructor,
-pre .built_in,
-pre .lisp .title {
+.highlight_theme_docco pre .builtin,
+.highlight_theme_docco pre .constructor,
+.highlight_theme_docco pre .built_in,
+.highlight_theme_docco pre .lisp .title {
   color: #0086b3
 }
 
-pre .preprocessor,
-pre .pi,
-pre .doctype,
-pre .shebang,
-pre .cdata {
+.highlight_theme_docco pre ..highlight_theme_docco preprocessor,
+.highlight_theme_docco pre .pi,
+.highlight_theme_docco pre .doctype,
+.highlight_theme_docco pre .shebang,
+.highlight_theme_docco pre .cdata {
   color: #999;
   font-weight: bold
 }
 
-pre .deletion {
+.highlight_theme_docco pre .deletion {
   background: #fdd
 }
 
-pre .addition {
+.highlight_theme_docco pre .addition {
   background: #dfd
 }
 
-pre .diff .change {
+.highlight_theme_docco pre .diff .change {
   background: #0086b3
 }
 
-pre .chunk {
+.highlight_theme_docco pre .chunk {
   color: #aaa
 }
 
-pre .tex .formula {
+.highlight_theme_docco pre .tex .formula {
   opacity: 0.5;
 }

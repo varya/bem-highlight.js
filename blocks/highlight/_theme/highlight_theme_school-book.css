@@ -4,109 +4,109 @@ School Book style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
 
 */
 
-pre code {
+.highlight_theme_school-book pre code {
   display: block; padding: 15px 0.5em 0.5em 30px;
   font-size: 11px !important;
   line-height:16px !important;
 }
 
-pre{
+.highlight_theme_school-book pre{
   background:#f6f6ae url(./school_book.png);
   border-top: solid 2px #d2e8b9;
   border-bottom: solid 1px #d2e8b9;
 }
 
-pre .keyword,
-pre .literal,
-pre .change,
-pre .winutils,
-pre .flow,
-pre .lisp .title,
-pre .clojure .built_in,
-pre .nginx .title,
-pre .tex .special {
+.highlight_theme_school-book pre .keyword,
+.highlight_theme_school-book pre .literal,
+.highlight_theme_school-book pre .change,
+.highlight_theme_school-book pre .winutils,
+.highlight_theme_school-book pre .flow,
+.highlight_theme_school-book pre .lisp .title,
+.highlight_theme_school-book pre .clojure .built_in,
+.highlight_theme_school-book pre .nginx .title,
+.highlight_theme_school-book pre .tex .special {
   color:#005599;
   font-weight:bold;
 }
 
-pre code,
-pre .subst,
-pre .tag .keyword {
+.highlight_theme_school-book pre code,
+.highlight_theme_school-book pre .subst,
+.highlight_theme_school-book pre .tag .keyword {
   color: #3E5915;
 }
 
-pre .string,
-pre .title,
-pre .haskell .type,
-pre .tag .value,
-pre .css .rules .value,
-pre .preprocessor,
-pre .ruby .symbol,
-pre .ruby .symbol .string,
-pre .ruby .class .parent,
-pre .built_in,
-pre .sql .aggregate,
-pre .django .template_tag,
-pre .django .variable,
-pre .smalltalk .class,
-pre .javadoc,
-pre .ruby .string,
-pre .django .filter .argument,
-pre .smalltalk .localvars,
-pre .smalltalk .array,
-pre .attr_selector,
-pre .pseudo,
-pre .addition,
-pre .stream,
-pre .envvar,
-pre .apache .tag,
-pre .apache .cbracket,
-pre .nginx .built_in,
-pre .tex .command,
-pre .coffeescript .attribute {
+.highlight_theme_school-book pre .string,
+.highlight_theme_school-book pre .title,
+.highlight_theme_school-book pre .haskell .type,
+.highlight_theme_school-book pre .tag .value,
+.highlight_theme_school-book pre .css .rules .value,
+.highlight_theme_school-book pre ..highlight_theme_school-book preprocessor,
+.highlight_theme_school-book pre .ruby .symbol,
+.highlight_theme_school-book pre .ruby .symbol .string,
+.highlight_theme_school-book pre .ruby .class .parent,
+.highlight_theme_school-book pre .built_in,
+.highlight_theme_school-book pre .sql .aggregate,
+.highlight_theme_school-book pre .django .template_tag,
+.highlight_theme_school-book pre .django .variable,
+.highlight_theme_school-book pre .smalltalk .class,
+.highlight_theme_school-book pre .javadoc,
+.highlight_theme_school-book pre .ruby .string,
+.highlight_theme_school-book pre .django .filter .argument,
+.highlight_theme_school-book pre .smalltalk .localvars,
+.highlight_theme_school-book pre .smalltalk .array,
+.highlight_theme_school-book pre .attr_selector,
+.highlight_theme_school-book pre .pseudo,
+.highlight_theme_school-book pre .addition,
+.highlight_theme_school-book pre .stream,
+.highlight_theme_school-book pre .envvar,
+.highlight_theme_school-book pre .apache .tag,
+.highlight_theme_school-book pre .apache .cbracket,
+.highlight_theme_school-book pre .nginx .built_in,
+.highlight_theme_school-book pre .tex .command,
+.highlight_theme_school-book pre .coffeescript .attribute {
   color: #2C009F;
 }
 
-pre .comment,
-pre .java .annotation,
-pre .python .decorator,
-pre .template_comment,
-pre .pi,
-pre .doctype,
-pre .deletion,
-pre .shebang,
-pre .apache .sqbracket {
+.highlight_theme_school-book pre .comment,
+.highlight_theme_school-book pre .java .annotation,
+.highlight_theme_school-book pre .python .decorator,
+.highlight_theme_school-book pre .template_comment,
+.highlight_theme_school-book pre .pi,
+.highlight_theme_school-book pre .doctype,
+.highlight_theme_school-book pre .deletion,
+.highlight_theme_school-book pre .shebang,
+.highlight_theme_school-book pre .apache .sqbracket {
   color: #E60415;
 }
 
-pre .keyword,
-pre .literal,
-pre .css .id,
-pre .phpdoc,
-pre .title,
-pre .haskell .type,
-pre .vbscript .built_in,
-pre .sql .aggregate,
-pre .rsl .built_in,
-pre .smalltalk .class,
-pre .xml .tag .title,
-pre .diff .header,
-pre .chunk,
-pre .winutils,
-pre .bash .variable,
-pre .apache .tag,
-pre .tex .command,
-pre .request,
-pre .status {
+.highlight_theme_school-book pre .keyword,
+.highlight_theme_school-book pre .literal,
+.highlight_theme_school-book pre .css .id,
+.highlight_theme_school-book pre .phpdoc,
+.highlight_theme_school-book pre .title,
+.highlight_theme_school-book pre .haskell .type,
+.highlight_theme_school-book pre .vbscript .built_in,
+.highlight_theme_school-book pre .sql .aggregate,
+.highlight_theme_school-book pre .rsl .built_in,
+.highlight_theme_school-book pre .smalltalk .class,
+.highlight_theme_school-book pre .xml .tag .title,
+.highlight_theme_school-book pre .diff .header,
+.highlight_theme_school-book pre .chunk,
+.highlight_theme_school-book pre .winutils,
+.highlight_theme_school-book pre .bash .variable,
+.highlight_theme_school-book pre .apache .tag,
+.highlight_theme_school-book pre .tex .command,
+.highlight_theme_school-book pre .request,
+.highlight_theme_school-book pre .status {
   font-weight: bold;
 }
 
-pre .coffeescript .javascript,
-pre .javascript .xml,
-pre .tex .formula,
-pre .xml .javascript,
-pre .xml .vbscript,
-pre .xml .css,
-pre .xml .cdata {
+.highlight_theme_school-book pre .coffeescript .javascript,
+.highlight_theme_school-book pre .javascript .xml,
+.highlight_theme_school-book pre .tex .formula,
+.highlight_theme_school-book pre .xml .javascript,
+.highlight_theme_school-book pre .xml .vbscript,
+.highlight_theme_school-book pre .xml .css,
+.highlight_theme_school-book pre .xml .cdata {
   opacity: 0.5;
 }

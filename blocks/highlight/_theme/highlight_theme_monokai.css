@@ -2,123 +2,123 @@
 Monokai style - ported by Luigi Maselli - http://grigio.org
 */
 
-pre code {
+.highlight_theme_monokai pre code {
   display: block; padding: 0.5em;
   background: #272822;
 }
 
-pre .tag,
-pre .tag .title,
-pre .keyword,
-pre .literal,
-pre .strong,
-pre .change,
-pre .winutils,
-pre .flow,
-pre .lisp .title,
-pre .clojure .built_in,
-pre .nginx .title,
-pre .tex .special {
+.highlight_theme_monokai pre .tag,
+.highlight_theme_monokai pre .tag .title,
+.highlight_theme_monokai pre .keyword,
+.highlight_theme_monokai pre .literal,
+.highlight_theme_monokai pre .strong,
+.highlight_theme_monokai pre .change,
+.highlight_theme_monokai pre .winutils,
+.highlight_theme_monokai pre .flow,
+.highlight_theme_monokai pre .lisp .title,
+.highlight_theme_monokai pre .clojure .built_in,
+.highlight_theme_monokai pre .nginx .title,
+.highlight_theme_monokai pre .tex .special {
   color: #F92672;
 }
 
-pre code {
+.highlight_theme_monokai pre code {
   color: #DDD;
 }
 
-pre code .constant {
+.highlight_theme_monokai pre code .constant {
 	color: #66D9EF;
 }
 
-pre .code,
-pre .class .title,
-pre .header {
+.highlight_theme_monokai pre .code,
+.highlight_theme_monokai pre .class .title,
+.highlight_theme_monokai pre .header {
 	color: white;
 }
 
-pre .link_label,
-pre .attribute,
-pre .symbol,
-pre .symbol .string,
-pre .value,
-pre .regexp {
+.highlight_theme_monokai pre .link_label,
+.highlight_theme_monokai pre .attribute,
+.highlight_theme_monokai pre .symbol,
+.highlight_theme_monokai pre .symbol .string,
+.highlight_theme_monokai pre .value,
+.highlight_theme_monokai pre .regexp {
 	color: #BF79DB;
 }
 
-pre .link_url,
-pre .tag .value,
-pre .string,
-pre .bullet,
-pre .subst,
-pre .title,
-pre .emphasis,
-pre .haskell .type,
-pre .preprocessor,
-pre .ruby .class .parent,
-pre .built_in,
-pre .sql .aggregate,
-pre .django .template_tag,
-pre .django .variable,
-pre .smalltalk .class,
-pre .javadoc,
-pre .django .filter .argument,
-pre .smalltalk .localvars,
-pre .smalltalk .array,
-pre .attr_selector,
-pre .pseudo,
-pre .addition,
-pre .stream,
-pre .envvar,
-pre .apache .tag,
-pre .apache .cbracket,
-pre .tex .command,
-pre .prompt {
+.highlight_theme_monokai pre .link_url,
+.highlight_theme_monokai pre .tag .value,
+.highlight_theme_monokai pre .string,
+.highlight_theme_monokai pre .bullet,
+.highlight_theme_monokai pre .subst,
+.highlight_theme_monokai pre .title,
+.highlight_theme_monokai pre .emphasis,
+.highlight_theme_monokai pre .haskell .type,
+.highlight_theme_monokai pre ..highlight_theme_monokai preprocessor,
+.highlight_theme_monokai pre .ruby .class .parent,
+.highlight_theme_monokai pre .built_in,
+.highlight_theme_monokai pre .sql .aggregate,
+.highlight_theme_monokai pre .django .template_tag,
+.highlight_theme_monokai pre .django .variable,
+.highlight_theme_monokai pre .smalltalk .class,
+.highlight_theme_monokai pre .javadoc,
+.highlight_theme_monokai pre .django .filter .argument,
+.highlight_theme_monokai pre .smalltalk .localvars,
+.highlight_theme_monokai pre .smalltalk .array,
+.highlight_theme_monokai pre .attr_selector,
+.highlight_theme_monokai pre .pseudo,
+.highlight_theme_monokai pre .addition,
+.highlight_theme_monokai pre .stream,
+.highlight_theme_monokai pre .envvar,
+.highlight_theme_monokai pre .apache .tag,
+.highlight_theme_monokai pre .apache .cbracket,
+.highlight_theme_monokai pre .tex .command,
+.highlight_theme_monokai pre .prompt {
   color: #A6E22E;
 }
 
-pre .comment,
-pre .java .annotation,
-pre .blockquote,
-pre .horizontal_rule,
-pre .python .decorator,
-pre .template_comment,
-pre .pi,
-pre .doctype,
-pre .deletion,
-pre .shebang,
-pre .apache .sqbracket,
-pre .tex .formula {
+.highlight_theme_monokai pre .comment,
+.highlight_theme_monokai pre .java .annotation,
+.highlight_theme_monokai pre .blockquote,
+.highlight_theme_monokai pre .horizontal_rule,
+.highlight_theme_monokai pre .python .decorator,
+.highlight_theme_monokai pre .template_comment,
+.highlight_theme_monokai pre .pi,
+.highlight_theme_monokai pre .doctype,
+.highlight_theme_monokai pre .deletion,
+.highlight_theme_monokai pre .shebang,
+.highlight_theme_monokai pre .apache .sqbracket,
+.highlight_theme_monokai pre .tex .formula {
   color: #75715E;
 }
 
-pre .keyword,
-pre .literal,
-pre .css .id,
-pre .phpdoc,
-pre .title,
-pre .header,
-pre .haskell .type,
-pre .vbscript .built_in,
-pre .sql .aggregate,
-pre .rsl .built_in,
-pre .smalltalk .class,
-pre .diff .header,
-pre .chunk,
-pre .winutils,
-pre .bash .variable,
-pre .apache .tag,
-pre .tex .special,
-pre .request,
-pre .status {
+.highlight_theme_monokai pre .keyword,
+.highlight_theme_monokai pre .literal,
+.highlight_theme_monokai pre .css .id,
+.highlight_theme_monokai pre .phpdoc,
+.highlight_theme_monokai pre .title,
+.highlight_theme_monokai pre .header,
+.highlight_theme_monokai pre .haskell .type,
+.highlight_theme_monokai pre .vbscript .built_in,
+.highlight_theme_monokai pre .sql .aggregate,
+.highlight_theme_monokai pre .rsl .built_in,
+.highlight_theme_monokai pre .smalltalk .class,
+.highlight_theme_monokai pre .diff .header,
+.highlight_theme_monokai pre .chunk,
+.highlight_theme_monokai pre .winutils,
+.highlight_theme_monokai pre .bash .variable,
+.highlight_theme_monokai pre .apache .tag,
+.highlight_theme_monokai pre .tex .special,
+.highlight_theme_monokai pre .request,
+.highlight_theme_monokai pre .status {
   font-weight: bold;
 }
 
-pre .coffeescript .javascript,
-pre .javascript .xml,
-pre .tex .formula,
-pre .xml .javascript,
-pre .xml .vbscript,
-pre .xml .css,
-pre .xml .cdata {
+.highlight_theme_monokai pre .coffeescript .javascript,
+.highlight_theme_monokai pre .javascript .xml,
+.highlight_theme_monokai pre .tex .formula,
+.highlight_theme_monokai pre .xml .javascript,
+.highlight_theme_monokai pre .xml .vbscript,
+.highlight_theme_monokai pre .xml .css,
+.highlight_theme_monokai pre .xml .cdata {
   opacity: 0.5;
 }

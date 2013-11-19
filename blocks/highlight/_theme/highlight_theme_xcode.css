@@ -4,153 +4,153 @@ XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
 
 */
 
-pre code {
+.highlight_theme_xcode pre code {
   display: block; padding: 0.5em;
   background: #fff; color: black;
 }
 
-pre .comment,
-pre .template_comment,
-pre .javadoc,
-pre .comment * {
+.highlight_theme_xcode pre .comment,
+.highlight_theme_xcode pre .template_comment,
+.highlight_theme_xcode pre .javadoc,
+.highlight_theme_xcode pre .comment * {
   color: rgb(0,106,0);
 }
 
-pre .keyword,
-pre .literal,
-pre .nginx .title {
+.highlight_theme_xcode pre .keyword,
+.highlight_theme_xcode pre .literal,
+.highlight_theme_xcode pre .nginx .title {
   color: rgb(170,13,145);
 }
-pre .method,
-pre .list .title,
-pre .tag .title,
-pre .setting .value,
-pre .winutils,
-pre .tex .command,
-pre .http .title,
-pre .request,
-pre .status {
+.highlight_theme_xcode pre .method,
+.highlight_theme_xcode pre .list .title,
+.highlight_theme_xcode pre .tag .title,
+.highlight_theme_xcode pre .setting .value,
+.highlight_theme_xcode pre .winutils,
+.highlight_theme_xcode pre .tex .command,
+.highlight_theme_xcode pre .http .title,
+.highlight_theme_xcode pre .request,
+.highlight_theme_xcode pre .status {
   color: #008;
 }
 
-pre .envvar,
-pre .tex .special {
+.highlight_theme_xcode pre .envvar,
+.highlight_theme_xcode pre .tex .special {
   color: #660;
 }
 
-pre .string {
+.highlight_theme_xcode pre .string {
   color: rgb(196,26,22);
 }
-pre .tag .value,
-pre .cdata,
-pre .filter .argument,
-pre .attr_selector,
-pre .apache .cbracket,
-pre .date,
-pre .regexp {
+.highlight_theme_xcode pre .tag .value,
+.highlight_theme_xcode pre .cdata,
+.highlight_theme_xcode pre .filter .argument,
+.highlight_theme_xcode pre .attr_selector,
+.highlight_theme_xcode pre .apache .cbracket,
+.highlight_theme_xcode pre .date,
+.highlight_theme_xcode pre .regexp {
   color: #080;
 }
 
-pre .sub .identifier,
-pre .pi,
-pre .tag,
-pre .tag .keyword,
-pre .decorator,
-pre .ini .title,
-pre .shebang,
-pre .prompt,
-pre .hexcolor,
-pre .rules .value,
-pre .css .value .number,
-pre .symbol,
-pre .symbol .string,
-pre .number,
-pre .css .function,
-pre .clojure .title,
-pre .clojure .built_in,
-pre .function .title,
-pre .coffeescript .attribute {
+.highlight_theme_xcode pre .sub .identifier,
+.highlight_theme_xcode pre .pi,
+.highlight_theme_xcode pre .tag,
+.highlight_theme_xcode pre .tag .keyword,
+.highlight_theme_xcode pre .decorator,
+.highlight_theme_xcode pre .ini .title,
+.highlight_theme_xcode pre .shebang,
+.highlight_theme_xcode pre .prompt,
+.highlight_theme_xcode pre .hexcolor,
+.highlight_theme_xcode pre .rules .value,
+.highlight_theme_xcode pre .css .value .number,
+.highlight_theme_xcode pre .symbol,
+.highlight_theme_xcode pre .symbol .string,
+.highlight_theme_xcode pre .number,
+.highlight_theme_xcode pre .css .function,
+.highlight_theme_xcode pre .clojure .title,
+.highlight_theme_xcode pre .clojure .built_in,
+.highlight_theme_xcode pre .function .title,
+.highlight_theme_xcode pre .coffeescript .attribute {
   color: rgb(28,0,207);
 }
 
-pre .class .title,
-pre .haskell .type,
-pre .smalltalk .class,
-pre .javadoctag,
-pre .yardoctag,
-pre .phpdoc,
-pre .typename,
-pre .tag .attribute,
-pre .doctype,
-pre .class .id,
-pre .built_in,
-pre .setting,
-pre .params,
-pre .clojure .attribute {
+.highlight_theme_xcode pre .class .title,
+.highlight_theme_xcode pre .haskell .type,
+.highlight_theme_xcode pre .smalltalk .class,
+.highlight_theme_xcode pre .javadoctag,
+.highlight_theme_xcode pre .yardoctag,
+.highlight_theme_xcode pre .phpdoc,
+.highlight_theme_xcode pre .typename,
+.highlight_theme_xcode pre .tag .attribute,
+.highlight_theme_xcode pre .doctype,
+.highlight_theme_xcode pre .class .id,
+.highlight_theme_xcode pre .built_in,
+.highlight_theme_xcode pre .setting,
+.highlight_theme_xcode pre .params,
+.highlight_theme_xcode pre .clojure .attribute {
   color: rgb(92,38,153);
 }
 
-pre .variable {
+.highlight_theme_xcode pre .variable {
  color: rgb(63,110,116);
 }
-pre .css .tag,
-pre .rules .property,
-pre .pseudo,
-pre .subst {
+.highlight_theme_xcode pre .css .tag,
+.highlight_theme_xcode pre .rules .property,
+.highlight_theme_xcode pre .pseudo,
+.highlight_theme_xcode pre .subst {
   color: #000;
 }
 
-pre .css .class, pre .css .id {
+.highlight_theme_xcode pre .css .class, .highlight_theme_xcode pre .css .id {
   color: #9B703F;
 }
 
-pre .value .important {
+.highlight_theme_xcode pre .value .important {
   color: #ff7700;
   font-weight: bold;
 }
 
-pre .rules .keyword {
+.highlight_theme_xcode pre .rules .keyword {
   color: #C5AF75;
 }
 
-pre .annotation,
-pre .apache .sqbracket,
-pre .nginx .built_in {
+.highlight_theme_xcode pre .annotation,
+.highlight_theme_xcode pre .apache .sqbracket,
+.highlight_theme_xcode pre .nginx .built_in {
   color: #9B859D;
 }
 
-pre .preprocessor,
-pre .preprocessor * {
+.highlight_theme_xcode pre ..highlight_theme_xcode preprocessor,
+.highlight_theme_xcode pre ..highlight_theme_xcode preprocessor * {
   color: rgb(100,56,32);
 }
 
-pre .tex .formula {
+.highlight_theme_xcode pre .tex .formula {
   background-color: #EEE;
   font-style: italic;
 }
 
-pre .diff .header,
-pre .chunk {
+.highlight_theme_xcode pre .diff .header,
+.highlight_theme_xcode pre .chunk {
   color: #808080;
   font-weight: bold;
 }
 
-pre .diff .change {
+.highlight_theme_xcode pre .diff .change {
   background-color: #BCCFF9;
 }
 
-pre .addition {
+.highlight_theme_xcode pre .addition {
   background-color: #BAEEBA;
 }
 
-pre .deletion {
+.highlight_theme_xcode pre .deletion {
   background-color: #FFC8BD;
 }
 
-pre .comment .yardoctag {
+.highlight_theme_xcode pre .comment .yardoctag {
   font-weight: bold;
 }
 
-pre .method .id {
+.highlight_theme_xcode pre .method .id {
   color: #000;
 }

@@ -3,151 +3,151 @@
  * ported by Alexander Marenin (http://github.com/ioncreature)
  */
 
-pre code {
+.highlight_theme_obsidian pre code {
     display: block; padding: 0.5em;
     background: #282B2E;
 }
 
-pre .keyword,
-pre .literal,
-pre .change,
-pre .winutils,
-pre .flow,
-pre .lisp .title,
-pre .clojure .built_in,
-pre .nginx .title,
-pre .css .id,
-pre .tex .special {
+.highlight_theme_obsidian pre .keyword,
+.highlight_theme_obsidian pre .literal,
+.highlight_theme_obsidian pre .change,
+.highlight_theme_obsidian pre .winutils,
+.highlight_theme_obsidian pre .flow,
+.highlight_theme_obsidian pre .lisp .title,
+.highlight_theme_obsidian pre .clojure .built_in,
+.highlight_theme_obsidian pre .nginx .title,
+.highlight_theme_obsidian pre .css .id,
+.highlight_theme_obsidian pre .tex .special {
     color: #93C763;
 }
 
-pre .number {
+.highlight_theme_obsidian pre .number {
     color: #FFCD22;
 }
 
-pre code {
+.highlight_theme_obsidian pre code {
     color: #E0E2E4;
 }
 
-pre .css .tag,
-pre .css .pseudo {
+.highlight_theme_obsidian pre .css .tag,
+.highlight_theme_obsidian pre .css .pseudo {
     color: #D0D2B5;
 }
 
-pre .attribute,
-pre code .constant {
+.highlight_theme_obsidian pre .attribute,
+.highlight_theme_obsidian pre code .constant {
     color: #668BB0;
 }
 
-pre .xml .attribute {
+.highlight_theme_obsidian pre .xml .attribute {
     color: #B3B689;
 }
 
-pre .xml .tag .value {
+.highlight_theme_obsidian pre .xml .tag .value {
     color: #E8E2B7;
 }
 
-pre .code,
-pre .class .title,
-pre .header {
+.highlight_theme_obsidian pre .code,
+.highlight_theme_obsidian pre .class .title,
+.highlight_theme_obsidian pre .header {
     color: white;
 }
 
-pre .class,
-pre .hexcolor {
+.highlight_theme_obsidian pre .class,
+.highlight_theme_obsidian pre .hexcolor {
     color: #93C763;
 }
 
-pre .regexp {
+.highlight_theme_obsidian pre .regexp {
     color: #D39745;
 }
 
-pre .at_rule,
-pre .at_rule .keyword {
+.highlight_theme_obsidian pre .at_rule,
+.highlight_theme_obsidian pre .at_rule .keyword {
     color: #A082BD;
 }
 
-pre .doctype {
+.highlight_theme_obsidian pre .doctype {
     color: #557182;
 }
 
-pre .link_url,
-pre .tag,
-pre .tag .title,
-pre .bullet,
-pre .subst,
-pre .emphasis,
-pre .haskell .type,
-pre .preprocessor,
-pre .ruby .class .parent,
-pre .built_in,
-pre .sql .aggregate,
-pre .django .template_tag,
-pre .django .variable,
-pre .smalltalk .class,
-pre .javadoc,
-pre .django .filter .argument,
-pre .smalltalk .localvars,
-pre .smalltalk .array,
-pre .attr_selector,
-pre .pseudo,
-pre .addition,
-pre .stream,
-pre .envvar,
-pre .apache .tag,
-pre .apache .cbracket,
-pre .tex .command,
-pre .prompt {
+.highlight_theme_obsidian pre .link_url,
+.highlight_theme_obsidian pre .tag,
+.highlight_theme_obsidian pre .tag .title,
+.highlight_theme_obsidian pre .bullet,
+.highlight_theme_obsidian pre .subst,
+.highlight_theme_obsidian pre .emphasis,
+.highlight_theme_obsidian pre .haskell .type,
+.highlight_theme_obsidian pre ..highlight_theme_obsidian preprocessor,
+.highlight_theme_obsidian pre .ruby .class .parent,
+.highlight_theme_obsidian pre .built_in,
+.highlight_theme_obsidian pre .sql .aggregate,
+.highlight_theme_obsidian pre .django .template_tag,
+.highlight_theme_obsidian pre .django .variable,
+.highlight_theme_obsidian pre .smalltalk .class,
+.highlight_theme_obsidian pre .javadoc,
+.highlight_theme_obsidian pre .django .filter .argument,
+.highlight_theme_obsidian pre .smalltalk .localvars,
+.highlight_theme_obsidian pre .smalltalk .array,
+.highlight_theme_obsidian pre .attr_selector,
+.highlight_theme_obsidian pre .pseudo,
+.highlight_theme_obsidian pre .addition,
+.highlight_theme_obsidian pre .stream,
+.highlight_theme_obsidian pre .envvar,
+.highlight_theme_obsidian pre .apache .tag,
+.highlight_theme_obsidian pre .apache .cbracket,
+.highlight_theme_obsidian pre .tex .command,
+.highlight_theme_obsidian pre .prompt {
     color: #8CBBAD;
 }
 
-pre .string {
+.highlight_theme_obsidian pre .string {
     color: #EC7600;
 }
 
-pre .comment,
-pre .java .annotation,
-pre .blockquote,
-pre .horizontal_rule,
-pre .python .decorator,
-pre .template_comment,
-pre .pi,
-pre .deletion,
-pre .shebang,
-pre .apache .sqbracket,
-pre .tex .formula {
+.highlight_theme_obsidian pre .comment,
+.highlight_theme_obsidian pre .java .annotation,
+.highlight_theme_obsidian pre .blockquote,
+.highlight_theme_obsidian pre .horizontal_rule,
+.highlight_theme_obsidian pre .python .decorator,
+.highlight_theme_obsidian pre .template_comment,
+.highlight_theme_obsidian pre .pi,
+.highlight_theme_obsidian pre .deletion,
+.highlight_theme_obsidian pre .shebang,
+.highlight_theme_obsidian pre .apache .sqbracket,
+.highlight_theme_obsidian pre .tex .formula {
     color: #818E96;
 }
 
-pre .keyword,
-pre .literal,
-pre .css .id,
-pre .phpdoc,
-pre .title,
-pre .header,
-pre .haskell .type,
-pre .vbscript .built_in,
-pre .sql .aggregate,
-pre .rsl .built_in,
-pre .smalltalk .class,
-pre .diff .header,
-pre .chunk,
-pre .winutils,
-pre .bash .variable,
-pre .apache .tag,
-pre .tex .special,
-pre .request,
-pre .at_rule .keyword,
-pre .status {
+.highlight_theme_obsidian pre .keyword,
+.highlight_theme_obsidian pre .literal,
+.highlight_theme_obsidian pre .css .id,
+.highlight_theme_obsidian pre .phpdoc,
+.highlight_theme_obsidian pre .title,
+.highlight_theme_obsidian pre .header,
+.highlight_theme_obsidian pre .haskell .type,
+.highlight_theme_obsidian pre .vbscript .built_in,
+.highlight_theme_obsidian pre .sql .aggregate,
+.highlight_theme_obsidian pre .rsl .built_in,
+.highlight_theme_obsidian pre .smalltalk .class,
+.highlight_theme_obsidian pre .diff .header,
+.highlight_theme_obsidian pre .chunk,
+.highlight_theme_obsidian pre .winutils,
+.highlight_theme_obsidian pre .bash .variable,
+.highlight_theme_obsidian pre .apache .tag,
+.highlight_theme_obsidian pre .tex .special,
+.highlight_theme_obsidian pre .request,
+.highlight_theme_obsidian pre .at_rule .keyword,
+.highlight_theme_obsidian pre .status {
     font-weight: bold;
 }
 
-pre .coffeescript .javascript,
-pre .javascript .xml,
-pre .tex .formula,
-pre .xml .javascript,
-pre .xml .vbscript,
-pre .xml .css,
-pre .xml .cdata {
+.highlight_theme_obsidian pre .coffeescript .javascript,
+.highlight_theme_obsidian pre .javascript .xml,
+.highlight_theme_obsidian pre .tex .formula,
+.highlight_theme_obsidian pre .xml .javascript,
+.highlight_theme_obsidian pre .xml .vbscript,
+.highlight_theme_obsidian pre .xml .css,
+.highlight_theme_obsidian pre .xml .cdata {
     opacity: 0.5;
 }

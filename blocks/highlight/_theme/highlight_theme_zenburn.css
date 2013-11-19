@@ -5,112 +5,112 @@ based on dark.css by Ivan Sagalaev
 
 */
 
-pre code {
+.highlight_theme_zenburn pre code {
   display: block; padding: 0.5em;
   background: #3F3F3F;
   color: #DCDCDC;
 }
 
-pre .keyword,
-pre .tag,
-pre .css .class,
-pre .css .id,
-pre .lisp .title,
-pre .nginx .title,
-pre .request,
-pre .status,
-pre .clojure .attribute {
+.highlight_theme_zenburn pre .keyword,
+.highlight_theme_zenburn pre .tag,
+.highlight_theme_zenburn pre .css .class,
+.highlight_theme_zenburn pre .css .id,
+.highlight_theme_zenburn pre .lisp .title,
+.highlight_theme_zenburn pre .nginx .title,
+.highlight_theme_zenburn pre .request,
+.highlight_theme_zenburn pre .status,
+.highlight_theme_zenburn pre .clojure .attribute {
   color: #E3CEAB;
 }
 
-pre .django .template_tag,
-pre .django .variable,
-pre .django .filter .argument {
+.highlight_theme_zenburn pre .django .template_tag,
+.highlight_theme_zenburn pre .django .variable,
+.highlight_theme_zenburn pre .django .filter .argument {
   color: #DCDCDC;
 }
 
-pre .number,
-pre .date {
+.highlight_theme_zenburn pre .number,
+.highlight_theme_zenburn pre .date {
   color: #8CD0D3;
 }
 
-pre .dos .envvar,
-pre .dos .stream,
-pre .variable,
-pre .apache .sqbracket {
+.highlight_theme_zenburn pre .dos .envvar,
+.highlight_theme_zenburn pre .dos .stream,
+.highlight_theme_zenburn pre .variable,
+.highlight_theme_zenburn pre .apache .sqbracket {
   color: #EFDCBC;
 }
 
-pre .dos .flow,
-pre .diff .change,
-pre .python .exception,
-pre .python .built_in,
-pre .literal,
-pre .tex .special {
+.highlight_theme_zenburn pre .dos .flow,
+.highlight_theme_zenburn pre .diff .change,
+.highlight_theme_zenburn pre .python .exception,
+.highlight_theme_zenburn pre .python .built_in,
+.highlight_theme_zenburn pre .literal,
+.highlight_theme_zenburn pre .tex .special {
   color: #EFEFAF;
 }
 
-pre .diff .chunk,
-pre .subst {
+.highlight_theme_zenburn pre .diff .chunk,
+.highlight_theme_zenburn pre .subst {
   color: #8F8F8F;
 }
 
-pre .dos .keyword,
-pre .python .decorator,
-pre .title,
-pre .haskell .type,
-pre .diff .header,
-pre .ruby .class .parent,
-pre .apache .tag,
-pre .nginx .built_in,
-pre .tex .command,
-pre .prompt {
+.highlight_theme_zenburn pre .dos .keyword,
+.highlight_theme_zenburn pre .python .decorator,
+.highlight_theme_zenburn pre .title,
+.highlight_theme_zenburn pre .haskell .type,
+.highlight_theme_zenburn pre .diff .header,
+.highlight_theme_zenburn pre .ruby .class .parent,
+.highlight_theme_zenburn pre .apache .tag,
+.highlight_theme_zenburn pre .nginx .built_in,
+.highlight_theme_zenburn pre .tex .command,
+.highlight_theme_zenburn pre .prompt {
     color: #efef8f;
 }
 
-pre .dos .winutils,
-pre .ruby .symbol,
-pre .ruby .symbol .string,
-pre .ruby .string {
+.highlight_theme_zenburn pre .dos .winutils,
+.highlight_theme_zenburn pre .ruby .symbol,
+.highlight_theme_zenburn pre .ruby .symbol .string,
+.highlight_theme_zenburn pre .ruby .string {
   color: #DCA3A3;
 }
 
-pre .diff .deletion,
-pre .string,
-pre .tag .value,
-pre .preprocessor,
-pre .built_in,
-pre .sql .aggregate,
-pre .javadoc,
-pre .smalltalk .class,
-pre .smalltalk .localvars,
-pre .smalltalk .array,
-pre .css .rules .value,
-pre .attr_selector,
-pre .pseudo,
-pre .apache .cbracket,
-pre .tex .formula,
-pre .coffeescript .attribute {
+.highlight_theme_zenburn pre .diff .deletion,
+.highlight_theme_zenburn pre .string,
+.highlight_theme_zenburn pre .tag .value,
+.highlight_theme_zenburn pre ..highlight_theme_zenburn preprocessor,
+.highlight_theme_zenburn pre .built_in,
+.highlight_theme_zenburn pre .sql .aggregate,
+.highlight_theme_zenburn pre .javadoc,
+.highlight_theme_zenburn pre .smalltalk .class,
+.highlight_theme_zenburn pre .smalltalk .localvars,
+.highlight_theme_zenburn pre .smalltalk .array,
+.highlight_theme_zenburn pre .css .rules .value,
+.highlight_theme_zenburn pre .attr_selector,
+.highlight_theme_zenburn pre .pseudo,
+.highlight_theme_zenburn pre .apache .cbracket,
+.highlight_theme_zenburn pre .tex .formula,
+.highlight_theme_zenburn pre .coffeescript .attribute {
   color: #CC9393;
 }
 
-pre .shebang,
-pre .diff .addition,
-pre .comment,
-pre .java .annotation,
-pre .template_comment,
-pre .pi,
-pre .doctype {
+.highlight_theme_zenburn pre .shebang,
+.highlight_theme_zenburn pre .diff .addition,
+.highlight_theme_zenburn pre .comment,
+.highlight_theme_zenburn pre .java .annotation,
+.highlight_theme_zenburn pre .template_comment,
+.highlight_theme_zenburn pre .pi,
+.highlight_theme_zenburn pre .doctype {
   color: #7F9F7F;
 }
 
-pre .coffeescript .javascript,
-pre .javascript .xml,
-pre .tex .formula,
-pre .xml .javascript,
-pre .xml .vbscript,
-pre .xml .css,
-pre .xml .cdata {
+.highlight_theme_zenburn pre .coffeescript .javascript,
+.highlight_theme_zenburn pre .javascript .xml,
+.highlight_theme_zenburn pre .tex .formula,
+.highlight_theme_zenburn pre .xml .javascript,
+.highlight_theme_zenburn pre .xml .vbscript,
+.highlight_theme_zenburn pre .xml .css,
+.highlight_theme_zenburn pre .xml .cdata {
   opacity: 0.5;
 }
 

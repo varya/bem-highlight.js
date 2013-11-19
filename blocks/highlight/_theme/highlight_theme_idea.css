@@ -4,118 +4,118 @@ Intellij Idea-like styling (c) Vasily Polovnyov <vast@whiteants.net>
 
 */
 
-pre code {
+.highlight_theme_idea pre code {
   display: block; padding: 0.5em;
   color: #000;
   background: #fff;
 }
 
-pre .subst,
-pre .title {
+.highlight_theme_idea pre .subst,
+.highlight_theme_idea pre .title {
   font-weight: normal;
   color: #000;
 }
 
-pre .comment,
-pre .template_comment,
-pre .javadoc,
-pre .diff .header {
+.highlight_theme_idea pre .comment,
+.highlight_theme_idea pre .template_comment,
+.highlight_theme_idea pre .javadoc,
+.highlight_theme_idea pre .diff .header {
   color: #808080;
   font-style: italic;
 }
 
-pre .annotation,
-pre .decorator,
-pre .preprocessor,
-pre .doctype,
-pre .pi,
-pre .chunk,
-pre .shebang,
-pre .apache .cbracket,
-pre .prompt,
-pre .http .title {
+.highlight_theme_idea pre .annotation,
+.highlight_theme_idea pre .decorator,
+.highlight_theme_idea pre ..highlight_theme_idea preprocessor,
+.highlight_theme_idea pre .doctype,
+.highlight_theme_idea pre .pi,
+.highlight_theme_idea pre .chunk,
+.highlight_theme_idea pre .shebang,
+.highlight_theme_idea pre .apache .cbracket,
+.highlight_theme_idea pre .prompt,
+.highlight_theme_idea pre .http .title {
   color: #808000;
 }
 
-pre .tag,
-pre .pi {
+.highlight_theme_idea pre .tag,
+.highlight_theme_idea pre .pi {
   background: #efefef;
 }
 
-pre .tag .title,
-pre .id,
-pre .attr_selector,
-pre .pseudo,
-pre .literal,
-pre .keyword,
-pre .hexcolor,
-pre .css .function,
-pre .ini .title,
-pre .css .class,
-pre .list .title,
-pre .clojure .title,
-pre .nginx .title,
-pre .tex .command,
-pre .request,
-pre .status {
+.highlight_theme_idea pre .tag .title,
+.highlight_theme_idea pre .id,
+.highlight_theme_idea pre .attr_selector,
+.highlight_theme_idea pre .pseudo,
+.highlight_theme_idea pre .literal,
+.highlight_theme_idea pre .keyword,
+.highlight_theme_idea pre .hexcolor,
+.highlight_theme_idea pre .css .function,
+.highlight_theme_idea pre .ini .title,
+.highlight_theme_idea pre .css .class,
+.highlight_theme_idea pre .list .title,
+.highlight_theme_idea pre .clojure .title,
+.highlight_theme_idea pre .nginx .title,
+.highlight_theme_idea pre .tex .command,
+.highlight_theme_idea pre .request,
+.highlight_theme_idea pre .status {
   font-weight: bold;
   color: #000080;
 }
 
-pre .attribute,
-pre .rules .keyword,
-pre .number,
-pre .date,
-pre .regexp,
-pre .tex .special {
+.highlight_theme_idea pre .attribute,
+.highlight_theme_idea pre .rules .keyword,
+.highlight_theme_idea pre .number,
+.highlight_theme_idea pre .date,
+.highlight_theme_idea pre .regexp,
+.highlight_theme_idea pre .tex .special {
   font-weight: bold;
   color: #0000ff;
 }
 
-pre .number,
-pre .regexp {
+.highlight_theme_idea pre .number,
+.highlight_theme_idea pre .regexp {
   font-weight: normal;
 }
 
-pre .string,
-pre .value,
-pre .filter .argument,
-pre .css .function .params,
-pre .apache .tag {
+.highlight_theme_idea pre .string,
+.highlight_theme_idea pre .value,
+.highlight_theme_idea pre .filter .argument,
+.highlight_theme_idea pre .css .function .params,
+.highlight_theme_idea pre .apache .tag {
   color: #008000;
   font-weight: bold;
 }
 
-pre .symbol,
-pre .ruby .symbol .string,
-pre .char,
-pre .tex .formula {
+.highlight_theme_idea pre .symbol,
+.highlight_theme_idea pre .ruby .symbol .string,
+.highlight_theme_idea pre .char,
+.highlight_theme_idea pre .tex .formula {
   color: #000;
   background: #d0eded;
   font-style: italic;
 }
 
-pre .phpdoc,
-pre .yardoctag,
-pre .javadoctag {
+.highlight_theme_idea pre .phpdoc,
+.highlight_theme_idea pre .yardoctag,
+.highlight_theme_idea pre .javadoctag {
   text-decoration: underline;
 }
 
-pre .variable,
-pre .envvar,
-pre .apache .sqbracket,
-pre .nginx .built_in {
+.highlight_theme_idea pre .variable,
+.highlight_theme_idea pre .envvar,
+.highlight_theme_idea pre .apache .sqbracket,
+.highlight_theme_idea pre .nginx .built_in {
   color: #660e7a;
 }
 
-pre .addition {
+.highlight_theme_idea pre .addition {
   background: #baeeba;
 }
 
-pre .deletion {
+.highlight_theme_idea pre .deletion {
   background: #ffc8bd;
 }
 
-pre .diff .change {
+.highlight_theme_idea pre .diff .change {
   background: #bccff9;
 }

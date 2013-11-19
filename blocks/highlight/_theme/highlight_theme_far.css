@@ -4,109 +4,109 @@ FAR Style (c) MajestiC <majestic2k@gmail.com>
 
 */
 
-pre code {
+.highlight_theme_far pre code {
   display: block; padding: 0.5em;
   background: #000080;
 }
 
-pre code,
-pre .subst {
+.highlight_theme_far pre code,
+.highlight_theme_far pre .subst {
   color: #0FF;
 }
 
-pre .string,
-pre .ruby .string,
-pre .haskell .type,
-pre .tag .value,
-pre .css .rules .value,
-pre .css .rules .value .number,
-pre .preprocessor,
-pre .ruby .symbol,
-pre .ruby .symbol .string,
-pre .built_in,
-pre .sql .aggregate,
-pre .django .template_tag,
-pre .django .variable,
-pre .smalltalk .class,
-pre .addition,
-pre .apache .tag,
-pre .apache .cbracket,
-pre .tex .command,
-pre .clojure .title,
-pre .coffeescript .attribute {
+.highlight_theme_far pre .string,
+.highlight_theme_far pre .ruby .string,
+.highlight_theme_far pre .haskell .type,
+.highlight_theme_far pre .tag .value,
+.highlight_theme_far pre .css .rules .value,
+.highlight_theme_far pre .css .rules .value .number,
+.highlight_theme_far pre ..highlight_theme_far preprocessor,
+.highlight_theme_far pre .ruby .symbol,
+.highlight_theme_far pre .ruby .symbol .string,
+.highlight_theme_far pre .built_in,
+.highlight_theme_far pre .sql .aggregate,
+.highlight_theme_far pre .django .template_tag,
+.highlight_theme_far pre .django .variable,
+.highlight_theme_far pre .smalltalk .class,
+.highlight_theme_far pre .addition,
+.highlight_theme_far pre .apache .tag,
+.highlight_theme_far pre .apache .cbracket,
+.highlight_theme_far pre .tex .command,
+.highlight_theme_far pre .clojure .title,
+.highlight_theme_far pre .coffeescript .attribute {
   color: #FF0;
 }
 
-pre .keyword,
-pre .css .id,
-pre .title,
-pre .haskell .type,
-pre .vbscript .built_in,
-pre .sql .aggregate,
-pre .rsl .built_in,
-pre .smalltalk .class,
-pre .xml .tag .title,
-pre .winutils,
-pre .flow,
-pre .change,
-pre .envvar,
-pre .bash .variable,
-pre .tex .special,
-pre .clojure .built_in {
+.highlight_theme_far pre .keyword,
+.highlight_theme_far pre .css .id,
+.highlight_theme_far pre .title,
+.highlight_theme_far pre .haskell .type,
+.highlight_theme_far pre .vbscript .built_in,
+.highlight_theme_far pre .sql .aggregate,
+.highlight_theme_far pre .rsl .built_in,
+.highlight_theme_far pre .smalltalk .class,
+.highlight_theme_far pre .xml .tag .title,
+.highlight_theme_far pre .winutils,
+.highlight_theme_far pre .flow,
+.highlight_theme_far pre .change,
+.highlight_theme_far pre .envvar,
+.highlight_theme_far pre .bash .variable,
+.highlight_theme_far pre .tex .special,
+.highlight_theme_far pre .clojure .built_in {
   color: #FFF;
 }
 
-pre .comment,
-pre .phpdoc,
-pre .javadoc,
-pre .java .annotation,
-pre .template_comment,
-pre .deletion,
-pre .apache .sqbracket,
-pre .tex .formula {
+.highlight_theme_far pre .comment,
+.highlight_theme_far pre .phpdoc,
+.highlight_theme_far pre .javadoc,
+.highlight_theme_far pre .java .annotation,
+.highlight_theme_far pre .template_comment,
+.highlight_theme_far pre .deletion,
+.highlight_theme_far pre .apache .sqbracket,
+.highlight_theme_far pre .tex .formula {
   color: #888;
 }
 
-pre .number,
-pre .date,
-pre .regexp,
-pre .literal,
-pre .smalltalk .symbol,
-pre .smalltalk .char,
-pre .clojure .attribute {
+.highlight_theme_far pre .number,
+.highlight_theme_far pre .date,
+.highlight_theme_far pre .regexp,
+.highlight_theme_far pre .literal,
+.highlight_theme_far pre .smalltalk .symbol,
+.highlight_theme_far pre .smalltalk .char,
+.highlight_theme_far pre .clojure .attribute {
   color: #0F0;
 }
 
-pre .python .decorator,
-pre .django .filter .argument,
-pre .smalltalk .localvars,
-pre .smalltalk .array,
-pre .attr_selector,
-pre .pseudo,
-pre .xml .pi,
-pre .diff .header,
-pre .chunk,
-pre .shebang,
-pre .nginx .built_in,
-pre .prompt {
+.highlight_theme_far pre .python .decorator,
+.highlight_theme_far pre .django .filter .argument,
+.highlight_theme_far pre .smalltalk .localvars,
+.highlight_theme_far pre .smalltalk .array,
+.highlight_theme_far pre .attr_selector,
+.highlight_theme_far pre .pseudo,
+.highlight_theme_far pre .xml .pi,
+.highlight_theme_far pre .diff .header,
+.highlight_theme_far pre .chunk,
+.highlight_theme_far pre .shebang,
+.highlight_theme_far pre .nginx .built_in,
+.highlight_theme_far pre .prompt {
   color: #008080;
 }
 
-pre .keyword,
-pre .css .id,
-pre .title,
-pre .haskell .type,
-pre .vbscript .built_in,
-pre .sql .aggregate,
-pre .rsl .built_in,
-pre .smalltalk .class,
-pre .winutils,
-pre .flow,
-pre .apache .tag,
-pre .nginx .built_in,
-pre .tex .command,
-pre .tex .special,
-pre .request,
-pre .status {
+.highlight_theme_far pre .keyword,
+.highlight_theme_far pre .css .id,
+.highlight_theme_far pre .title,
+.highlight_theme_far pre .haskell .type,
+.highlight_theme_far pre .vbscript .built_in,
+.highlight_theme_far pre .sql .aggregate,
+.highlight_theme_far pre .rsl .built_in,
+.highlight_theme_far pre .smalltalk .class,
+.highlight_theme_far pre .winutils,
+.highlight_theme_far pre .flow,
+.highlight_theme_far pre .apache .tag,
+.highlight_theme_far pre .nginx .built_in,
+.highlight_theme_far pre .tex .command,
+.highlight_theme_far pre .tex .special,
+.highlight_theme_far pre .request,
+.highlight_theme_far pre .status {
   font-weight: bold;
 }
