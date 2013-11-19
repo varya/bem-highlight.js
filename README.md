@@ -4,7 +4,10 @@ This repository contains `bem-highlight.js` block library. The library serves
 the `highlight` BEM block whose JavaScript paint code on a page with the help of
 remarkable [Highlight.js](http://highlightjs.org/).
 
-bem-core compalible
+*bem-core compalible*
+
+Example of usage:
+http://varya.me/bem-highlight.js/desktop.bundles/index/index.html
 
 ## HTML markup
 
