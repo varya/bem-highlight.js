@@ -9,22 +9,10 @@
     ],
     content:[
         {
-            block: 'header',
-            content: [
-                'header content goes here'
-            ]
-        },
-        {
-            block: 'content',
-            content: [
-                'main content'
-            ]
-        },
-        {
-            block: 'footer',
-            content: [
-                'footer content goes here'
-            ]
+            block: 'highlight',
+            mods: { theme: 'far' },
+            lang: 'html',
+            content: '<div class="my-block">'
         },
         { elem: 'js', url: '_index.js' }
     ]
