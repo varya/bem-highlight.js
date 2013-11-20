@@ -20,6 +20,7 @@ http://varya.me/bem-highlight.js/desktop.bundles/index/index.html
 ### With full bem stack
 
  1. Link the library to your project
+    
     a. With `bower`
     
        `bower.json`
@@ -34,7 +35,7 @@ http://varya.me/bem-highlight.js/desktop.bundles/index/index.html
       }
     }
 	   ```
-	b. With `repo.db`
+    b. With `repo.db`
  2. Add library levels in the list of levels for the bundles
     
     Example for `bem tools 1.0.0`
@@ -52,18 +53,18 @@ http://varya.me/bem-highlight.js/desktop.bundles/index/index.html
          ]);
      },
      ```
-   3. Place a block into your page bemjson code:
+ 3. Place a block into your page bemjson code:
    
-      ```
-      {
-        block: 'highlight',
-        mods: { theme: 'far' },
-        lang: 'html',
-        content: '<div class="my-block">'
-      }
-      ```
-      You can use any of [implemented themes](https://github.com/varya/bem-highlight.js/tree/master/blocks/highlight/_theme).
-   4. Look at the page compiled
+    ```
+    {
+       block: 'highlight',
+       mods: { theme: 'far' },
+       lang: 'html',
+       content: '<div class="my-block">'
+     }
+     ```
+     You can use any of [implemented themes](https://github.com/varya/bem-highlight.js/tree/master/blocks/highlight/_theme).
+ 4. Look at the page compiled
 
 Feel free to redefine the `highlight` block technologies for a bundle or the whole project.<br/>
 You can easily provide CSS for all the `highlight` blocks within your project by placing `highlight/highlight.css` file into your project block level.<br/>
@@ -85,19 +86,19 @@ If you do not use BEMHTML to produce HTML markup for your project:
       </pre>
     </div>
     ```
-  2. Provide dependency to ensure that your static files will have a proper highlight block:
-     `page/page.deps.js`
+ 2. Provide dependency to ensure that your static files will have a proper highlight block:
+    `page/page.deps.js`
      
-     ```
-     ({
-         shouldDeps: [
-             {
-                 block: 'highlight',
-                 mods: { 'theme': ['far']}
-             }
-         ]
-     })     
-	   ```
+    ```
+    ({
+        shouldDeps: [
+            {
+                block: 'highlight',
+                mods: { 'theme': ['far']}
+            }
+        ]
+    })
+    ```
  3. Compile your static files
  4. With linking compiled JavaScript to the page you have you code highlighed within
 your BEM project!
