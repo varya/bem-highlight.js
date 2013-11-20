@@ -26,13 +26,13 @@ http://varya.me/bem-highlight.js/desktop.bundles/index/index.html
     
        ```
     {
-    "name": "bem-project-stub",
-    "version": "0.0.1",
-    "dependencies": {
-        ...
-        "bem-highlight.js" : "varya/bem-highlight.js"
+      "name": "bem-project-stub",
+      "version": "0.0.1",
+      "dependencies": {
+          ...
+          "bem-highlight.js" : "varya/bem-highlight.js"
+      }
     }
-	}
 	   ```
 	b. With `repo.db`
  2. Add library levels in the list of levels for the bundles
@@ -41,16 +41,16 @@ http://varya.me/bem-highlight.js/desktop.bundles/index/index.html
     
     ```
     .setBundleBuildLevels([
-                    'bem-core',
-                    'bem-components',
-                    'bem-highlight.js'
-                ].reduce(function(levels, lib) {
-                    return levels.concat([
-                        environ.getLibPath(lib, 'common.blocks'),
-                        environ.getLibPath(lib, 'desktop.blocks'),
-                        environ.getLibPath(lib, 'blocks')
-                    ]);
-                },
+          'bem-core',
+          'bem-components',
+          'bem-highlight.js'
+     ].reduce(function(levels, lib) {
+         return levels.concat([
+             environ.getLibPath(lib, 'common.blocks'),
+             environ.getLibPath(lib, 'desktop.blocks'),
+             environ.getLibPath(lib, 'blocks')
+         ]);
+     },
      ```
    3. Place a block into your page bemjson code:
    
@@ -89,15 +89,15 @@ If you do not use BEMHTML to produce HTML markup for your project:
      `page/page.deps.js`
      
      ```
-({
-    shouldDeps: [
-        {
-            block: 'highlight',
-            mods: { 'theme': ['far']}
-        }
-    ]
-})     
-	 ```
+     ({
+         shouldDeps: [
+             {
+                 block: 'highlight',
+                 mods: { 'theme': ['far']}
+             }
+         ]
+     })     
+	   ```
  3. Compile your static files
  4. With linking compiled JavaScript to the page you have you code highlighed within
 your BEM project!
