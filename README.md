@@ -144,3 +144,5 @@ Navigate to: http://localhost:8080/desktop.bundles/index/index.html
 [BEM](http://bem.info) is an abbreviation for Block-Element-Modifier.  [BEM](http://bem.info) is a way to write code which is easy to support and develop.
 
 For more information about the BEM metodology check out [http://bem.info](http://bem.info/).
+
+<img src="//mc.yandex.ru/watch/23095477" style="position:absolute; left:-9999px;" alt="" />
