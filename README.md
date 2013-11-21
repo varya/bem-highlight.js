@@ -63,7 +63,12 @@ http://varya.me/bem-highlight.js/desktop.bundles/index/index.html
        content: '<div class="my-block">'
      }
      ```
-     You can use any of [implemented themes](https://github.com/varya/bem-highlight.js/tree/master/blocks/highlight/_theme).
+     You can use any of [implemented
+     themes](https://github.com/varya/bem-highlight.js/tree/master/blocks/highlight/_theme).<br/>
+     Now supported languages are:
+     * xml
+     * html (xml)
+     * js (javascript)
  4. Look at the page compiled
 
 Feel free to redefine the `highlight` block technologies for a bundle or the whole project.<br/>
