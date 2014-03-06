@@ -21,6 +21,16 @@
             lang: 'js',
             content: 'var $el = $(".el")'
         },
+        {
+            block: 'highlight',
+            lang: 'html',
+            content: '<div class="my-block">'
+        },
+        {
+            block: 'highlight',
+            lang: 'js',
+            content: 'var $el = $(".el")'
+        },
         { elem: 'js', url: '_index.js' }
     ]
 })

@@ -8,3 +8,4 @@ node_modules/
 *.bundles/*/*.*
 !*.bundles/*/*.bemjson.js
 !*.bundles/.bem/*
+bower_components
