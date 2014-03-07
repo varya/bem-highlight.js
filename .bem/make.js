@@ -30,11 +30,19 @@ MAKE.decl('BundleNode', {
             'deps.js',
             'bemhtml',
             'browser.js+bemhtml',
-            'css',
+            'less',
             'ie.css',
             'html'
         ];
 
+    },
+
+    getForkedTechs : function() {
+        return this.__base().concat(['browser.js+bemhtml', 'less']);
+    },
+
+    'create-less-optimizer-node': function(tech, sourceNode, bundleNode) {
+        return this['create-css-optimizer-node'].apply(this, arguments);
     },
 
     'create-browser.js+bemhtml-optimizer-node': function(tech, sourceNode, bundleNode) {
