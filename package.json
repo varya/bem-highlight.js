@@ -1,7 +1,7 @@
 {
-  "author": "Varvara Stepanova",
+  "author": "Varya Stepanova",
   "name": "bem-highlight.js",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/varya/bem-highlight.js"
@@ -11,17 +11,10 @@
     "npm": ">= 1.2.32"
   },
   "dependencies": {
-    "bem-environ": "^1.4.0",
-    "less": "^1.7.0"
+    "bem-environ": "^1.4.0"
   },
   "devDependencies": {
-    "bem": "^0.7.8"
-  },
-  "peerDependencies": {
-    "bower": "*"
-  },
-  "scripts": {
-    "postinstall": "bower install"
+    "bem": "~0.5.20"
   },
   "private": true
 }

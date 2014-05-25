@@ -1,14 +1,14 @@
 /** @requires BEM */
 /** @requires BEM.DOM */
 
-modules.define('i-bem__dom', ['highlight', 'jquery'], function(provide, hljs, $, DOM) {
+modules.define('highlight', ['i-bem__dom', 'highlight__core', 'jquery'], function(provide, BEMDOM, hljs, $) {
 
 var langAliases = {
     js: 'javascript',
     html: 'xml'
 }
 
-DOM.decl('highlight', {
+provide(BEMDOM.decl({ block: this.name}, {
     onSetMod: {
         "js": {
             "inited" : function() {
@@ -31,8 +31,6 @@ DOM.decl('highlight', {
         this._$CodeContainer = this._$CodeContainer || this.elem('code');
         return this._$CodeContainer;
     }
-});
-
-provide(DOM);
+}));
 
 });
