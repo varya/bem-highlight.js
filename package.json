@@ -18,7 +18,7 @@
     "bem": "~0.5.20"
   },
   "scripts": {
-    "postinstall": "./node_modules/borschik/bin/borschik -i blocks/highlight/highlight.js -m no -o blocks/highlight/highlight.browser.js"
+    "postinstall": "./node_modules/borschik/bin/borschik -i blocks/highlight/highlight.js -m no -o blocks/highlight/highlight.tmp.js && mv blocks/highlight/highlight{.tmp,}.js"
   },
   "private": true
 }
