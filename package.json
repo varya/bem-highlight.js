@@ -11,10 +11,14 @@
     "npm": ">= 1.2.32"
   },
   "dependencies": {
-    "bem-environ": "^1.4.0"
+    "bem-environ": "^1.4.0",
+    "borschik": "^1.0.5"
   },
   "devDependencies": {
     "bem": "~0.5.20"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/borschik/bin/borschik -i blocks/highlight/highlight.js -m no -o blocks/highlight/highlight.browser.js"
   },
   "private": true
 }
