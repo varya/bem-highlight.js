@@ -1,0 +1,103 @@
+﻿/*
+
+Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+.highlight_theme_dark code {
+  display: block; padding: 0.5em;
+  background: #444;
+}
+
+.highlight_theme_dark .keyword,
+.highlight_theme_dark .literal,
+.highlight_theme_dark .change,
+.highlight_theme_dark .winutils,
+.highlight_theme_dark .flow,
+.highlight_theme_dark .lisp .title,
+.highlight_theme_dark .nginx .title,
+.highlight_theme_dark .tex .special {
+  color: white;
+}
+
+.highlight_theme_dark code,
+.highlight_theme_dark .ruby .subst {
+  color: #DDD;
+}
+
+.highlight_theme_dark .string,
+.highlight_theme_dark .title,
+.highlight_theme_dark .haskell .type,
+.highlight_theme_dark .ini .title,
+.highlight_theme_dark .tag .value,
+.highlight_theme_dark .css .rules .value,
+.highlight_theme_dark .preprocessor,
+.highlight_theme_dark .ruby .symbol,
+.highlight_theme_dark .ruby .symbol .string,
+.highlight_theme_dark .ruby .symbol .keyword,
+.highlight_theme_dark .ruby .symbol .keymethods,
+.highlight_theme_dark .ruby .instancevar,
+.highlight_theme_dark .ruby .class .parent,
+.highlight_theme_dark .built_in,
+.highlight_theme_dark .sql .aggregate,
+.highlight_theme_dark .django .template_tag,
+.highlight_theme_dark .django .variable,
+.highlight_theme_dark .smalltalk .class,
+.highlight_theme_dark .javadoc,
+.highlight_theme_dark .ruby .string,
+.highlight_theme_dark .django .filter .argument,
+.highlight_theme_dark .smalltalk .localvars,
+.highlight_theme_dark .smalltalk .array,
+.highlight_theme_dark .attr_selector,
+.highlight_theme_dark .pseudo,
+.highlight_theme_dark .addition,
+.highlight_theme_dark .stream,
+.highlight_theme_dark .envvar,
+.highlight_theme_dark .apache .tag,
+.highlight_theme_dark .apache .cbracket,
+.highlight_theme_dark .tex .command,
+.highlight_theme_dark .input_number {
+  color: #D88;
+}
+
+.highlight_theme_dark .comment,
+.highlight_theme_dark .java .annotation,
+.highlight_theme_dark .python .decorator,
+.highlight_theme_dark .template_comment,
+.highlight_theme_dark .pi,
+.highlight_theme_dark .doctype,
+.highlight_theme_dark .deletion,
+.highlight_theme_dark .shebang,
+.highlight_theme_dark .apache .sqbracket,
+.highlight_theme_dark .tex .formula {
+  color: #777;
+}
+
+.highlight_theme_dark .keyword,
+.highlight_theme_dark .literal,
+.highlight_theme_dark .title,
+.highlight_theme_dark .css .id,
+.highlight_theme_dark .phpdoc,
+.highlight_theme_dark .haskell .type,
+.highlight_theme_dark .vbscript .built_in,
+.highlight_theme_dark .sql .aggregate,
+.highlight_theme_dark .rsl .built_in,
+.highlight_theme_dark .smalltalk .class,
+.highlight_theme_dark .diff .header,
+.highlight_theme_dark .chunk,
+.highlight_theme_dark .winutils,
+.highlight_theme_dark .bash .variable,
+.highlight_theme_dark .apache .tag,
+.highlight_theme_dark .tex .special,
+.highlight_theme_dark .request,
+.highlight_theme_dark .status {
+  font-weight: bold;
+}
+
+.highlight_theme_dark .coffeescript .javascript,
+.highlight_theme_dark .xml .css,
+.highlight_theme_dark .xml .javascript,
+.highlight_theme_dark .xml .vbscript,
+.highlight_theme_dark .tex .formula {
+  opacity: 0.5;
+}

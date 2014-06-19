@@ -1,0 +1,115 @@
+/*
+
+Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
+based on dark.css by Ivan Sagalaev
+
+*/
+
+.highlight_theme_zenburn code {
+  display: block; padding: 0.5em;
+  background: #3F3F3F;
+  color: #DCDCDC;
+}
+
+.highlight_theme_zenburn .keyword,
+.highlight_theme_zenburn .tag,
+.highlight_theme_zenburn .css .class,
+.highlight_theme_zenburn .css .id,
+.highlight_theme_zenburn .lisp .title,
+.highlight_theme_zenburn .nginx .title,
+.highlight_theme_zenburn .request,
+.highlight_theme_zenburn .status {
+  color: #E3CEAB;
+}
+
+.highlight_theme_zenburn .django .template_tag,
+.highlight_theme_zenburn .django .variable,
+.highlight_theme_zenburn .django .filter .argument {
+  color: #DCDCDC;
+}
+
+.highlight_theme_zenburn .number,
+.highlight_theme_zenburn .date {
+  color: #8CD0D3;
+}
+
+.highlight_theme_zenburn .dos .envvar,
+.highlight_theme_zenburn .dos .stream,
+.highlight_theme_zenburn .variable,
+.highlight_theme_zenburn .apache .sqbracket {
+  color: #EFDCBC;
+}
+
+.highlight_theme_zenburn .dos .flow,
+.highlight_theme_zenburn .diff .change,
+.highlight_theme_zenburn .python .exception,
+.highlight_theme_zenburn .python .built_in,
+.highlight_theme_zenburn .literal,
+.highlight_theme_zenburn .tex .special {
+  color: #EFEFAF;
+}
+
+.highlight_theme_zenburn .diff .chunk,
+.highlight_theme_zenburn .ruby .subst {
+  color: #8F8F8F;
+}
+
+.highlight_theme_zenburn .dos .keyword,
+.highlight_theme_zenburn .python .decorator,
+.highlight_theme_zenburn .title,
+.highlight_theme_zenburn .haskell .type,
+.highlight_theme_zenburn .diff .header,
+.highlight_theme_zenburn .ruby .class .parent,
+.highlight_theme_zenburn .apache .tag,
+.highlight_theme_zenburn .nginx .built_in,
+.highlight_theme_zenburn .tex .command,
+.highlight_theme_zenburn .input_number {
+    color: #efef8f;
+}
+
+.highlight_theme_zenburn .dos .winutils,
+.highlight_theme_zenburn .ruby .symbol,
+.highlight_theme_zenburn .ruby .symbol .string,
+.highlight_theme_zenburn .ruby .symbol .keyword,
+.highlight_theme_zenburn .ruby .symbol .keymethods,
+.highlight_theme_zenburn .ruby .string,
+.highlight_theme_zenburn .ruby .instancevar {
+  color: #DCA3A3;
+}
+
+.highlight_theme_zenburn .diff .deletion,
+.highlight_theme_zenburn .string,
+.highlight_theme_zenburn .tag .value,
+.highlight_theme_zenburn .preprocessor,
+.highlight_theme_zenburn .built_in,
+.highlight_theme_zenburn .sql .aggregate,
+.highlight_theme_zenburn .javadoc,
+.highlight_theme_zenburn .smalltalk .class,
+.highlight_theme_zenburn .smalltalk .localvars,
+.highlight_theme_zenburn .smalltalk .array,
+.highlight_theme_zenburn .css .rules .value,
+.highlight_theme_zenburn .attr_selector,
+.highlight_theme_zenburn .pseudo,
+.highlight_theme_zenburn .apache .cbracket,
+.highlight_theme_zenburn .tex .formula {
+  color: #CC9393;
+}
+
+.highlight_theme_zenburn .shebang,
+.highlight_theme_zenburn .diff .addition,
+.highlight_theme_zenburn .comment,
+.highlight_theme_zenburn .java .annotation,
+.highlight_theme_zenburn .template_comment,
+.highlight_theme_zenburn .pi,
+.highlight_theme_zenburn .doctype {
+  color: #7F9F7F;
+}
+
+.highlight_theme_zenburn .coffeescript .javascript,
+.highlight_theme_zenburn .xml .css,
+.highlight_theme_zenburn .xml .javascript,
+.highlight_theme_zenburn .xml .vbscript,
+.highlight_theme_zenburn .tex .formula {
+  opacity: 0.5;
+}
+

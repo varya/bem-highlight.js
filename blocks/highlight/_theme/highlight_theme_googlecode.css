@@ -1,0 +1,143 @@
+/*
+
+Google Code style (c) Aahan Krish <geekpanth3r@gmail.com>
+
+*/
+
+.highlight_theme_googlecode code {
+  display: block; padding: 0.5em;
+  background: white; color: black;
+}
+
+.highlight_theme_googlecode .comment,
+.highlight_theme_googlecode .template_comment,
+.highlight_theme_googlecode .javadoc,
+.highlight_theme_googlecode .comment * {
+  color: #800;
+}
+
+.highlight_theme_googlecode .keyword,
+.highlight_theme_googlecode .method,
+.highlight_theme_googlecode .list .title,
+.highlight_theme_googlecode .nginx .title,
+.highlight_theme_googlecode .tag .title,
+.highlight_theme_googlecode .setting .value,
+.highlight_theme_googlecode .winutils,
+.highlight_theme_googlecode .tex .command,
+.highlight_theme_googlecode .http .title,
+.highlight_theme_googlecode .request,
+.highlight_theme_googlecode .status {
+  color: #008;
+}
+
+.highlight_theme_googlecode .envvar,
+.highlight_theme_googlecode .tex .special {
+  color: #660;
+}
+
+.highlight_theme_googlecode .string,
+.highlight_theme_googlecode .tag .value,
+.highlight_theme_googlecode .cdata,
+.highlight_theme_googlecode .filter .argument,
+.highlight_theme_googlecode .attr_selector,
+.highlight_theme_googlecode .apache .cbracket,
+.highlight_theme_googlecode .date,
+.highlight_theme_googlecode .regexp {
+  color: #080;
+}
+
+.highlight_theme_googlecode .sub .identifier,
+.highlight_theme_googlecode .pi,
+.highlight_theme_googlecode .tag,
+.highlight_theme_googlecode .tag .keyword,
+.highlight_theme_googlecode .decorator,
+.highlight_theme_googlecode .ini .title,
+.highlight_theme_googlecode .shebang,
+.highlight_theme_googlecode .input_number,
+.highlight_theme_googlecode .hexcolor,
+.highlight_theme_googlecode .rules .value,
+.highlight_theme_googlecode .css .value .number,
+.highlight_theme_googlecode .literal,
+.highlight_theme_googlecode .symbol,
+.highlight_theme_googlecode .ruby .symbol .string,
+.highlight_theme_googlecode .ruby .symbol .keyword,
+.highlight_theme_googlecode .ruby .symbol .keymethods,
+.highlight_theme_googlecode .number,
+.highlight_theme_googlecode .css .function {
+  color: #066;
+}
+
+.highlight_theme_googlecode .class .title,
+.highlight_theme_googlecode .haskell .type,
+.highlight_theme_googlecode .smalltalk .class,
+.highlight_theme_googlecode .javadoctag,
+.highlight_theme_googlecode .yardoctag,
+.highlight_theme_googlecode .phpdoc,
+.highlight_theme_googlecode .typename,
+.highlight_theme_googlecode .tag .attribute,
+.highlight_theme_googlecode .doctype,
+.highlight_theme_googlecode .class .id,
+.highlight_theme_googlecode .built_in,
+.highlight_theme_googlecode .setting,
+.highlight_theme_googlecode .params,
+.highlight_theme_googlecode .variable {
+  color: #606;
+}
+
+.highlight_theme_googlecode .css .tag,
+.highlight_theme_googlecode .rules .property,
+.highlight_theme_googlecode .pseudo,
+.highlight_theme_googlecode .subst {
+  color: #000;
+}
+
+.highlight_theme_googlecode .css .class, .highlight_theme_googlecode .css .id {
+  color: #9B703F;
+}
+
+.highlight_theme_googlecode .value .important {
+  color: #ff7700;
+  font-weight: bold;
+}
+
+.highlight_theme_googlecode .rules .keyword {
+  color: #C5AF75;
+}
+
+.highlight_theme_googlecode .annotation,
+.highlight_theme_googlecode .apache .sqbracket,
+.highlight_theme_googlecode .nginx .built_in {
+  color: #9B859D;
+}
+
+.highlight_theme_googlecode .preprocessor,
+.highlight_theme_googlecode .preprocessor * {
+  color: #444;
+}
+
+.highlight_theme_googlecode .tex .formula {
+  background-color: #EEE;
+  font-style: italic;
+}
+
+.highlight_theme_googlecode .diff .header,
+.highlight_theme_googlecode .chunk {
+  color: #808080;
+  font-weight: bold;
+}
+
+.highlight_theme_googlecode .diff .change {
+  background-color: #BCCFF9;
+}
+
+.highlight_theme_googlecode .addition {
+  background-color: #BAEEBA;
+}
+
+.highlight_theme_googlecode .deletion {
+  background-color: #FFC8BD;
+}
+
+.highlight_theme_googlecode .comment .yardoctag {
+  font-weight: bold;
+}

@@ -1,0 +1,85 @@
+/*
+
+Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
+
+*/
+.highlight_theme_vs code {
+  display: block; padding: 0.5em;
+}
+
+.highlight_theme_vs .comment,
+.highlight_theme_vs .annotation,
+.highlight_theme_vs .template_comment,
+.highlight_theme_vs .diff .header,
+.highlight_theme_vs .chunk,
+.highlight_theme_vs .apache .cbracket {
+  color: rgb(0, 128, 0);
+}
+
+.highlight_theme_vs .keyword,
+.highlight_theme_vs .id,
+.highlight_theme_vs .built_in,
+.highlight_theme_vs .smalltalk .class,
+.highlight_theme_vs .winutils,
+.highlight_theme_vs .bash .variable,
+.highlight_theme_vs .tex .command,
+.highlight_theme_vs .request,
+.highlight_theme_vs .status,
+.highlight_theme_vs .nginx .title {
+  color: rgb(0, 0, 255);
+}
+
+.highlight_theme_vs .string,
+.highlight_theme_vs .title,
+.highlight_theme_vs .parent,
+.highlight_theme_vs .tag .value,
+.highlight_theme_vs .rules .value,
+.highlight_theme_vs .rules .value .number,
+.highlight_theme_vs .ruby .symbol,
+.highlight_theme_vs .ruby .symbol .string,
+.highlight_theme_vs .ruby .symbol .keyword,
+.highlight_theme_vs .ruby .symbol .keymethods,
+.highlight_theme_vs .instancevar,
+.highlight_theme_vs .aggregate,
+.highlight_theme_vs .template_tag,
+.highlight_theme_vs .django .variable,
+.highlight_theme_vs .addition,
+.highlight_theme_vs .flow,
+.highlight_theme_vs .stream,
+.highlight_theme_vs .apache .tag,
+.highlight_theme_vs .date,
+.highlight_theme_vs .tex .formula {
+  color: rgb(163, 21, 21);
+}
+
+.highlight_theme_vs .ruby .string,
+.highlight_theme_vs .decorator,
+.highlight_theme_vs .filter .argument,
+.highlight_theme_vs .localvars,
+.highlight_theme_vs .array,
+.highlight_theme_vs .attr_selector,
+.highlight_theme_vs .pseudo,
+.highlight_theme_vs .pi,
+.highlight_theme_vs .doctype,
+.highlight_theme_vs .deletion,
+.highlight_theme_vs .envvar,
+.highlight_theme_vs .shebang,
+.highlight_theme_vs .preprocessor,
+.highlight_theme_vs .userType,
+.highlight_theme_vs .apache .sqbracket,
+.highlight_theme_vs .nginx .built_in,
+.highlight_theme_vs .tex .special,
+.highlight_theme_vs .input_number {
+  color: rgb(43, 145, 175);
+}
+
+.highlight_theme_vs .phpdoc,
+.highlight_theme_vs .javadoc,
+.highlight_theme_vs .xmlDocTag {
+  color: rgb(128, 128, 128);
+}
+
+.highlight_theme_vs .vhdl .typename { font-weight: bold; }
+.highlight_theme_vs .vhdl .string { color: #666666; }
+.highlight_theme_vs .vhdl .literal { color: rgb(163, 21, 21); }
+.highlight_theme_vs .vhdl .attribute { color: #00B0E8; }

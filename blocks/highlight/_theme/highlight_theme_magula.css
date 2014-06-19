@@ -1,0 +1,120 @@
+﻿/*
+Description: Magula style for highligh.js
+Author: Ruslan Keba <rukeba@gmail.com>
+Website: http://rukeba.com/
+Version: 1.0
+Date: 2009-01-03
+Music: Aphex Twin / Xtal
+*/
+
+.highlight_theme_magula code {
+  display: block; padding: 0.5em;
+  background-color: #f4f4f4;
+}
+
+.highlight_theme_magula code,
+.highlight_theme_magula .ruby .subst,
+.highlight_theme_magula .lisp .title {
+  color: black;
+}
+
+.highlight_theme_magula .string,
+.highlight_theme_magula .title,
+.highlight_theme_magula .parent,
+.highlight_theme_magula .tag .value,
+.highlight_theme_magula .rules .value,
+.highlight_theme_magula .rules .value .number,
+.highlight_theme_magula .preprocessor,
+.highlight_theme_magula .ruby .symbol,
+.highlight_theme_magula .ruby .symbol .string,
+.highlight_theme_magula .ruby .symbol .keyword,
+.highlight_theme_magula .ruby .symbol .keymethods,
+.highlight_theme_magula .instancevar,
+.highlight_theme_magula .aggregate,
+.highlight_theme_magula .template_tag,
+.highlight_theme_magula .django .variable,
+.highlight_theme_magula .smalltalk .class,
+.highlight_theme_magula .addition,
+.highlight_theme_magula .flow,
+.highlight_theme_magula .stream,
+.highlight_theme_magula .bash .variable,
+.highlight_theme_magula .apache .cbracket {
+  color: #050;
+}
+
+.highlight_theme_magula .comment,
+.highlight_theme_magula .annotation,
+.highlight_theme_magula .template_comment,
+.highlight_theme_magula .diff .header,
+.highlight_theme_magula .chunk {
+  color: #777;
+}
+
+.highlight_theme_magula .number,
+.highlight_theme_magula .date,
+.highlight_theme_magula .regexp,
+.highlight_theme_magula .literal,
+.highlight_theme_magula .smalltalk .symbol,
+.highlight_theme_magula .smalltalk .char,
+.highlight_theme_magula .change,
+.highlight_theme_magula .tex .special {
+  color: #800;
+}
+
+.highlight_theme_magula .label,
+.highlight_theme_magula .javadoc,
+.highlight_theme_magula .ruby .string,
+.highlight_theme_magula .decorator,
+.highlight_theme_magula .filter .argument,
+.highlight_theme_magula .localvars,
+.highlight_theme_magula .array,
+.highlight_theme_magula .attr_selector,
+.highlight_theme_magula .pseudo,
+.highlight_theme_magula .pi,
+.highlight_theme_magula .doctype,
+.highlight_theme_magula .deletion,
+.highlight_theme_magula .envvar,
+.highlight_theme_magula .shebang,
+.highlight_theme_magula .apache .sqbracket,
+.highlight_theme_magula .nginx .built_in,
+.highlight_theme_magula .tex .formula,
+.highlight_theme_magula .input_number {
+  color: #00e;
+}
+
+.highlight_theme_magula .keyword,
+.highlight_theme_magula .id,
+.highlight_theme_magula .phpdoc,
+.highlight_theme_magula .title,
+.highlight_theme_magula .built_in,
+.highlight_theme_magula .aggregate,
+.highlight_theme_magula .smalltalk .class,
+.highlight_theme_magula .winutils,
+.highlight_theme_magula .bash .variable,
+.highlight_theme_magula .apache .tag,
+.highlight_theme_magula .xml .tag,
+.highlight_theme_magula .tex .command,
+.highlight_theme_magula .request,
+.highlight_theme_magula .status {
+  font-weight: bold;
+  color: navy;
+}
+
+.highlight_theme_magula .nginx .built_in {
+  font-weight: normal;
+}
+
+.highlight_theme_magula .coffeescript .javascript,
+.highlight_theme_magula .xml .css,
+.highlight_theme_magula .xml .javascript,
+.highlight_theme_magula .xml .vbscript,
+.highlight_theme_magula .tex .formula {
+  opacity: 0.5;
+}
+
+/* --- */
+.highlight_theme_magula .apache .tag {
+  font-weight: bold;
+  color: blue;
+}
+

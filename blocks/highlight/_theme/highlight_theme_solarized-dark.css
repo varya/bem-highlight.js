@@ -1,0 +1,90 @@
+/*
+
+Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
+
+*/
+
+.highlight_theme_solarized-dark code {
+  display: block; padding: 0.5em;
+  background: #002b36; color: #839496;
+}
+
+.highlight_theme_solarized-dark .comment,
+.highlight_theme_solarized-dark .template_comment,
+.highlight_theme_solarized-dark .diff .header,
+.highlight_theme_solarized-dark .doctype,
+.highlight_theme_solarized-dark .pi,
+.highlight_theme_solarized-dark .lisp .string,
+.highlight_theme_solarized-dark .javadoc {
+  color: #586e75;
+  font-style: italic;
+}
+
+.highlight_theme_solarized-dark .keyword,
+.highlight_theme_solarized-dark .winutils,
+.highlight_theme_solarized-dark .method,
+.highlight_theme_solarized-dark .addition,
+.highlight_theme_solarized-dark .css .tag,
+.highlight_theme_solarized-dark .request,
+.highlight_theme_solarized-dark .status,
+.highlight_theme_solarized-dark .nginx .title {
+  color: #859900;
+}
+
+.highlight_theme_solarized-dark .number,
+.highlight_theme_solarized-dark .command,
+.highlight_theme_solarized-dark .string,
+.highlight_theme_solarized-dark .tag .value,
+.highlight_theme_solarized-dark .phpdoc,
+.highlight_theme_solarized-dark .tex .formula,
+.highlight_theme_solarized-dark .regexp,
+.highlight_theme_solarized-dark .hexcolor {
+  color: #2aa198;
+}
+
+.highlight_theme_solarized-dark .title,
+.highlight_theme_solarized-dark .localvars,
+.highlight_theme_solarized-dark .chunk,
+.highlight_theme_solarized-dark .decorator,
+.highlight_theme_solarized-dark .builtin,
+.highlight_theme_solarized-dark .built_in,
+.highlight_theme_solarized-dark .identifier,
+.highlight_theme_solarized-dark .title .keymethods,
+.highlight_theme_solarized-dark .vhdl .literal,
+.highlight_theme_solarized-dark .id {
+  color: #268bd2;
+}
+
+.highlight_theme_solarized-dark .attribute,
+.highlight_theme_solarized-dark .variable,
+.highlight_theme_solarized-dark .instancevar,
+.highlight_theme_solarized-dark .lisp .body,
+.highlight_theme_solarized-dark .smalltalk .number,
+.highlight_theme_solarized-dark .constant,
+.highlight_theme_solarized-dark .class .title,
+.highlight_theme_solarized-dark .parent,
+.highlight_theme_solarized-dark .haskell .type {
+  color: #b58900;
+}
+
+.highlight_theme_solarized-dark .preprocessor,
+.highlight_theme_solarized-dark .preprocessor .keyword,
+.highlight_theme_solarized-dark .shebang,
+.highlight_theme_solarized-dark .symbol,
+.highlight_theme_solarized-dark .diff .change,
+.highlight_theme_solarized-dark .special,
+.highlight_theme_solarized-dark .keymethods,
+.highlight_theme_solarized-dark .attr_selector,
+.highlight_theme_solarized-dark .important,
+.highlight_theme_solarized-dark .subst,
+.highlight_theme_solarized-dark .cdata {
+  color: #cb4b16;
+}
+
+.highlight_theme_solarized-dark .deletion {
+  color: #dc322f;
+}
+
+.highlight_theme_solarized-dark .tex .formula {
+  background: #073642;
+}

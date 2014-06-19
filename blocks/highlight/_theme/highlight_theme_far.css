@@ -1,0 +1,110 @@
+/*
+
+FAR Style (c) MajestiC <majestic2k@gmail.com>
+
+*/
+
+.highlight_theme_far code {
+  display: block; padding: 0.5em;
+  background: #000080;
+}
+
+.highlight_theme_far code,
+.ruby .subst {
+  color: #0FF;
+}
+
+.highlight_theme_far .string,
+.highlight_theme_far .ruby .string,
+.highlight_theme_far .haskell .type,
+.highlight_theme_far .tag .value,
+.highlight_theme_far .css .rules .value,
+.highlight_theme_far .css .rules .value .number,
+.highlight_theme_far .preprocessor,
+.highlight_theme_far .ruby .symbol,
+.highlight_theme_far .ruby .symbol .string,
+.highlight_theme_far .ruby .symbol .keyword,
+.highlight_theme_far .ruby .symbol .keymethods,
+.highlight_theme_far .built_in,
+.highlight_theme_far .sql .aggregate,
+.highlight_theme_far .django .template_tag,
+.highlight_theme_far .django .variable,
+.highlight_theme_far .smalltalk .class,
+.highlight_theme_far .addition,
+.highlight_theme_far .apache .tag,
+.highlight_theme_far .apache .cbracket,
+.highlight_theme_far .tex .command {
+  color: #FF0;
+}
+
+.highlight_theme_far .keyword,
+.highlight_theme_far .css .id,
+.highlight_theme_far .title,
+.highlight_theme_far .haskell .type,
+.highlight_theme_far .vbscript .built_in,
+.highlight_theme_far .sql .aggregate,
+.highlight_theme_far .rsl .built_in,
+.highlight_theme_far .smalltalk .class,
+.highlight_theme_far .xml .tag .title,
+.highlight_theme_far .winutils,
+.highlight_theme_far .flow,
+.highlight_theme_far .change,
+.highlight_theme_far .envvar,
+.highlight_theme_far .bash .variable,
+.highlight_theme_far .tex .special {
+  color: #FFF;
+}
+
+.highlight_theme_far .comment,
+.highlight_theme_far .phpdoc,
+.highlight_theme_far .javadoc,
+.highlight_theme_far .java .annotation,
+.highlight_theme_far .template_comment,
+.highlight_theme_far .deletion,
+.highlight_theme_far .apache .sqbracket,
+.highlight_theme_far .tex .formula {
+  color: #888;
+}
+
+.highlight_theme_far .number,
+.highlight_theme_far .date,
+.highlight_theme_far .regexp,
+.highlight_theme_far .literal,
+.highlight_theme_far .smalltalk .symbol,
+.highlight_theme_far .smalltalk .char {
+  color: #0F0;
+}
+
+.highlight_theme_far .python .decorator,
+.highlight_theme_far .django .filter .argument,
+.highlight_theme_far .smalltalk .localvars,
+.highlight_theme_far .smalltalk .array,
+.highlight_theme_far .attr_selector,
+.highlight_theme_far .pseudo,
+.highlight_theme_far .xml .pi,
+.highlight_theme_far .diff .header,
+.highlight_theme_far .chunk,
+.highlight_theme_far .shebang,
+.highlight_theme_far .nginx .built_in,
+.highlight_theme_far .input_number {
+  color: #008080;
+}
+
+.highlight_theme_far .keyword,
+.highlight_theme_far .css .id,
+.highlight_theme_far .title,
+.highlight_theme_far .haskell .type,
+.highlight_theme_far .vbscript .built_in,
+.highlight_theme_far .sql .aggregate,
+.highlight_theme_far .rsl .built_in,
+.highlight_theme_far .smalltalk .class,
+.highlight_theme_far .winutils,
+.highlight_theme_far .flow,
+.highlight_theme_far .apache .tag,
+.highlight_theme_far .nginx .built_in,
+.highlight_theme_far .tex .command,
+.highlight_theme_far .tex .special,
+.highlight_theme_far .request,
+.highlight_theme_far .status {
+  font-weight: bold;
+}

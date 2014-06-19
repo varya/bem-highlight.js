@@ -1,0 +1,116 @@
+/*
+Monokai style - ported by Luigi Maselli - http://grigio.org
+*/
+
+.highlight_theme_monokai code {
+  display: block; padding: 0.5em;
+  background: #272822;
+}
+
+.highlight_theme_monokai .params .identifier .keymethods {
+	color: #FD971F;
+}
+
+.highlight_theme_monokai .tag,
+.highlight_theme_monokai .tag .title,
+.highlight_theme_monokai .keyword,
+.highlight_theme_monokai .literal,
+.highlight_theme_monokai .change,
+.highlight_theme_monokai .winutils,
+.highlight_theme_monokai .flow,
+.highlight_theme_monokai .lisp .title,
+.highlight_theme_monokai .nginx .title,
+.highlight_theme_monokai .tex .special {
+  color: #F92672;
+}
+
+.highlight_theme_monokai code {
+  color: #DDD;
+}
+
+.highlight_theme_monokai code .constant {
+	color: #66D9EF;
+}
+
+.highlight_theme_monokai .class .title {
+	color: white;
+}
+
+.highlight_theme_monokai .attribute,
+.highlight_theme_monokai .symbol,
+.highlight_theme_monokai .value,
+.highlight_theme_monokai .regexp {
+	color: #BF79DB;
+}
+
+.highlight_theme_monokai .tag .value,
+.highlight_theme_monokai .string,
+.highlight_theme_monokai .ruby .subst,
+.highlight_theme_monokai .title,
+.highlight_theme_monokai .haskell .type,
+.highlight_theme_monokai .preprocessor,
+.highlight_theme_monokai .ruby .instancevar,
+.highlight_theme_monokai .ruby .class .parent,
+.highlight_theme_monokai .built_in,
+.highlight_theme_monokai .sql .aggregate,
+.highlight_theme_monokai .django .template_tag,
+.highlight_theme_monokai .django .variable,
+.highlight_theme_monokai .smalltalk .class,
+.highlight_theme_monokai .javadoc,
+.highlight_theme_monokai .ruby .string,
+.highlight_theme_monokai .django .filter .argument,
+.highlight_theme_monokai .smalltalk .localvars,
+.highlight_theme_monokai .smalltalk .array,
+.highlight_theme_monokai .attr_selector,
+.highlight_theme_monokai .pseudo,
+.highlight_theme_monokai .addition,
+.highlight_theme_monokai .stream,
+.highlight_theme_monokai .envvar,
+.highlight_theme_monokai .apache .tag,
+.highlight_theme_monokai .apache .cbracket,
+.highlight_theme_monokai .tex .command,
+.highlight_theme_monokai .input_number {
+  color: #A6E22E;
+}
+
+.highlight_theme_monokai .comment,
+.highlight_theme_monokai .java .annotation,
+.highlight_theme_monokai .python .decorator,
+.highlight_theme_monokai .template_comment,
+.highlight_theme_monokai .pi,
+.highlight_theme_monokai .doctype,
+.highlight_theme_monokai .deletion,
+.highlight_theme_monokai .shebang,
+.highlight_theme_monokai .apache .sqbracket,
+.highlight_theme_monokai .tex .formula {
+  color: #75715E;
+}
+
+.highlight_theme_monokai .keyword,
+.highlight_theme_monokai .literal,
+.highlight_theme_monokai .css .id,
+.highlight_theme_monokai .phpdoc,
+.highlight_theme_monokai .title,
+.highlight_theme_monokai .haskell .type,
+.highlight_theme_monokai .vbscript .built_in,
+.highlight_theme_monokai .sql .aggregate,
+.highlight_theme_monokai .rsl .built_in,
+.highlight_theme_monokai .smalltalk .class,
+.highlight_theme_monokai .diff .header,
+.highlight_theme_monokai .chunk,
+.highlight_theme_monokai .winutils,
+.highlight_theme_monokai .bash .variable,
+.highlight_theme_monokai .apache .tag,
+.highlight_theme_monokai .tex .special,
+.highlight_theme_monokai .request,
+.highlight_theme_monokai .status {
+  font-weight: bold;
+}
+
+.highlight_theme_monokai .coffeescript .javascript,
+.highlight_theme_monokai .xml .css,
+.highlight_theme_monokai .xml .javascript,
+.highlight_theme_monokai .xml .vbscript,
+.highlight_theme_monokai .tex .formula {
+  opacity: 0.5;
+}

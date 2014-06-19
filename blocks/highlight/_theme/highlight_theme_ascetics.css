@@ -1,0 +1,49 @@
+﻿/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+.highlight_theme_ascetics code {
+  display: block; padding: 0.5em;
+  background: white; color: black;
+}
+
+.highlight_theme_ascetics .string,
+.highlight_theme_ascetics .tag .value,
+.highlight_theme_ascetics .filter .argument,
+.highlight_theme_ascetics .addition,
+.highlight_theme_ascetics .change,
+.highlight_theme_ascetics .apache .tag,
+.highlight_theme_ascetics .apache .cbracket,
+.highlight_theme_ascetics .nginx .built_in,
+.highlight_theme_ascetics .tex .formula {
+  color: #888;
+}
+
+.highlight_theme_ascetics .comment,
+.highlight_theme_ascetics .template_comment,
+.highlight_theme_ascetics .shebang,
+.highlight_theme_ascetics .doctype,
+.highlight_theme_ascetics .pi,
+.highlight_theme_ascetics .javadoc,
+.highlight_theme_ascetics .deletion,
+.highlight_theme_ascetics .apache .sqbracket {
+  color: #CCC;
+}
+
+.highlight_theme_ascetics .keyword,
+.highlight_theme_ascetics .tag .title,
+.highlight_theme_ascetics .ini .title,
+.highlight_theme_ascetics .lisp .title,
+.highlight_theme_ascetics .http .title,
+.highlight_theme_ascetics .nginx .title,
+.highlight_theme_ascetics .css .tag,
+.highlight_theme_ascetics .winutils,
+.highlight_theme_ascetics .flow,
+.highlight_theme_ascetics .apache .tag,
+.highlight_theme_ascetics .tex .command,
+.highlight_theme_ascetics .request,
+.highlight_theme_ascetics .status {
+  font-weight: bold;
+}
