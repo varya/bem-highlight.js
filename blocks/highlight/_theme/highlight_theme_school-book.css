@@ -1,0 +1,111 @@
+/*
+
+School Book style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
+
+*/
+
+.highlight_theme_school-book code {
+  display: block; padding: 15px 0.5em 0.5em 30px;
+  font-size: 11px !important;
+  line-height:16px !important;
+}
+
+pre{
+  background:#f6f6ae url(./school_book.png);
+  border-top: solid 2px #d2e8b9;
+  border-bottom: solid 1px #d2e8b9;
+}
+
+.highlight_theme_school-book .keyword,
+.highlight_theme_school-book .literal,
+.highlight_theme_school-book .change,
+.highlight_theme_school-book .winutils,
+.highlight_theme_school-book .flow,
+.highlight_theme_school-book .lisp .title,
+.highlight_theme_school-book .nginx .title,
+.highlight_theme_school-book .tex .special {
+  color:#005599;
+  font-weight:bold;
+}
+
+.highlight_theme_school-book code,
+.highlight_theme_school-book .ruby .subst,
+.highlight_theme_school-book .tag .keyword {
+  color: #3E5915;
+}
+
+.highlight_theme_school-book .string,
+.highlight_theme_school-book .title,
+.highlight_theme_school-book .haskell .type,
+.highlight_theme_school-book .tag .value,
+.highlight_theme_school-book .css .rules .value,
+.highlight_theme_school-book .preprocessor,
+.highlight_theme_school-book .ruby .symbol,
+.highlight_theme_school-book .ruby .symbol .string,
+.highlight_theme_school-book .ruby .symbol .keyword,
+.highlight_theme_school-book .ruby .symbol .keymethods,
+.highlight_theme_school-book .ruby .instancevar,
+.highlight_theme_school-book .ruby .class .parent,
+.highlight_theme_school-book .built_in,
+.highlight_theme_school-book .sql .aggregate,
+.highlight_theme_school-book .django .template_tag,
+.highlight_theme_school-book .django .variable,
+.highlight_theme_school-book .smalltalk .class,
+.highlight_theme_school-book .javadoc,
+.highlight_theme_school-book .ruby .string,
+.highlight_theme_school-book .django .filter .argument,
+.highlight_theme_school-book .smalltalk .localvars,
+.highlight_theme_school-book .smalltalk .array,
+.highlight_theme_school-book .attr_selector,
+.highlight_theme_school-book .pseudo,
+.highlight_theme_school-book .addition,
+.highlight_theme_school-book .stream,
+.highlight_theme_school-book .envvar,
+.highlight_theme_school-book .apache .tag,
+.highlight_theme_school-book .apache .cbracket,
+.highlight_theme_school-book .nginx .built_in,
+.highlight_theme_school-book .tex .command {
+  color: #2C009F;
+}
+
+.highlight_theme_school-book .comment,
+.highlight_theme_school-book .java .annotation,
+.highlight_theme_school-book .python .decorator,
+.highlight_theme_school-book .template_comment,
+.highlight_theme_school-book .pi,
+.highlight_theme_school-book .doctype,
+.highlight_theme_school-book .deletion,
+.highlight_theme_school-book .shebang,
+.highlight_theme_school-book .apache .sqbracket {
+  color: #E60415;
+}
+
+.highlight_theme_school-book .keyword,
+.highlight_theme_school-book .literal,
+.highlight_theme_school-book .css .id,
+.highlight_theme_school-book .phpdoc,
+.highlight_theme_school-book .title,
+.highlight_theme_school-book .haskell .type,
+.highlight_theme_school-book .vbscript .built_in,
+.highlight_theme_school-book .sql .aggregate,
+.highlight_theme_school-book .rsl .built_in,
+.highlight_theme_school-book .smalltalk .class,
+.highlight_theme_school-book .xml .tag .title,
+.highlight_theme_school-book .diff .header,
+.highlight_theme_school-book .chunk,
+.highlight_theme_school-book .winutils,
+.highlight_theme_school-book .bash .variable,
+.highlight_theme_school-book .apache .tag,
+.highlight_theme_school-book .tex .command,
+.highlight_theme_school-book .request,
+.highlight_theme_school-book .status {
+  font-weight: bold;
+}
+
+.highlight_theme_school-book .coffeescript .javascript,
+.highlight_theme_school-book .xml .css,
+.highlight_theme_school-book .xml .javascript,
+.highlight_theme_school-book .xml .vbscript,
+.highlight_theme_school-book .tex .formula {
+  opacity: 0.5;
+}

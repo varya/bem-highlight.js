@@ -3,8 +3,7 @@
     title: 'Title of the page',
     favicon: '/favicon.ico',
     head: [
-        { elem: 'css', url: '_index.css', ie: false },
-        { elem: 'css', url: '_index.ie.css', ie: 'gte IE 6' },
+        { elem: 'css', url: 'index.min.css', ie: false },
         { elem: 'meta', attrs: { name: 'description', content: '' }}
     ],
     content:[
@@ -31,6 +30,6 @@
             lang: 'js',
             content: 'var $el = $(".el")'
         },
-        { elem: 'js', url: '_index.js' }
+        { elem: 'js', url: 'index.min.js' }
     ]
 })

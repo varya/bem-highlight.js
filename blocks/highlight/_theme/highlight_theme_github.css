@@ -1,0 +1,133 @@
+/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.highlight_theme_github code {
+  display: block; padding: 0.5em;
+  color: #000;
+  background: #f8f8ff
+}
+
+.highlight_theme_github .comment,
+.highlight_theme_github .template_comment,
+.highlight_theme_github .diff .header,
+.highlight_theme_github .javadoc {
+  color: #998;
+  font-style: italic
+}
+
+.highlight_theme_github .keyword,
+.highlight_theme_github .css .rule .keyword,
+.highlight_theme_github .winutils,
+.highlight_theme_github .javascript .title,
+.highlight_theme_github .lisp .title,
+.highlight_theme_github .nginx .title,
+.highlight_theme_github .subst,
+.highlight_theme_github .request,
+.highlight_theme_github .status {
+  color: #000;
+  font-weight: bold
+}
+
+.highlight_theme_github .number,
+.highlight_theme_github .hexcolor {
+  color: #40a070
+}
+
+.highlight_theme_github .string,
+.highlight_theme_github .tag .value,
+.highlight_theme_github .phpdoc,
+.highlight_theme_github .tex .formula {
+  color: #d14
+}
+
+.highlight_theme_github .title,
+.highlight_theme_github .id {
+  color: #900;
+  font-weight: bold
+}
+
+.highlight_theme_github .javascript .title,
+.highlight_theme_github .lisp .title,
+.highlight_theme_github .subst {
+  font-weight: normal
+}
+
+.highlight_theme_github .class .title,
+.highlight_theme_github .haskell .type,
+.highlight_theme_github .vhdl .literal,
+.highlight_theme_github .tex .command {
+  color: #458;
+  font-weight: bold
+}
+
+.highlight_theme_github .tag,
+.highlight_theme_github .tag .title,
+.highlight_theme_github .rules .property,
+.highlight_theme_github .django .tag .keyword {
+  color: #000080;
+  font-weight: normal
+}
+
+.highlight_theme_github .attribute,
+.highlight_theme_github .variable,
+.highlight_theme_github .instancevar,
+.highlight_theme_github .lisp .body {
+  color: #008080
+}
+
+.highlight_theme_github .regexp {
+  color: #009926
+}
+
+.highlight_theme_github .class {
+  color: #458;
+  font-weight: bold
+}
+
+.highlight_theme_github .symbol,
+.highlight_theme_github .ruby .symbol .string,
+.highlight_theme_github .ruby .symbol .keyword,
+.highlight_theme_github .ruby .symbol .keymethods,
+.highlight_theme_github .lisp .keyword,
+.highlight_theme_github .tex .special,
+.highlight_theme_github .input_number {
+  color: #990073
+}
+
+.highlight_theme_github .builtin,
+.highlight_theme_github .built_in,
+.highlight_theme_github .lisp .title {
+  color: #0086b3
+}
+
+.highlight_theme_github .preprocessor,
+.highlight_theme_github .pi,
+.highlight_theme_github .doctype,
+.highlight_theme_github .shebang,
+.highlight_theme_github .cdata {
+  color: #999;
+  font-weight: bold
+}
+
+.highlight_theme_github .deletion {
+  background: #fdd
+}
+
+.highlight_theme_github .addition {
+  background: #dfd
+}
+
+.highlight_theme_github .diff .change {
+  background: #0086b3
+}
+
+.highlight_theme_github .chunk {
+  color: #aaa
+}
+
+.highlight_theme_github .tex .formula {
+  opacity: 0.5;
+}

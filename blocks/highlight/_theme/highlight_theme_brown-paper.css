@@ -1,0 +1,104 @@
+/*
+
+Brown Paper style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
+
+*/
+
+.highlight_theme_brown-paper code {
+  display: block; padding: 0.5em;
+  background:#b7a68e url(./brown_papersq.png);
+}
+
+.highlight_theme_brown-paper .keyword,
+.highlight_theme_brown-paper .literal,
+.highlight_theme_brown-paper .change,
+.highlight_theme_brown-paper .winutils,
+.highlight_theme_brown-paper .flow,
+.highlight_theme_brown-paper .lisp .title,
+.highlight_theme_brown-paper .nginx .title,
+.highlight_theme_brown-paper .tex .special,
+.highlight_theme_brown-paper .request,
+.highlight_theme_brown-paper .status {
+  color:#005599;
+  font-weight:bold;
+}
+
+.highlight_theme_brown-paper code,
+.highlight_theme_brown-paper .ruby .subst,
+.highlight_theme_brown-paper .tag .keyword {
+  color: #363C69;
+}
+
+.highlight_theme_brown-paper .string,
+.highlight_theme_brown-paper .title,
+.highlight_theme_brown-paper .haskell .type,
+.highlight_theme_brown-paper .tag .value,
+.highlight_theme_brown-paper .css .rules .value,
+.highlight_theme_brown-paper .preprocessor,
+.highlight_theme_brown-paper .ruby .symbol,
+.highlight_theme_brown-paper .ruby .symbol .string,
+.highlight_theme_brown-paper .ruby .symbol .keyword,
+.highlight_theme_brown-paper .ruby .symbol .keymethods,
+.highlight_theme_brown-paper .ruby .instancevar,
+.highlight_theme_brown-paper .ruby .class .parent,
+.highlight_theme_brown-paper .built_in,
+.highlight_theme_brown-paper .sql .aggregate,
+.highlight_theme_brown-paper .django .template_tag,
+.highlight_theme_brown-paper .django .variable,
+.highlight_theme_brown-paper .smalltalk .class,
+.highlight_theme_brown-paper .javadoc,
+.highlight_theme_brown-paper .ruby .string,
+.highlight_theme_brown-paper .django .filter .argument,
+.highlight_theme_brown-paper .smalltalk .localvars,
+.highlight_theme_brown-paper .smalltalk .array,
+.highlight_theme_brown-paper .attr_selector,
+.highlight_theme_brown-paper .pseudo,
+.highlight_theme_brown-paper .addition,
+.highlight_theme_brown-paper .stream,
+.highlight_theme_brown-paper .envvar,
+.highlight_theme_brown-paper .apache .tag,
+.highlight_theme_brown-paper .apache .cbracket,
+.highlight_theme_brown-paper .tex .number {
+  color: #2C009F;
+}
+
+.highlight_theme_brown-paper .comment,
+.highlight_theme_brown-paper .java .annotation,
+.highlight_theme_brown-paper .python .decorator,
+.highlight_theme_brown-paper .template_comment,
+.highlight_theme_brown-paper .pi,
+.highlight_theme_brown-paper .doctype,
+.highlight_theme_brown-paper .deletion,
+.highlight_theme_brown-paper .shebang,
+.highlight_theme_brown-paper .apache .sqbracket,
+.highlight_theme_brown-paper .nginx .built_in,
+.highlight_theme_brown-paper .tex .formula {
+  color: #802022;
+}
+
+.highlight_theme_brown-paper .keyword,
+.highlight_theme_brown-paper .literal,
+.highlight_theme_brown-paper .css .id,
+.highlight_theme_brown-paper .phpdoc,
+.highlight_theme_brown-paper .title,
+.highlight_theme_brown-paper .haskell .type,
+.highlight_theme_brown-paper .vbscript .built_in,
+.highlight_theme_brown-paper .sql .aggregate,
+.highlight_theme_brown-paper .rsl .built_in,
+.highlight_theme_brown-paper .smalltalk .class,
+.highlight_theme_brown-paper .diff .header,
+.highlight_theme_brown-paper .chunk,
+.highlight_theme_brown-paper .winutils,
+.highlight_theme_brown-paper .bash .variable,
+.highlight_theme_brown-paper .apache .tag,
+.highlight_theme_brown-paper .tex .command {
+  font-weight: bold;
+}
+
+.highlight_theme_brown-paper .coffeescript .javascript,
+.highlight_theme_brown-paper .xml .css,
+.highlight_theme_brown-paper .xml .javascript,
+.highlight_theme_brown-paper .xml .vbscript,
+.highlight_theme_brown-paper .tex .formula {
+  opacity: 0.8;
+}

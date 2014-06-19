@@ -5,7 +5,8 @@ node_modules/
 .project
 .svn
 .bem/cache/
+.bem/tmp/
 *.bundles/*/*.*
 !*.bundles/*/*.bemjson.js
 !*.bundles/.bem/*
-bower_components
+blocks/highlight/highlight.js
