@@ -1,0 +1,57 @@
+/* Base16 Atelier Seaside Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside/) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+/* https://github.com/jmblog/color-themes-for-highlightjs */
+
+/* Atelier Seaside Light Comment */
+.highlight_theme_atelier-seaside-light .hljs-comment, .highlight_theme_atelier-seaside-light .hljs-title {
+  color: #687d68;
+}
+
+/* Atelier Seaside Light Red */
+.highlight_theme_atelier-seaside-light .hljs-variable, .highlight_theme_atelier-seaside-light .hljs-attribute, .highlight_theme_atelier-seaside-light .hljs-tag, .highlight_theme_atelier-seaside-light .hljs-regexp, .highlight_theme_atelier-seaside-light .ruby .hljs-constant, .highlight_theme_atelier-seaside-light .xml .hljs-tag .hljs-title, .highlight_theme_atelier-seaside-light .xml .hljs-pi, .highlight_theme_atelier-seaside-light .xml .hljs-doctype, .highlight_theme_atelier-seaside-light .html .hljs-doctype, .highlight_theme_atelier-seaside-light .css .hljs-id, .highlight_theme_atelier-seaside-light .css .hljs-class, .highlight_theme_atelier-seaside-light .css .hljs-pseudo {
+  color: #e6193c;
+}
+
+/* Atelier Seaside Light Orange */
+.highlight_theme_atelier-seaside-light .hljs-number, .highlight_theme_atelier-seaside-light .hljs-preprocessor, .highlight_theme_atelier-seaside-light .hljs-pragma, .highlight_theme_atelier-seaside-light .hljs-built_in, .highlight_theme_atelier-seaside-light .hljs-literal, .highlight_theme_atelier-seaside-light .hljs-params, .highlight_theme_atelier-seaside-light .hljs-constant {
+  color: #87711d;
+}
+
+/* Atelier Seaside Light Yellow */
+.highlight_theme_atelier-seaside-light .hljs-ruby .hljs-class .hljs-title, .highlight_theme_atelier-seaside-light .css .hljs-rules .hljs-attribute {
+  color: #c3c322;
+}
+
+/* Atelier Seaside Light Green */
+.highlight_theme_atelier-seaside-light .hljs-string, .highlight_theme_atelier-seaside-light .hljs-value, .highlight_theme_atelier-seaside-light .hljs-inheritance, .highlight_theme_atelier-seaside-light .hljs-header, .highlight_theme_atelier-seaside-light .ruby .hljs-symbol, .highlight_theme_atelier-seaside-light .xml .hljs-cdata {
+  color: #29a329;
+}
+
+/* Atelier Seaside Light Aqua */
+.highlight_theme_atelier-seaside-light .css .hljs-hexcolor {
+  color: #1999b3;
+}
+
+/* Atelier Seaside Light Blue */
+.highlight_theme_atelier-seaside-light .hljs-function, .highlight_theme_atelier-seaside-light .python .hljs-decorator, .highlight_theme_atelier-seaside-light .python .hljs-title, .highlight_theme_atelier-seaside-light .ruby .hljs-function .hljs-title, .highlight_theme_atelier-seaside-light .ruby .hljs-title .hljs-keyword, .highlight_theme_atelier-seaside-light .perl .hljs-sub, .highlight_theme_atelier-seaside-light .javascript .hljs-title, .highlight_theme_atelier-seaside-light .coffeescript .hljs-title {
+  color: #3d62f5;
+}
+
+/* Atelier Seaside Light Purple */
+.highlight_theme_atelier-seaside-light .hljs-keyword, .highlight_theme_atelier-seaside-light .javascript .hljs-function {
+  color: #ad2bee;
+}
+
+.highlight_theme_atelier-seaside-light .hljs {
+  display: block;
+  overflow-x: auto;
+  background: #f0fff0;
+  color: #5e6e5e;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_atelier-seaside-light .coffeescript .javascript, .highlight_theme_atelier-seaside-light .javascript .xml, .highlight_theme_atelier-seaside-light .tex .hljs-formula, .highlight_theme_atelier-seaside-light .xml .javascript, .highlight_theme_atelier-seaside-light .xml .vbscript, .highlight_theme_atelier-seaside-light .xml .css, .highlight_theme_atelier-seaside-light .xml .hljs-cdata {
+  opacity: 0.5;
+}

@@ -1,0 +1,57 @@
+/* Base16 Atelier Dune Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+/* https://github.com/jmblog/color-themes-for-highlightjs */
+
+/* Atelier Dune Dark Comment */
+.highlight_theme_atelier-dune-dark .hljs-comment, .highlight_theme_atelier-dune-dark .hljs-title {
+  color: #999580;
+}
+
+/* Atelier Dune Dark Red */
+.highlight_theme_atelier-dune-dark .hljs-variable, .highlight_theme_atelier-dune-dark .hljs-attribute, .highlight_theme_atelier-dune-dark .hljs-tag, .highlight_theme_atelier-dune-dark .hljs-regexp, .highlight_theme_atelier-dune-dark .ruby .hljs-constant, .highlight_theme_atelier-dune-dark .xml .hljs-tag .hljs-title, .highlight_theme_atelier-dune-dark .xml .hljs-pi, .highlight_theme_atelier-dune-dark .xml .hljs-doctype, .highlight_theme_atelier-dune-dark .html .hljs-doctype, .highlight_theme_atelier-dune-dark .css .hljs-id, .highlight_theme_atelier-dune-dark .css .hljs-class, .highlight_theme_atelier-dune-dark .css .hljs-pseudo {
+  color: #d73737;
+}
+
+/* Atelier Dune Dark Orange */
+.highlight_theme_atelier-dune-dark .hljs-number, .highlight_theme_atelier-dune-dark .hljs-preprocessor, .highlight_theme_atelier-dune-dark .hljs-pragma, .highlight_theme_atelier-dune-dark .hljs-built_in, .highlight_theme_atelier-dune-dark .hljs-literal, .highlight_theme_atelier-dune-dark .hljs-params, .highlight_theme_atelier-dune-dark .hljs-constant {
+  color: #b65611;
+}
+
+/* Atelier Dune Dark Yellow */
+.highlight_theme_atelier-dune-dark .ruby .hljs-class .hljs-title, .highlight_theme_atelier-dune-dark .css .hljs-rules .hljs-attribute {
+  color: #cfb017;
+}
+
+/* Atelier Dune Dark Green */
+.highlight_theme_atelier-dune-dark .hljs-string, .highlight_theme_atelier-dune-dark .hljs-value, .highlight_theme_atelier-dune-dark .hljs-inheritance, .highlight_theme_atelier-dune-dark .hljs-header, .highlight_theme_atelier-dune-dark .ruby .hljs-symbol, .highlight_theme_atelier-dune-dark .xml .hljs-cdata {
+  color: #60ac39;
+}
+
+/* Atelier Dune Dark Aqua */
+.highlight_theme_atelier-dune-dark .css .hljs-hexcolor {
+  color: #1fad83;
+}
+
+/* Atelier Dune Dark Blue */
+.highlight_theme_atelier-dune-dark .hljs-function, .highlight_theme_atelier-dune-dark .python .hljs-decorator, .highlight_theme_atelier-dune-dark .python .hljs-title, .highlight_theme_atelier-dune-dark .ruby .hljs-function .hljs-title, .highlight_theme_atelier-dune-dark .ruby .hljs-title .hljs-keyword, .highlight_theme_atelier-dune-dark .perl .hljs-sub, .highlight_theme_atelier-dune-dark .javascript .hljs-title, .highlight_theme_atelier-dune-dark .coffeescript .hljs-title {
+  color: #6684e1;
+}
+
+/* Atelier Dune Dark Purple */
+.highlight_theme_atelier-dune-dark .hljs-keyword, .highlight_theme_atelier-dune-dark .javascript .hljs-function {
+  color: #b854d4;
+}
+
+.highlight_theme_atelier-dune-dark .hljs {
+  display: block;
+  overflow-x: auto;
+  background: #292824;
+  color: #a6a28c;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_atelier-dune-dark .coffeescript .javascript, .highlight_theme_atelier-dune-dark .javascript .xml, .highlight_theme_atelier-dune-dark .tex .hljs-formula, .highlight_theme_atelier-dune-dark .xml .javascript, .highlight_theme_atelier-dune-dark .xml .vbscript, .highlight_theme_atelier-dune-dark .xml .css, .highlight_theme_atelier-dune-dark .xml .hljs-cdata {
+  opacity: 0.5;
+}

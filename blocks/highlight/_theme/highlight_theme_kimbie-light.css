@@ -1,0 +1,59 @@
+/*
+    Name:     Kimbie (light)
+    Author:   Jan T. Sott
+    License:  Creative Commons Attribution-ShareAlike 4.0 Unported License
+    URL:      https://github.com/idleberg/Kimbie-highlight.js
+*/
+
+/* Kimbie Comment */
+.highlight_theme_kimbie-light .hljs-comment, .highlight_theme_kimbie-light .hljs-title {
+  color: #a57a4c;
+}
+
+/* Kimbie Red */
+.highlight_theme_kimbie-light .hljs-variable, .highlight_theme_kimbie-light .hljs-attribute, .highlight_theme_kimbie-light .hljs-tag, .highlight_theme_kimbie-light .hljs-regexp, .highlight_theme_kimbie-light .ruby .hljs-constant, .highlight_theme_kimbie-light .xml .hljs-tag .hljs-title, .highlight_theme_kimbie-light .xml .hljs-pi, .highlight_theme_kimbie-light .xml .hljs-doctype, .highlight_theme_kimbie-light .html .hljs-doctype, .highlight_theme_kimbie-light .css .hljs-id, .highlight_theme_kimbie-light .css .hljs-class, .highlight_theme_kimbie-light .css .hljs-pseudo {
+  color: #dc3958;
+}
+
+/* Kimbie Orange */
+.highlight_theme_kimbie-light .hljs-number, .highlight_theme_kimbie-light .hljs-preprocessor, .highlight_theme_kimbie-light .hljs-built_in, .highlight_theme_kimbie-light .hljs-literal, .highlight_theme_kimbie-light .hljs-params, .highlight_theme_kimbie-light .hljs-constant {
+  color: #f79a32;
+}
+
+/* Kimbie Yellow */
+.highlight_theme_kimbie-light .ruby .hljs-class .hljs-title, .highlight_theme_kimbie-light .css .hljs-rules .hljs-attribute {
+  color: #f06431;
+}
+
+/* Kimbie Green */
+.highlight_theme_kimbie-light .hljs-string, .highlight_theme_kimbie-light .hljs-value, .highlight_theme_kimbie-light .hljs-inheritance, .highlight_theme_kimbie-light .hljs-header, .highlight_theme_kimbie-light .ruby .hljs-symbol, .highlight_theme_kimbie-light .xml .hljs-cdata {
+  color: #889b4a;
+}
+
+/* Kimbie Aqua */
+.highlight_theme_kimbie-light .css .hljs-hexcolor {
+  color: #088649;
+}
+
+/* Kimbie Blue */
+.highlight_theme_kimbie-light .hljs-function, .highlight_theme_kimbie-light .python .hljs-decorator, .highlight_theme_kimbie-light .python .hljs-title, .highlight_theme_kimbie-light .ruby .hljs-function .hljs-title, .highlight_theme_kimbie-light .ruby .hljs-title .hljs-keyword, .highlight_theme_kimbie-light .perl .hljs-sub, .highlight_theme_kimbie-light .javascript .hljs-title, .highlight_theme_kimbie-light .coffeescript .hljs-title {
+  color: #8ab1b0;
+}
+
+/* Kimbie Purple */
+.highlight_theme_kimbie-light .hljs-keyword, .highlight_theme_kimbie-light .javascript .hljs-function {
+  color: #98676a;
+}
+
+.highlight_theme_kimbie-light .hljs {
+  display: block;
+  overflow-x: auto;
+  background: #fbebd4;
+  color: #84613d;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_kimbie-light .coffeescript .javascript, .highlight_theme_kimbie-light .javascript .xml, .highlight_theme_kimbie-light .tex .hljs-formula, .highlight_theme_kimbie-light .xml .javascript, .highlight_theme_kimbie-light .xml .vbscript, .highlight_theme_kimbie-light .xml .css, .highlight_theme_kimbie-light .xml .hljs-cdata {
+  opacity: 0.5;
+}

@@ -1,0 +1,30 @@
+/*
+  Five-color theme from a single blue hue.
+*/
+.highlight_theme_mono-blue .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #eaeef3;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_mono-blue .hljs, .highlight_theme_mono-blue .hljs-list .hljs-built_in {
+  color: #00193a;
+}
+
+.highlight_theme_mono-blue .hljs-keyword, .highlight_theme_mono-blue .hljs-title, .highlight_theme_mono-blue .hljs-important, .highlight_theme_mono-blue .hljs-request, .highlight_theme_mono-blue .hljs-header, .highlight_theme_mono-blue .hljs-javadoctag {
+  font-weight: bold;
+}
+
+.highlight_theme_mono-blue .hljs-comment, .highlight_theme_mono-blue .hljs-chunk {
+  color: #738191;
+}
+
+.highlight_theme_mono-blue .hljs-string, .highlight_theme_mono-blue .hljs-title, .highlight_theme_mono-blue .hljs-parent, .highlight_theme_mono-blue .hljs-built_in, .highlight_theme_mono-blue .hljs-literal, .highlight_theme_mono-blue .hljs-filename, .highlight_theme_mono-blue .hljs-value, .highlight_theme_mono-blue .hljs-addition, .highlight_theme_mono-blue .hljs-tag, .highlight_theme_mono-blue .hljs-argument, .highlight_theme_mono-blue .hljs-link_label, .highlight_theme_mono-blue .hljs-blockquote, .highlight_theme_mono-blue .hljs-header {
+  color: #0048ab;
+}
+
+.highlight_theme_mono-blue .hljs-decorator, .highlight_theme_mono-blue .hljs-prompt, .highlight_theme_mono-blue .hljs-yardoctag, .highlight_theme_mono-blue .hljs-subst, .highlight_theme_mono-blue .hljs-symbol, .highlight_theme_mono-blue .hljs-doctype, .highlight_theme_mono-blue .hljs-regexp, .highlight_theme_mono-blue .hljs-preprocessor, .highlight_theme_mono-blue .hljs-pragma, .highlight_theme_mono-blue .hljs-pi, .highlight_theme_mono-blue .hljs-attribute, .highlight_theme_mono-blue .hljs-attr_selector, .highlight_theme_mono-blue .hljs-javadoc, .highlight_theme_mono-blue .hljs-xmlDocTag, .highlight_theme_mono-blue .hljs-deletion, .highlight_theme_mono-blue .hljs-shebang, .highlight_theme_mono-blue .hljs-string .hljs-variable, .highlight_theme_mono-blue .hljs-link_url, .highlight_theme_mono-blue .hljs-bullet, .highlight_theme_mono-blue .hljs-sqbracket, .highlight_theme_mono-blue .hljs-phony {
+  color: #4c81c9;
+}

@@ -2,98 +2,67 @@
   IR_Black style (c) Vasily Mikhailitchenko <vaskas@programica.ru>
 */
 
-.highlight_theme_ir-black code {
-  display: block; padding: 0.5em;
-  background: #000; color: #f8f8f8;
+.highlight_theme_ir-black .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000;
+  color: #f8f8f8;
+  -webkit-text-size-adjust: none;
 }
 
-.highlight_theme_ir-black .shebang,
-.highlight_theme_ir-black .comment,
-.highlight_theme_ir-black .template_comment,
-.highlight_theme_ir-black .javadoc {
+.highlight_theme_ir-black .hljs-shebang, .highlight_theme_ir-black .hljs-comment, .highlight_theme_ir-black .hljs-javadoc {
   color: #7c7c7c;
 }
 
-.highlight_theme_ir-black .keyword,
-.highlight_theme_ir-black .tag,
-.highlight_theme_ir-black .tex .command,
-.highlight_theme_ir-black .request,
-.highlight_theme_ir-black .status {
-  color: #96CBFE;
+.highlight_theme_ir-black .hljs-keyword, .highlight_theme_ir-black .hljs-tag, .highlight_theme_ir-black .tex .hljs-command, .highlight_theme_ir-black .hljs-request, .highlight_theme_ir-black .hljs-status, .highlight_theme_ir-black .clojure .hljs-attribute {
+  color: #96cbfe;
 }
 
-.highlight_theme_ir-black .sub .keyword,
-.highlight_theme_ir-black .method,
-.highlight_theme_ir-black .list .title,
-.highlight_theme_ir-black .nginx .title {
-  color: #FFFFB6;
+.highlight_theme_ir-black .hljs-sub .hljs-keyword, .highlight_theme_ir-black .method, .highlight_theme_ir-black .hljs-list .hljs-title, .highlight_theme_ir-black .nginx .hljs-title {
+  color: #ffffb6;
 }
 
-.highlight_theme_ir-black .string,
-.highlight_theme_ir-black .tag .value,
-.highlight_theme_ir-black .cdata,
-.highlight_theme_ir-black .filter .argument,
-.highlight_theme_ir-black .attr_selector,
-.highlight_theme_ir-black .apache .cbracket,
-.highlight_theme_ir-black .date {
-  color: #A8FF60;
+.highlight_theme_ir-black .hljs-string, .highlight_theme_ir-black .hljs-tag .hljs-value, .highlight_theme_ir-black .hljs-cdata, .highlight_theme_ir-black .hljs-filter .hljs-argument, .highlight_theme_ir-black .hljs-attr_selector, .highlight_theme_ir-black .apache .hljs-cbracket, .highlight_theme_ir-black .hljs-date, .highlight_theme_ir-black .coffeescript .hljs-attribute {
+  color: #a8ff60;
 }
 
-.highlight_theme_ir-black .subst {
-  color: #DAEFA3;
+.highlight_theme_ir-black .hljs-subst {
+  color: #daefa3;
 }
 
-.highlight_theme_ir-black .regexp {
-  color: #E9C062;
+.highlight_theme_ir-black .hljs-regexp {
+  color: #e9c062;
 }
 
-.highlight_theme_ir-black .title,
-.highlight_theme_ir-black .sub .identifier,
-.highlight_theme_ir-black .pi,
-.highlight_theme_ir-black .decorator,
-.highlight_theme_ir-black .tex .special,
-.highlight_theme_ir-black .haskell .type,
-.highlight_theme_ir-black .constant,
-.highlight_theme_ir-black .smalltalk .class,
-.highlight_theme_ir-black .javadoctag,
-.highlight_theme_ir-black .yardoctag,
-.highlight_theme_ir-black .phpdoc,
-.highlight_theme_ir-black .nginx .built_in {
-  color: #FFFFB6;
+.highlight_theme_ir-black .hljs-title, .highlight_theme_ir-black .hljs-sub .hljs-identifier, .highlight_theme_ir-black .hljs-pi, .highlight_theme_ir-black .hljs-decorator, .highlight_theme_ir-black .tex .hljs-special, .highlight_theme_ir-black .hljs-type, .highlight_theme_ir-black .hljs-constant, .highlight_theme_ir-black .smalltalk .hljs-class, .highlight_theme_ir-black .hljs-javadoctag, .highlight_theme_ir-black .hljs-yardoctag, .highlight_theme_ir-black .hljs-phpdoc, .highlight_theme_ir-black .hljs-dartdoc, .highlight_theme_ir-black .nginx .hljs-built_in {
+  color: #ffffb6;
 }
 
-.highlight_theme_ir-black .symbol,
-.highlight_theme_ir-black .ruby .symbol .string,
-.highlight_theme_ir-black .ruby .symbol .keyword,
-.highlight_theme_ir-black .ruby .symbol .keymethods,
-.highlight_theme_ir-black .number,
-.highlight_theme_ir-black .variable,
-.highlight_theme_ir-black .vbscript,
-.highlight_theme_ir-black .literal {
-  color: #C6C5FE;
+.highlight_theme_ir-black .hljs-symbol, .highlight_theme_ir-black .ruby .hljs-symbol .hljs-string, .highlight_theme_ir-black .hljs-number, .highlight_theme_ir-black .hljs-variable, .highlight_theme_ir-black .vbscript, .highlight_theme_ir-black .hljs-literal {
+  color: #c6c5fe;
 }
 
-.highlight_theme_ir-black .css .tag {
-  color: #96CBFE;
+.highlight_theme_ir-black .css .hljs-tag {
+  color: #96cbfe;
 }
 
-.highlight_theme_ir-black .css .rules .property,
-.highlight_theme_ir-black .css .id {
-  color: #FFFFB6;
+.highlight_theme_ir-black .css .hljs-rules .hljs-property, .highlight_theme_ir-black .css .hljs-id {
+  color: #ffffb6;
 }
 
-.highlight_theme_ir-black .css .class {
-  color: #FFF;
+.highlight_theme_ir-black .css .hljs-class {
+  color: #fff;
 }
 
-.highlight_theme_ir-black .hexcolor {
-  color: #C6C5FE;
+.highlight_theme_ir-black .hljs-hexcolor {
+  color: #c6c5fe;
 }
 
-.highlight_theme_ir-black .number {
-  color:#FF73FD;
+.highlight_theme_ir-black .hljs-number {
+  color:#ff73fd;
 }
 
-.highlight_theme_ir-black .tex .formula {
+.highlight_theme_ir-black .coffeescript .javascript, .highlight_theme_ir-black .javascript .xml, .highlight_theme_ir-black .tex .hljs-formula, .highlight_theme_ir-black .xml .javascript, .highlight_theme_ir-black .xml .vbscript, .highlight_theme_ir-black .xml .css, .highlight_theme_ir-black .xml .hljs-cdata {
   opacity: 0.7;
 }

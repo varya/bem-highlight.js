@@ -1,0 +1,56 @@
+/* Tomorrow Night Bright Theme */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.highlight_theme_tomorrow-night-bright .hljs-comment {
+  color: #969896;
+}
+
+/* Tomorrow Red */
+.highlight_theme_tomorrow-night-bright .hljs-variable, .highlight_theme_tomorrow-night-bright .hljs-attribute, .highlight_theme_tomorrow-night-bright .hljs-tag, .highlight_theme_tomorrow-night-bright .hljs-regexp, .highlight_theme_tomorrow-night-bright .ruby .hljs-constant, .highlight_theme_tomorrow-night-bright .xml .hljs-tag .hljs-title, .highlight_theme_tomorrow-night-bright .xml .hljs-pi, .highlight_theme_tomorrow-night-bright .xml .hljs-doctype, .highlight_theme_tomorrow-night-bright .html .hljs-doctype, .highlight_theme_tomorrow-night-bright .css .hljs-id, .highlight_theme_tomorrow-night-bright .css .hljs-class, .highlight_theme_tomorrow-night-bright .css .hljs-pseudo {
+  color: #d54e53;
+}
+
+/* Tomorrow Orange */
+.highlight_theme_tomorrow-night-bright .hljs-number, .highlight_theme_tomorrow-night-bright .hljs-preprocessor, .highlight_theme_tomorrow-night-bright .hljs-pragma, .highlight_theme_tomorrow-night-bright .hljs-built_in, .highlight_theme_tomorrow-night-bright .hljs-literal, .highlight_theme_tomorrow-night-bright .hljs-params, .highlight_theme_tomorrow-night-bright .hljs-constant {
+  color: #e78c45;
+}
+
+/* Tomorrow Yellow */
+.highlight_theme_tomorrow-night-bright .ruby .hljs-class .hljs-title, .highlight_theme_tomorrow-night-bright .css .hljs-rules .hljs-attribute {
+  color: #e7c547;
+}
+
+/* Tomorrow Green */
+.highlight_theme_tomorrow-night-bright .hljs-string, .highlight_theme_tomorrow-night-bright .hljs-value, .highlight_theme_tomorrow-night-bright .hljs-inheritance, .highlight_theme_tomorrow-night-bright .hljs-header, .highlight_theme_tomorrow-night-bright .ruby .hljs-symbol, .highlight_theme_tomorrow-night-bright .xml .hljs-cdata {
+  color: #b9ca4a;
+}
+
+/* Tomorrow Aqua */
+.highlight_theme_tomorrow-night-bright .hljs-title, .highlight_theme_tomorrow-night-bright .css .hljs-hexcolor {
+  color: #70c0b1;
+}
+
+/* Tomorrow Blue */
+.highlight_theme_tomorrow-night-bright .hljs-function, .highlight_theme_tomorrow-night-bright .python .hljs-decorator, .highlight_theme_tomorrow-night-bright .python .hljs-title, .highlight_theme_tomorrow-night-bright .ruby .hljs-function .hljs-title, .highlight_theme_tomorrow-night-bright .ruby .hljs-title .hljs-keyword, .highlight_theme_tomorrow-night-bright .perl .hljs-sub, .highlight_theme_tomorrow-night-bright .javascript .hljs-title, .highlight_theme_tomorrow-night-bright .coffeescript .hljs-title {
+  color: #7aa6da;
+}
+
+/* Tomorrow Purple */
+.highlight_theme_tomorrow-night-bright .hljs-keyword, .highlight_theme_tomorrow-night-bright .javascript .hljs-function {
+  color: #c397d8;
+}
+
+.highlight_theme_tomorrow-night-bright .hljs {
+  display: block;
+  overflow-x: auto;
+  background: black;
+  color: #eaeaea;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_tomorrow-night-bright .coffeescript .javascript, .highlight_theme_tomorrow-night-bright .javascript .xml, .highlight_theme_tomorrow-night-bright .tex .hljs-formula, .highlight_theme_tomorrow-night-bright .xml .javascript, .highlight_theme_tomorrow-night-bright .xml .vbscript, .highlight_theme_tomorrow-night-bright .xml .css, .highlight_theme_tomorrow-night-bright .xml .hljs-cdata {
+  opacity: 0.5;
+}

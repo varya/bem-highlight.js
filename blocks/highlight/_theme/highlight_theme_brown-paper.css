@@ -4,101 +4,35 @@ Brown Paper style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
 
 */
 
-.highlight_theme_brown-paper code {
-  display: block; padding: 0.5em;
+.highlight_theme_brown-paper .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
   background:#b7a68e url(./brown_papersq.png);
+  -webkit-text-size-adjust: none;
 }
 
-.highlight_theme_brown-paper .keyword,
-.highlight_theme_brown-paper .literal,
-.highlight_theme_brown-paper .change,
-.highlight_theme_brown-paper .winutils,
-.highlight_theme_brown-paper .flow,
-.highlight_theme_brown-paper .lisp .title,
-.highlight_theme_brown-paper .nginx .title,
-.highlight_theme_brown-paper .tex .special,
-.highlight_theme_brown-paper .request,
-.highlight_theme_brown-paper .status {
+.highlight_theme_brown-paper .hljs-keyword, .highlight_theme_brown-paper .hljs-literal, .highlight_theme_brown-paper .hljs-change, .highlight_theme_brown-paper .hljs-winutils, .highlight_theme_brown-paper .hljs-flow, .highlight_theme_brown-paper .nginx .hljs-title, .highlight_theme_brown-paper .tex .hljs-special, .highlight_theme_brown-paper .hljs-request, .highlight_theme_brown-paper .hljs-status {
   color:#005599;
   font-weight:bold;
 }
 
-.highlight_theme_brown-paper code,
-.highlight_theme_brown-paper .ruby .subst,
-.highlight_theme_brown-paper .tag .keyword {
-  color: #363C69;
+.highlight_theme_brown-paper .hljs, .highlight_theme_brown-paper .hljs-subst, .highlight_theme_brown-paper .hljs-tag .hljs-keyword {
+  color: #363c69;
 }
 
-.highlight_theme_brown-paper .string,
-.highlight_theme_brown-paper .title,
-.highlight_theme_brown-paper .haskell .type,
-.highlight_theme_brown-paper .tag .value,
-.highlight_theme_brown-paper .css .rules .value,
-.highlight_theme_brown-paper .preprocessor,
-.highlight_theme_brown-paper .ruby .symbol,
-.highlight_theme_brown-paper .ruby .symbol .string,
-.highlight_theme_brown-paper .ruby .symbol .keyword,
-.highlight_theme_brown-paper .ruby .symbol .keymethods,
-.highlight_theme_brown-paper .ruby .instancevar,
-.highlight_theme_brown-paper .ruby .class .parent,
-.highlight_theme_brown-paper .built_in,
-.highlight_theme_brown-paper .sql .aggregate,
-.highlight_theme_brown-paper .django .template_tag,
-.highlight_theme_brown-paper .django .variable,
-.highlight_theme_brown-paper .smalltalk .class,
-.highlight_theme_brown-paper .javadoc,
-.highlight_theme_brown-paper .ruby .string,
-.highlight_theme_brown-paper .django .filter .argument,
-.highlight_theme_brown-paper .smalltalk .localvars,
-.highlight_theme_brown-paper .smalltalk .array,
-.highlight_theme_brown-paper .attr_selector,
-.highlight_theme_brown-paper .pseudo,
-.highlight_theme_brown-paper .addition,
-.highlight_theme_brown-paper .stream,
-.highlight_theme_brown-paper .envvar,
-.highlight_theme_brown-paper .apache .tag,
-.highlight_theme_brown-paper .apache .cbracket,
-.highlight_theme_brown-paper .tex .number {
-  color: #2C009F;
+.highlight_theme_brown-paper .hljs-string, .highlight_theme_brown-paper .hljs-title, .highlight_theme_brown-paper .hljs-type, .highlight_theme_brown-paper .hljs-tag .hljs-value, .highlight_theme_brown-paper .css .hljs-rules .hljs-value, .highlight_theme_brown-paper .hljs-preprocessor, .highlight_theme_brown-paper .hljs-pragma, .highlight_theme_brown-paper .ruby .hljs-symbol, .highlight_theme_brown-paper .ruby .hljs-symbol .hljs-string, .highlight_theme_brown-paper .ruby .hljs-class .hljs-parent, .highlight_theme_brown-paper .hljs-built_in, .highlight_theme_brown-paper .django .hljs-template_tag, .highlight_theme_brown-paper .django .hljs-variable, .highlight_theme_brown-paper .smalltalk .hljs-class, .highlight_theme_brown-paper .hljs-javadoc, .highlight_theme_brown-paper .ruby .hljs-string, .highlight_theme_brown-paper .django .hljs-filter .hljs-argument, .highlight_theme_brown-paper .smalltalk .hljs-localvars, .highlight_theme_brown-paper .smalltalk .hljs-array, .highlight_theme_brown-paper .hljs-attr_selector, .highlight_theme_brown-paper .hljs-pseudo, .highlight_theme_brown-paper .hljs-addition, .highlight_theme_brown-paper .hljs-stream, .highlight_theme_brown-paper .hljs-envvar, .highlight_theme_brown-paper .apache .hljs-tag, .highlight_theme_brown-paper .apache .hljs-cbracket, .highlight_theme_brown-paper .tex .hljs-number {
+  color: #2c009f;
 }
 
-.highlight_theme_brown-paper .comment,
-.highlight_theme_brown-paper .java .annotation,
-.highlight_theme_brown-paper .python .decorator,
-.highlight_theme_brown-paper .template_comment,
-.highlight_theme_brown-paper .pi,
-.highlight_theme_brown-paper .doctype,
-.highlight_theme_brown-paper .deletion,
-.highlight_theme_brown-paper .shebang,
-.highlight_theme_brown-paper .apache .sqbracket,
-.highlight_theme_brown-paper .nginx .built_in,
-.highlight_theme_brown-paper .tex .formula {
+.highlight_theme_brown-paper .hljs-comment, .highlight_theme_brown-paper .hljs-annotation, .highlight_theme_brown-paper .hljs-decorator, .highlight_theme_brown-paper .hljs-pi, .highlight_theme_brown-paper .hljs-doctype, .highlight_theme_brown-paper .hljs-deletion, .highlight_theme_brown-paper .hljs-shebang, .highlight_theme_brown-paper .apache .hljs-sqbracket, .highlight_theme_brown-paper .nginx .hljs-built_in, .highlight_theme_brown-paper .tex .hljs-formula {
   color: #802022;
 }
 
-.highlight_theme_brown-paper .keyword,
-.highlight_theme_brown-paper .literal,
-.highlight_theme_brown-paper .css .id,
-.highlight_theme_brown-paper .phpdoc,
-.highlight_theme_brown-paper .title,
-.highlight_theme_brown-paper .haskell .type,
-.highlight_theme_brown-paper .vbscript .built_in,
-.highlight_theme_brown-paper .sql .aggregate,
-.highlight_theme_brown-paper .rsl .built_in,
-.highlight_theme_brown-paper .smalltalk .class,
-.highlight_theme_brown-paper .diff .header,
-.highlight_theme_brown-paper .chunk,
-.highlight_theme_brown-paper .winutils,
-.highlight_theme_brown-paper .bash .variable,
-.highlight_theme_brown-paper .apache .tag,
-.highlight_theme_brown-paper .tex .command {
+.highlight_theme_brown-paper .hljs-keyword, .highlight_theme_brown-paper .hljs-literal, .highlight_theme_brown-paper .css .hljs-id, .highlight_theme_brown-paper .hljs-phpdoc, .highlight_theme_brown-paper .hljs-dartdoc, .highlight_theme_brown-paper .hljs-title, .highlight_theme_brown-paper .hljs-type, .highlight_theme_brown-paper .vbscript .hljs-built_in, .highlight_theme_brown-paper .rsl .hljs-built_in, .highlight_theme_brown-paper .smalltalk .hljs-class, .highlight_theme_brown-paper .diff .hljs-header, .highlight_theme_brown-paper .hljs-chunk, .highlight_theme_brown-paper .hljs-winutils, .highlight_theme_brown-paper .bash .hljs-variable, .highlight_theme_brown-paper .apache .hljs-tag, .highlight_theme_brown-paper .tex .hljs-command {
   font-weight: bold;
 }
 
-.highlight_theme_brown-paper .coffeescript .javascript,
-.highlight_theme_brown-paper .xml .css,
-.highlight_theme_brown-paper .xml .javascript,
-.highlight_theme_brown-paper .xml .vbscript,
-.highlight_theme_brown-paper .tex .formula {
+.highlight_theme_brown-paper .coffeescript .javascript, .highlight_theme_brown-paper .javascript .xml, .highlight_theme_brown-paper .tex .hljs-formula, .highlight_theme_brown-paper .xml .javascript, .highlight_theme_brown-paper .xml .vbscript, .highlight_theme_brown-paper .xml .css, .highlight_theme_brown-paper .xml .hljs-cdata {
   opacity: 0.8;
 }

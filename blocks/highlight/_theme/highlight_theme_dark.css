@@ -1,103 +1,37 @@
-﻿/*
+/*
 
 Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
 
 */
 
-.highlight_theme_dark code {
-  display: block; padding: 0.5em;
+.highlight_theme_dark .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
   background: #444;
+  -webkit-text-size-adjust: none;
 }
 
-.highlight_theme_dark .keyword,
-.highlight_theme_dark .literal,
-.highlight_theme_dark .change,
-.highlight_theme_dark .winutils,
-.highlight_theme_dark .flow,
-.highlight_theme_dark .lisp .title,
-.highlight_theme_dark .nginx .title,
-.highlight_theme_dark .tex .special {
+.highlight_theme_dark .hljs-keyword, .highlight_theme_dark .hljs-literal, .highlight_theme_dark .hljs-change, .highlight_theme_dark .hljs-winutils, .highlight_theme_dark .hljs-flow, .highlight_theme_dark .nginx .hljs-title, .highlight_theme_dark .tex .hljs-special {
   color: white;
 }
 
-.highlight_theme_dark code,
-.highlight_theme_dark .ruby .subst {
-  color: #DDD;
+.highlight_theme_dark .hljs, .highlight_theme_dark .hljs-subst {
+  color: #ddd;
 }
 
-.highlight_theme_dark .string,
-.highlight_theme_dark .title,
-.highlight_theme_dark .haskell .type,
-.highlight_theme_dark .ini .title,
-.highlight_theme_dark .tag .value,
-.highlight_theme_dark .css .rules .value,
-.highlight_theme_dark .preprocessor,
-.highlight_theme_dark .ruby .symbol,
-.highlight_theme_dark .ruby .symbol .string,
-.highlight_theme_dark .ruby .symbol .keyword,
-.highlight_theme_dark .ruby .symbol .keymethods,
-.highlight_theme_dark .ruby .instancevar,
-.highlight_theme_dark .ruby .class .parent,
-.highlight_theme_dark .built_in,
-.highlight_theme_dark .sql .aggregate,
-.highlight_theme_dark .django .template_tag,
-.highlight_theme_dark .django .variable,
-.highlight_theme_dark .smalltalk .class,
-.highlight_theme_dark .javadoc,
-.highlight_theme_dark .ruby .string,
-.highlight_theme_dark .django .filter .argument,
-.highlight_theme_dark .smalltalk .localvars,
-.highlight_theme_dark .smalltalk .array,
-.highlight_theme_dark .attr_selector,
-.highlight_theme_dark .pseudo,
-.highlight_theme_dark .addition,
-.highlight_theme_dark .stream,
-.highlight_theme_dark .envvar,
-.highlight_theme_dark .apache .tag,
-.highlight_theme_dark .apache .cbracket,
-.highlight_theme_dark .tex .command,
-.highlight_theme_dark .input_number {
-  color: #D88;
+.highlight_theme_dark .hljs-string, .highlight_theme_dark .hljs-title, .highlight_theme_dark .hljs-type, .highlight_theme_dark .ini .hljs-title, .highlight_theme_dark .hljs-tag .hljs-value, .highlight_theme_dark .css .hljs-rules .hljs-value, .highlight_theme_dark .hljs-preprocessor, .highlight_theme_dark .hljs-pragma, .highlight_theme_dark .ruby .hljs-symbol, .highlight_theme_dark .ruby .hljs-symbol .hljs-string, .highlight_theme_dark .ruby .hljs-class .hljs-parent, .highlight_theme_dark .hljs-built_in, .highlight_theme_dark .django .hljs-template_tag, .highlight_theme_dark .django .hljs-variable, .highlight_theme_dark .smalltalk .hljs-class, .highlight_theme_dark .hljs-javadoc, .highlight_theme_dark .ruby .hljs-string, .highlight_theme_dark .django .hljs-filter .hljs-argument, .highlight_theme_dark .smalltalk .hljs-localvars, .highlight_theme_dark .smalltalk .hljs-array, .highlight_theme_dark .hljs-attr_selector, .highlight_theme_dark .hljs-pseudo, .highlight_theme_dark .hljs-addition, .highlight_theme_dark .hljs-stream, .highlight_theme_dark .hljs-envvar, .highlight_theme_dark .apache .hljs-tag, .highlight_theme_dark .apache .hljs-cbracket, .highlight_theme_dark .tex .hljs-command, .highlight_theme_dark .hljs-prompt, .highlight_theme_dark .coffeescript .hljs-attribute {
+  color: #d88;
 }
 
-.highlight_theme_dark .comment,
-.highlight_theme_dark .java .annotation,
-.highlight_theme_dark .python .decorator,
-.highlight_theme_dark .template_comment,
-.highlight_theme_dark .pi,
-.highlight_theme_dark .doctype,
-.highlight_theme_dark .deletion,
-.highlight_theme_dark .shebang,
-.highlight_theme_dark .apache .sqbracket,
-.highlight_theme_dark .tex .formula {
+.highlight_theme_dark .hljs-comment, .highlight_theme_dark .hljs-annotation, .highlight_theme_dark .hljs-decorator, .highlight_theme_dark .hljs-pi, .highlight_theme_dark .hljs-doctype, .highlight_theme_dark .hljs-deletion, .highlight_theme_dark .hljs-shebang, .highlight_theme_dark .apache .hljs-sqbracket, .highlight_theme_dark .tex .hljs-formula {
   color: #777;
 }
 
-.highlight_theme_dark .keyword,
-.highlight_theme_dark .literal,
-.highlight_theme_dark .title,
-.highlight_theme_dark .css .id,
-.highlight_theme_dark .phpdoc,
-.highlight_theme_dark .haskell .type,
-.highlight_theme_dark .vbscript .built_in,
-.highlight_theme_dark .sql .aggregate,
-.highlight_theme_dark .rsl .built_in,
-.highlight_theme_dark .smalltalk .class,
-.highlight_theme_dark .diff .header,
-.highlight_theme_dark .chunk,
-.highlight_theme_dark .winutils,
-.highlight_theme_dark .bash .variable,
-.highlight_theme_dark .apache .tag,
-.highlight_theme_dark .tex .special,
-.highlight_theme_dark .request,
-.highlight_theme_dark .status {
+.highlight_theme_dark .hljs-keyword, .highlight_theme_dark .hljs-literal, .highlight_theme_dark .hljs-title, .highlight_theme_dark .css .hljs-id, .highlight_theme_dark .hljs-phpdoc, .highlight_theme_dark .hljs-dartdoc, .highlight_theme_dark .hljs-type, .highlight_theme_dark .vbscript .hljs-built_in, .highlight_theme_dark .rsl .hljs-built_in, .highlight_theme_dark .smalltalk .hljs-class, .highlight_theme_dark .diff .hljs-header, .highlight_theme_dark .hljs-chunk, .highlight_theme_dark .hljs-winutils, .highlight_theme_dark .bash .hljs-variable, .highlight_theme_dark .apache .hljs-tag, .highlight_theme_dark .tex .hljs-special, .highlight_theme_dark .hljs-request, .highlight_theme_dark .hljs-status {
   font-weight: bold;
 }
 
-.highlight_theme_dark .coffeescript .javascript,
-.highlight_theme_dark .xml .css,
-.highlight_theme_dark .xml .javascript,
-.highlight_theme_dark .xml .vbscript,
-.highlight_theme_dark .tex .formula {
+.highlight_theme_dark .coffeescript .javascript, .highlight_theme_dark .javascript .xml, .highlight_theme_dark .tex .hljs-formula, .highlight_theme_dark .xml .javascript, .highlight_theme_dark .xml .vbscript, .highlight_theme_dark .xml .css, .highlight_theme_dark .xml .hljs-cdata {
   opacity: 0.5;
 }

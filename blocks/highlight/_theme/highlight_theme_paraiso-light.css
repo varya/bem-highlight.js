@@ -1,0 +1,58 @@
+/*
+    Paraíso (light)
+    Created by Jan T. Sott (http://github.com/idleberg)
+    Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
+*/
+
+/* Paraíso Comment */
+.highlight_theme_paraiso-light .hljs-comment, .highlight_theme_paraiso-light .hljs-title {
+  color: #776e71;
+}
+
+/* Paraíso Red */
+.highlight_theme_paraiso-light .hljs-variable, .highlight_theme_paraiso-light .hljs-attribute, .highlight_theme_paraiso-light .hljs-tag, .highlight_theme_paraiso-light .hljs-regexp, .highlight_theme_paraiso-light .ruby .hljs-constant, .highlight_theme_paraiso-light .xml .hljs-tag .hljs-title, .highlight_theme_paraiso-light .xml .hljs-pi, .highlight_theme_paraiso-light .xml .hljs-doctype, .highlight_theme_paraiso-light .html .hljs-doctype, .highlight_theme_paraiso-light .css .hljs-id, .highlight_theme_paraiso-light .css .hljs-class, .highlight_theme_paraiso-light .css .hljs-pseudo {
+  color: #ef6155;
+}
+
+/* Paraíso Orange */
+.highlight_theme_paraiso-light .hljs-number, .highlight_theme_paraiso-light .hljs-preprocessor, .highlight_theme_paraiso-light .hljs-built_in, .highlight_theme_paraiso-light .hljs-literal, .highlight_theme_paraiso-light .hljs-params, .highlight_theme_paraiso-light .hljs-constant {
+  color: #f99b15;
+}
+
+/* Paraíso Yellow */
+.highlight_theme_paraiso-light .ruby .hljs-class .hljs-title, .highlight_theme_paraiso-light .css .hljs-rules .hljs-attribute {
+  color: #fec418;
+}
+
+/* Paraíso Green */
+.highlight_theme_paraiso-light .hljs-string, .highlight_theme_paraiso-light .hljs-value, .highlight_theme_paraiso-light .hljs-inheritance, .highlight_theme_paraiso-light .hljs-header, .highlight_theme_paraiso-light .ruby .hljs-symbol, .highlight_theme_paraiso-light .xml .hljs-cdata {
+  color: #48b685;
+}
+
+/* Paraíso Aqua */
+.highlight_theme_paraiso-light .css .hljs-hexcolor {
+  color: #5bc4bf;
+}
+
+/* Paraíso Blue */
+.highlight_theme_paraiso-light .hljs-function, .highlight_theme_paraiso-light .python .hljs-decorator, .highlight_theme_paraiso-light .python .hljs-title, .highlight_theme_paraiso-light .ruby .hljs-function .hljs-title, .highlight_theme_paraiso-light .ruby .hljs-title .hljs-keyword, .highlight_theme_paraiso-light .perl .hljs-sub, .highlight_theme_paraiso-light .javascript .hljs-title, .highlight_theme_paraiso-light .coffeescript .hljs-title {
+  color: #06b6ef;
+}
+
+/* Paraíso Purple */
+.highlight_theme_paraiso-light .hljs-keyword, .highlight_theme_paraiso-light .javascript .hljs-function {
+  color: #815ba4;
+}
+
+.highlight_theme_paraiso-light .hljs {
+  display: block;
+  overflow-x: auto;
+  background: #e7e9db;
+  color: #4f424c;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_paraiso-light .coffeescript .javascript, .highlight_theme_paraiso-light .javascript .xml, .highlight_theme_paraiso-light .tex .hljs-formula, .highlight_theme_paraiso-light .xml .javascript, .highlight_theme_paraiso-light .xml .vbscript, .highlight_theme_paraiso-light .xml .css, .highlight_theme_paraiso-light .xml .hljs-cdata {
+  opacity: 0.5;
+}

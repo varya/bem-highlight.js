@@ -1,0 +1,57 @@
+/* Base16 Atelier Heath Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+/* https://github.com/jmblog/color-themes-for-highlightjs */
+
+/* Atelier Heath Dark Comment */
+.highlight_theme_atelier-heath-dark .hljs-comment, .highlight_theme_atelier-heath-dark .hljs-title {
+  color: #9e8f9e;
+}
+
+/* Atelier Heath Dark Red */
+.highlight_theme_atelier-heath-dark .hljs-variable, .highlight_theme_atelier-heath-dark .hljs-attribute, .highlight_theme_atelier-heath-dark .hljs-tag, .highlight_theme_atelier-heath-dark .hljs-regexp, .highlight_theme_atelier-heath-dark .ruby .hljs-constant, .highlight_theme_atelier-heath-dark .xml .hljs-tag .hljs-title, .highlight_theme_atelier-heath-dark .xml .hljs-pi, .highlight_theme_atelier-heath-dark .xml .hljs-doctype, .highlight_theme_atelier-heath-dark .html .hljs-doctype, .highlight_theme_atelier-heath-dark .css .hljs-id, .highlight_theme_atelier-heath-dark .css .hljs-class, .highlight_theme_atelier-heath-dark .css .hljs-pseudo {
+  color: #ca402b;
+}
+
+/* Atelier Heath Dark Orange */
+.highlight_theme_atelier-heath-dark .hljs-number, .highlight_theme_atelier-heath-dark .hljs-preprocessor, .highlight_theme_atelier-heath-dark .hljs-pragma, .highlight_theme_atelier-heath-dark .hljs-built_in, .highlight_theme_atelier-heath-dark .hljs-literal, .highlight_theme_atelier-heath-dark .hljs-params, .highlight_theme_atelier-heath-dark .hljs-constant {
+  color: #a65926;
+}
+
+/* Atelier Heath Dark Yellow */
+.highlight_theme_atelier-heath-dark .hljs-ruby .hljs-class .hljs-title, .highlight_theme_atelier-heath-dark .css .hljs-rules .hljs-attribute {
+  color: #bb8a35;
+}
+
+/* Atelier Heath Dark Green */
+.highlight_theme_atelier-heath-dark .hljs-string, .highlight_theme_atelier-heath-dark .hljs-value, .highlight_theme_atelier-heath-dark .hljs-inheritance, .highlight_theme_atelier-heath-dark .hljs-header, .highlight_theme_atelier-heath-dark .ruby .hljs-symbol, .highlight_theme_atelier-heath-dark .xml .hljs-cdata {
+  color: #379a37;
+}
+
+/* Atelier Heath Dark Aqua */
+.highlight_theme_atelier-heath-dark .css .hljs-hexcolor {
+  color: #159393;
+}
+
+/* Atelier Heath Dark Blue */
+.highlight_theme_atelier-heath-dark .hljs-function, .highlight_theme_atelier-heath-dark .python .hljs-decorator, .highlight_theme_atelier-heath-dark .python .hljs-title, .highlight_theme_atelier-heath-dark .ruby .hljs-function .hljs-title, .highlight_theme_atelier-heath-dark .ruby .hljs-title .hljs-keyword, .highlight_theme_atelier-heath-dark .perl .hljs-sub, .highlight_theme_atelier-heath-dark .javascript .hljs-title, .highlight_theme_atelier-heath-dark .coffeescript .hljs-title {
+  color: #516aec;
+}
+
+/* Atelier Heath Dark Purple */
+.highlight_theme_atelier-heath-dark .hljs-keyword, .highlight_theme_atelier-heath-dark .javascript .hljs-function {
+  color: #7b59c0;
+}
+
+.highlight_theme_atelier-heath-dark .hljs {
+  display: block;
+  overflow-x: auto;
+  background: #292329;
+  color: #ab9bab;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_atelier-heath-dark .coffeescript .javascript, .highlight_theme_atelier-heath-dark .javascript .xml, .highlight_theme_atelier-heath-dark .tex .hljs-formula, .highlight_theme_atelier-heath-dark .xml .javascript, .highlight_theme_atelier-heath-dark .xml .vbscript, .highlight_theme_atelier-heath-dark .xml .css, .highlight_theme_atelier-heath-dark .xml .hljs-cdata {
+  opacity: 0.5;
+}

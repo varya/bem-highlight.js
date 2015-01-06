@@ -4,107 +4,38 @@ FAR Style (c) MajestiC <majestic2k@gmail.com>
 
 */
 
-.highlight_theme_far code {
-  display: block; padding: 0.5em;
+.highlight_theme_far .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
   background: #000080;
+  -webkit-text-size-adjust: none;
 }
 
-.highlight_theme_far code,
-.ruby .subst {
-  color: #0FF;
+.highlight_theme_far .hljs, .highlight_theme_far .hljs-subst {
+  color: #0ff;
 }
 
-.highlight_theme_far .string,
-.highlight_theme_far .ruby .string,
-.highlight_theme_far .haskell .type,
-.highlight_theme_far .tag .value,
-.highlight_theme_far .css .rules .value,
-.highlight_theme_far .css .rules .value .number,
-.highlight_theme_far .preprocessor,
-.highlight_theme_far .ruby .symbol,
-.highlight_theme_far .ruby .symbol .string,
-.highlight_theme_far .ruby .symbol .keyword,
-.highlight_theme_far .ruby .symbol .keymethods,
-.highlight_theme_far .built_in,
-.highlight_theme_far .sql .aggregate,
-.highlight_theme_far .django .template_tag,
-.highlight_theme_far .django .variable,
-.highlight_theme_far .smalltalk .class,
-.highlight_theme_far .addition,
-.highlight_theme_far .apache .tag,
-.highlight_theme_far .apache .cbracket,
-.highlight_theme_far .tex .command {
-  color: #FF0;
+.highlight_theme_far .hljs-string, .highlight_theme_far .ruby .hljs-string, .highlight_theme_far .haskell .hljs-type, .highlight_theme_far .hljs-tag .hljs-value, .highlight_theme_far .hljs-rules .hljs-value, .highlight_theme_far .hljs-rules .hljs-value .hljs-number, .highlight_theme_far .hljs-preprocessor, .highlight_theme_far .hljs-pragma, .highlight_theme_far .ruby .hljs-symbol, .highlight_theme_far .ruby .hljs-symbol .hljs-string, .highlight_theme_far .hljs-built_in, .highlight_theme_far .django .hljs-template_tag, .highlight_theme_far .django .hljs-variable, .highlight_theme_far .smalltalk .hljs-class, .highlight_theme_far .hljs-addition, .highlight_theme_far .apache .hljs-tag, .highlight_theme_far .apache .hljs-cbracket, .highlight_theme_far .tex .hljs-command, .highlight_theme_far .coffeescript .hljs-attribute {
+  color: #ff0;
 }
 
-.highlight_theme_far .keyword,
-.highlight_theme_far .css .id,
-.highlight_theme_far .title,
-.highlight_theme_far .haskell .type,
-.highlight_theme_far .vbscript .built_in,
-.highlight_theme_far .sql .aggregate,
-.highlight_theme_far .rsl .built_in,
-.highlight_theme_far .smalltalk .class,
-.highlight_theme_far .xml .tag .title,
-.highlight_theme_far .winutils,
-.highlight_theme_far .flow,
-.highlight_theme_far .change,
-.highlight_theme_far .envvar,
-.highlight_theme_far .bash .variable,
-.highlight_theme_far .tex .special {
-  color: #FFF;
+.highlight_theme_far .hljs-keyword, .highlight_theme_far .css .hljs-id, .highlight_theme_far .hljs-title, .highlight_theme_far .hljs-type, .highlight_theme_far .vbscript .hljs-built_in, .highlight_theme_far .rsl .hljs-built_in, .highlight_theme_far .smalltalk .hljs-class, .highlight_theme_far .xml .hljs-tag .hljs-title, .highlight_theme_far .hljs-winutils, .highlight_theme_far .hljs-flow, .highlight_theme_far .hljs-change, .highlight_theme_far .hljs-envvar, .highlight_theme_far .bash .hljs-variable, .highlight_theme_far .tex .hljs-special {
+  color: #fff;
 }
 
-.highlight_theme_far .comment,
-.highlight_theme_far .phpdoc,
-.highlight_theme_far .javadoc,
-.highlight_theme_far .java .annotation,
-.highlight_theme_far .template_comment,
-.highlight_theme_far .deletion,
-.highlight_theme_far .apache .sqbracket,
-.highlight_theme_far .tex .formula {
+.highlight_theme_far .hljs-comment, .highlight_theme_far .hljs-phpdoc, .highlight_theme_far .hljs-dartdoc, .highlight_theme_far .hljs-javadoc, .highlight_theme_far .hljs-annotation, .highlight_theme_far .hljs-deletion, .highlight_theme_far .apache .hljs-sqbracket, .highlight_theme_far .tex .hljs-formula {
   color: #888;
 }
 
-.highlight_theme_far .number,
-.highlight_theme_far .date,
-.highlight_theme_far .regexp,
-.highlight_theme_far .literal,
-.highlight_theme_far .smalltalk .symbol,
-.highlight_theme_far .smalltalk .char {
-  color: #0F0;
+.highlight_theme_far .hljs-number, .highlight_theme_far .hljs-date, .highlight_theme_far .hljs-regexp, .highlight_theme_far .hljs-literal, .highlight_theme_far .smalltalk .hljs-symbol, .highlight_theme_far .smalltalk .hljs-char, .highlight_theme_far .clojure .hljs-attribute {
+  color: #0f0;
 }
 
-.highlight_theme_far .python .decorator,
-.highlight_theme_far .django .filter .argument,
-.highlight_theme_far .smalltalk .localvars,
-.highlight_theme_far .smalltalk .array,
-.highlight_theme_far .attr_selector,
-.highlight_theme_far .pseudo,
-.highlight_theme_far .xml .pi,
-.highlight_theme_far .diff .header,
-.highlight_theme_far .chunk,
-.highlight_theme_far .shebang,
-.highlight_theme_far .nginx .built_in,
-.highlight_theme_far .input_number {
+.highlight_theme_far .hljs-decorator, .highlight_theme_far .django .hljs-filter .hljs-argument, .highlight_theme_far .smalltalk .hljs-localvars, .highlight_theme_far .smalltalk .hljs-array, .highlight_theme_far .hljs-attr_selector, .highlight_theme_far .hljs-pseudo, .highlight_theme_far .xml .hljs-pi, .highlight_theme_far .diff .hljs-header, .highlight_theme_far .hljs-chunk, .highlight_theme_far .hljs-shebang, .highlight_theme_far .nginx .hljs-built_in, .highlight_theme_far .hljs-prompt {
   color: #008080;
 }
 
-.highlight_theme_far .keyword,
-.highlight_theme_far .css .id,
-.highlight_theme_far .title,
-.highlight_theme_far .haskell .type,
-.highlight_theme_far .vbscript .built_in,
-.highlight_theme_far .sql .aggregate,
-.highlight_theme_far .rsl .built_in,
-.highlight_theme_far .smalltalk .class,
-.highlight_theme_far .winutils,
-.highlight_theme_far .flow,
-.highlight_theme_far .apache .tag,
-.highlight_theme_far .nginx .built_in,
-.highlight_theme_far .tex .command,
-.highlight_theme_far .tex .special,
-.highlight_theme_far .request,
-.highlight_theme_far .status {
+.highlight_theme_far .hljs-keyword, .highlight_theme_far .css .hljs-id, .highlight_theme_far .hljs-title, .highlight_theme_far .hljs-type, .highlight_theme_far .vbscript .hljs-built_in, .highlight_theme_far .rsl .hljs-built_in, .highlight_theme_far .smalltalk .hljs-class, .highlight_theme_far .hljs-winutils, .highlight_theme_far .hljs-flow, .highlight_theme_far .apache .hljs-tag, .highlight_theme_far .nginx .hljs-built_in, .highlight_theme_far .tex .hljs-command, .highlight_theme_far .tex .hljs-special, .highlight_theme_far .hljs-request, .highlight_theme_far .hljs-status {
   font-weight: bold;
 }

@@ -3,151 +3,50 @@ Date: 17.V.2011
 Author: pumbur <pumbur@pumbur.net>
 */
 
-.highlight_theme_arta code
-{
-  display: block; padding: 0.5em;
+.highlight_theme_arta .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
   background: #222;
+  -webkit-text-size-adjust: none;
 }
 
-.highlight_theme_arta .profile .header *,
-.highlight_theme_arta .ini .title,
-.highlight_theme_arta .nginx .title
-{
+.highlight_theme_arta .profile .hljs-header *, .highlight_theme_arta .ini .hljs-title, .highlight_theme_arta .nginx .hljs-title {
   color: #fff;
 }
 
-.highlight_theme_arta .comment,
-.highlight_theme_arta .javadoc,
-.highlight_theme_arta .preprocessor,
-.highlight_theme_arta .preprocessor .title,
-.highlight_theme_arta .shebang,
-.highlight_theme_arta .profile .summary,
-.highlight_theme_arta .diff,
-.highlight_theme_arta .pi,
-.highlight_theme_arta .doctype,
-.highlight_theme_arta .tag,
-.highlight_theme_arta .template_comment,
-.highlight_theme_arta .css .rules,
-.highlight_theme_arta .tex .special
-{
+.highlight_theme_arta .hljs-comment, .highlight_theme_arta .hljs-javadoc, .highlight_theme_arta .hljs-preprocessor, .highlight_theme_arta .hljs-preprocessor .hljs-title, .highlight_theme_arta .hljs-pragma, .highlight_theme_arta .hljs-shebang, .highlight_theme_arta .profile .hljs-summary, .highlight_theme_arta .diff, .highlight_theme_arta .hljs-pi, .highlight_theme_arta .hljs-doctype, .highlight_theme_arta .hljs-tag, .highlight_theme_arta .css .hljs-rules, .highlight_theme_arta .tex .hljs-special {
   color: #444;
 }
 
-.highlight_theme_arta .string,
-.highlight_theme_arta .symbol,
-.highlight_theme_arta .diff .change,
-.highlight_theme_arta .regexp,
-.highlight_theme_arta .xml .attribute,
-.highlight_theme_arta .smalltalk .char,
-.highlight_theme_arta .xml .value,
-.highlight_theme_arta .ini .value
-{
+.highlight_theme_arta .hljs-string, .highlight_theme_arta .hljs-symbol, .highlight_theme_arta .diff .hljs-change, .highlight_theme_arta .hljs-regexp, .highlight_theme_arta .xml .hljs-attribute, .highlight_theme_arta .smalltalk .hljs-char, .highlight_theme_arta .xml .hljs-value, .highlight_theme_arta .ini .hljs-value, .highlight_theme_arta .clojure .hljs-attribute, .highlight_theme_arta .coffeescript .hljs-attribute {
   color: #ffcc33;
 }
 
-.highlight_theme_arta .number,
-.highlight_theme_arta .addition
-{
+.highlight_theme_arta .hljs-number, .highlight_theme_arta .hljs-addition {
   color: #00cc66;
 }
 
-.highlight_theme_arta .built_in,
-.highlight_theme_arta .literal,
-.highlight_theme_arta .vhdl .typename,
-.highlight_theme_arta .go .constant,
-.highlight_theme_arta .go .typename,
-.highlight_theme_arta .ini .keyword,
-.highlight_theme_arta .lua .title,
-.highlight_theme_arta .perl .variable,
-.highlight_theme_arta .php .variable,
-.highlight_theme_arta .mel .variable,
-.highlight_theme_arta .django .variable,
-.highlight_theme_arta .css .funtion,
-.highlight_theme_arta .smalltalk .method,
-.highlight_theme_arta .hexcolor,
-.highlight_theme_arta .important,
-.highlight_theme_arta .flow,
-.highlight_theme_arta .inheritance,
-.highlight_theme_arta .parser3 .variable
-{
-  color: #32AAEE;
+.highlight_theme_arta .hljs-built_in, .highlight_theme_arta .hljs-literal, .highlight_theme_arta .hljs-type, .highlight_theme_arta .hljs-typename, .highlight_theme_arta .go .hljs-constant, .highlight_theme_arta .ini .hljs-keyword, .highlight_theme_arta .lua .hljs-title, .highlight_theme_arta .perl .hljs-variable, .highlight_theme_arta .php .hljs-variable, .highlight_theme_arta .mel .hljs-variable, .highlight_theme_arta .django .hljs-variable, .highlight_theme_arta .css .funtion, .highlight_theme_arta .smalltalk .method, .highlight_theme_arta .hljs-hexcolor, .highlight_theme_arta .hljs-important, .highlight_theme_arta .hljs-flow, .highlight_theme_arta .hljs-inheritance, .highlight_theme_arta .parser3 .hljs-variable {
+  color: #32aaee;
 }
 
-.highlight_theme_arta .keyword,
-.highlight_theme_arta .tag .title,
-.highlight_theme_arta .css .tag,
-.highlight_theme_arta .css .class,
-.highlight_theme_arta .css .id,
-.highlight_theme_arta .css .pseudo,
-.highlight_theme_arta .css .attr_selector,
-.highlight_theme_arta .lisp .title,
-.highlight_theme_arta .winutils,
-.highlight_theme_arta .tex .command,
-.highlight_theme_arta .request,
-.highlight_theme_arta .status
-{
+.highlight_theme_arta .hljs-keyword, .highlight_theme_arta .hljs-tag .hljs-title, .highlight_theme_arta .css .hljs-tag, .highlight_theme_arta .css .hljs-class, .highlight_theme_arta .css .hljs-id, .highlight_theme_arta .css .hljs-pseudo, .highlight_theme_arta .css .hljs-attr_selector, .highlight_theme_arta .hljs-winutils, .highlight_theme_arta .tex .hljs-command, .highlight_theme_arta .hljs-request, .highlight_theme_arta .hljs-status {
   color: #6644aa;
 }
 
-.highlight_theme_arta .title,
-.highlight_theme_arta .ruby .constant,
-.highlight_theme_arta .vala .constant,
-.highlight_theme_arta .parent,
-.highlight_theme_arta .deletion,
-.highlight_theme_arta .template_tag,
-.highlight_theme_arta .css .keyword,
-.highlight_theme_arta .objectivec .class .id,
-.highlight_theme_arta .smalltalk .class,
-.highlight_theme_arta .lisp .keyword,
-.highlight_theme_arta .apache .tag,
-.highlight_theme_arta .nginx .variable,
-.highlight_theme_arta .envvar,
-.highlight_theme_arta .bash .variable,
-.highlight_theme_arta .go .built_in,
-.highlight_theme_arta .vbscript .built_in,
-.highlight_theme_arta .lua .built_in,
-.highlight_theme_arta .rsl .built_in,
-.highlight_theme_arta .tail,
-.highlight_theme_arta .avrasm .label,
-.highlight_theme_arta .tex .formula,
-.highlight_theme_arta .tex .formula *
-{
+.highlight_theme_arta .hljs-title, .highlight_theme_arta .ruby .hljs-constant, .highlight_theme_arta .vala .hljs-constant, .highlight_theme_arta .hljs-parent, .highlight_theme_arta .hljs-deletion, .highlight_theme_arta .hljs-template_tag, .highlight_theme_arta .css .hljs-keyword, .highlight_theme_arta .objectivec .hljs-class .hljs-id, .highlight_theme_arta .smalltalk .hljs-class, .highlight_theme_arta .lisp .hljs-keyword, .highlight_theme_arta .apache .hljs-tag, .highlight_theme_arta .nginx .hljs-variable, .highlight_theme_arta .hljs-envvar, .highlight_theme_arta .bash .hljs-variable, .highlight_theme_arta .go .hljs-built_in, .highlight_theme_arta .vbscript .hljs-built_in, .highlight_theme_arta .lua .hljs-built_in, .highlight_theme_arta .rsl .hljs-built_in, .highlight_theme_arta .tail, .highlight_theme_arta .avrasm .hljs-label, .highlight_theme_arta .tex .hljs-formula, .highlight_theme_arta .tex .hljs-formula * {
   color: #bb1166;
 }
 
-.highlight_theme_arta .yardoctag,
-.highlight_theme_arta .phpdoc,
-.highlight_theme_arta .profile .header,
-.highlight_theme_arta .ini .title,
-.highlight_theme_arta .apache .tag,
-.highlight_theme_arta .parser3 .title
-{
+.highlight_theme_arta .hljs-yardoctag, .highlight_theme_arta .hljs-phpdoc, .highlight_theme_arta .hljs-dartdoc, .highlight_theme_arta .profile .hljs-header, .highlight_theme_arta .ini .hljs-title, .highlight_theme_arta .apache .hljs-tag, .highlight_theme_arta .parser3 .hljs-title {
   font-weight: bold;
 }
 
-.highlight_theme_arta .coffeescript .javascript,
-.highlight_theme_arta .xml .javascript,
-.highlight_theme_arta .xml .css,
-.highlight_theme_arta .xml .cdata
-{
+.highlight_theme_arta .coffeescript .javascript, .highlight_theme_arta .javascript .xml, .highlight_theme_arta .tex .hljs-formula, .highlight_theme_arta .xml .javascript, .highlight_theme_arta .xml .vbscript, .highlight_theme_arta .xml .css, .highlight_theme_arta .xml .hljs-cdata {
   opacity: 0.6;
 }
 
-.highlight_theme_arta code,
-.highlight_theme_arta .javascript,
-.highlight_theme_arta .css,
-.highlight_theme_arta .xml,
-.highlight_theme_arta .subst,
-.highlight_theme_arta .diff .chunk,
-.highlight_theme_arta .css .value,
-.highlight_theme_arta .css .attribute,
-.highlight_theme_arta .lisp .string,
-.highlight_theme_arta .lisp .number,
-.highlight_theme_arta .tail .params,
-.highlight_theme_arta .container,
-.highlight_theme_arta .haskell *,
-.highlight_theme_arta .erlang *,
-.highlight_theme_arta .erlang_repl *
-{
+.highlight_theme_arta .hljs, .highlight_theme_arta .hljs-subst, .highlight_theme_arta .diff .hljs-chunk, .highlight_theme_arta .css .hljs-value, .highlight_theme_arta .css .hljs-attribute {
   color: #aaa;
 }

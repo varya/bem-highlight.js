@@ -1,0 +1,57 @@
+/* Base16 Atelier Forest Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+/* https://github.com/jmblog/color-themes-for-highlightjs */
+
+/* Atelier Forest Dark Comment */
+.highlight_theme_atelier-forest-dark .hljs-comment, .highlight_theme_atelier-forest-dark .hljs-title {
+  color: #9c9491;
+}
+
+/* Atelier Forest Dark Red */
+.highlight_theme_atelier-forest-dark .hljs-variable, .highlight_theme_atelier-forest-dark .hljs-attribute, .highlight_theme_atelier-forest-dark .hljs-tag, .highlight_theme_atelier-forest-dark .hljs-regexp, .highlight_theme_atelier-forest-dark .ruby .hljs-constant, .highlight_theme_atelier-forest-dark .xml .hljs-tag .hljs-title, .highlight_theme_atelier-forest-dark .xml .hljs-pi, .highlight_theme_atelier-forest-dark .xml .hljs-doctype, .highlight_theme_atelier-forest-dark .html .hljs-doctype, .highlight_theme_atelier-forest-dark .css .hljs-id, .highlight_theme_atelier-forest-dark .css .hljs-class, .highlight_theme_atelier-forest-dark .css .hljs-pseudo {
+  color: #f22c40;
+}
+
+/* Atelier Forest Dark Orange */
+.highlight_theme_atelier-forest-dark .hljs-number, .highlight_theme_atelier-forest-dark .hljs-preprocessor, .highlight_theme_atelier-forest-dark .hljs-pragma, .highlight_theme_atelier-forest-dark .hljs-built_in, .highlight_theme_atelier-forest-dark .hljs-literal, .highlight_theme_atelier-forest-dark .hljs-params, .highlight_theme_atelier-forest-dark .hljs-constant {
+  color: #df5320;
+}
+
+/* Atelier Forest Dark Yellow */
+.highlight_theme_atelier-forest-dark .hljs-ruby .hljs-class .hljs-title, .highlight_theme_atelier-forest-dark .css .hljs-rules .hljs-attribute {
+  color: #d5911a;
+}
+
+/* Atelier Forest Dark Green */
+.highlight_theme_atelier-forest-dark .hljs-string, .highlight_theme_atelier-forest-dark .hljs-value, .highlight_theme_atelier-forest-dark .hljs-inheritance, .highlight_theme_atelier-forest-dark .hljs-header, .highlight_theme_atelier-forest-dark .ruby .hljs-symbol, .highlight_theme_atelier-forest-dark .xml .hljs-cdata {
+  color: #5ab738;
+}
+
+/* Atelier Forest Dark Aqua */
+.highlight_theme_atelier-forest-dark .css .hljs-hexcolor {
+  color: #00ad9c;
+}
+
+/* Atelier Forest Dark Blue */
+.highlight_theme_atelier-forest-dark .hljs-function, .highlight_theme_atelier-forest-dark .python .hljs-decorator, .highlight_theme_atelier-forest-dark .python .hljs-title, .highlight_theme_atelier-forest-dark .ruby .hljs-function .hljs-title, .highlight_theme_atelier-forest-dark .ruby .hljs-title .hljs-keyword, .highlight_theme_atelier-forest-dark .perl .hljs-sub, .highlight_theme_atelier-forest-dark .javascript .hljs-title, .highlight_theme_atelier-forest-dark .coffeescript .hljs-title {
+  color: #407ee7;
+}
+
+/* Atelier Forest Dark Purple */
+.highlight_theme_atelier-forest-dark .hljs-keyword, .highlight_theme_atelier-forest-dark .javascript .hljs-function {
+  color: #6666ea;
+}
+
+.highlight_theme_atelier-forest-dark .hljs {
+  display: block;
+  overflow-x: auto;
+  background: #2c2421;
+  color: #a8a19f;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_atelier-forest-dark .coffeescript .javascript, .highlight_theme_atelier-forest-dark .javascript .xml, .highlight_theme_atelier-forest-dark .tex .hljs-formula, .highlight_theme_atelier-forest-dark .xml .javascript, .highlight_theme_atelier-forest-dark .xml .vbscript, .highlight_theme_atelier-forest-dark .xml .css, .highlight_theme_atelier-forest-dark .xml .hljs-cdata {
+  opacity: 0.5;
+}

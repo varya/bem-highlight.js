@@ -2,115 +2,46 @@
 Monokai style - ported by Luigi Maselli - http://grigio.org
 */
 
-.highlight_theme_monokai code {
-  display: block; padding: 0.5em;
+.highlight_theme_monokai .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
   background: #272822;
+  -webkit-text-size-adjust: none;
 }
 
-.highlight_theme_monokai .params .identifier .keymethods {
-	color: #FD971F;
+.highlight_theme_monokai .hljs-tag, .highlight_theme_monokai .hljs-tag .hljs-title, .highlight_theme_monokai .hljs-keyword, .highlight_theme_monokai .hljs-literal, .highlight_theme_monokai .hljs-strong, .highlight_theme_monokai .hljs-change, .highlight_theme_monokai .hljs-winutils, .highlight_theme_monokai .hljs-flow, .highlight_theme_monokai .nginx .hljs-title, .highlight_theme_monokai .tex .hljs-special {
+  color: #f92672;
 }
 
-.highlight_theme_monokai .tag,
-.highlight_theme_monokai .tag .title,
-.highlight_theme_monokai .keyword,
-.highlight_theme_monokai .literal,
-.highlight_theme_monokai .change,
-.highlight_theme_monokai .winutils,
-.highlight_theme_monokai .flow,
-.highlight_theme_monokai .lisp .title,
-.highlight_theme_monokai .nginx .title,
-.highlight_theme_monokai .tex .special {
-  color: #F92672;
+.highlight_theme_monokai .hljs {
+  color: #ddd;
 }
 
-.highlight_theme_monokai code {
-  color: #DDD;
+.highlight_theme_monokai .hljs .hljs-constant, .highlight_theme_monokai .asciidoc .hljs-code, .highlight_theme_monokai .markdown .hljs-code {
+	color: #66d9ef;
 }
 
-.highlight_theme_monokai code .constant {
-	color: #66D9EF;
-}
-
-.highlight_theme_monokai .class .title {
+.highlight_theme_monokai .hljs-code, .highlight_theme_monokai .hljs-class .hljs-title, .highlight_theme_monokai .hljs-header {
 	color: white;
 }
 
-.highlight_theme_monokai .attribute,
-.highlight_theme_monokai .symbol,
-.highlight_theme_monokai .value,
-.highlight_theme_monokai .regexp {
-	color: #BF79DB;
+.highlight_theme_monokai .hljs-link_label, .highlight_theme_monokai .hljs-attribute, .highlight_theme_monokai .hljs-symbol, .highlight_theme_monokai .hljs-symbol .hljs-string, .highlight_theme_monokai .hljs-value, .highlight_theme_monokai .hljs-regexp {
+	color: #bf79db;
 }
 
-.highlight_theme_monokai .tag .value,
-.highlight_theme_monokai .string,
-.highlight_theme_monokai .ruby .subst,
-.highlight_theme_monokai .title,
-.highlight_theme_monokai .haskell .type,
-.highlight_theme_monokai .preprocessor,
-.highlight_theme_monokai .ruby .instancevar,
-.highlight_theme_monokai .ruby .class .parent,
-.highlight_theme_monokai .built_in,
-.highlight_theme_monokai .sql .aggregate,
-.highlight_theme_monokai .django .template_tag,
-.highlight_theme_monokai .django .variable,
-.highlight_theme_monokai .smalltalk .class,
-.highlight_theme_monokai .javadoc,
-.highlight_theme_monokai .ruby .string,
-.highlight_theme_monokai .django .filter .argument,
-.highlight_theme_monokai .smalltalk .localvars,
-.highlight_theme_monokai .smalltalk .array,
-.highlight_theme_monokai .attr_selector,
-.highlight_theme_monokai .pseudo,
-.highlight_theme_monokai .addition,
-.highlight_theme_monokai .stream,
-.highlight_theme_monokai .envvar,
-.highlight_theme_monokai .apache .tag,
-.highlight_theme_monokai .apache .cbracket,
-.highlight_theme_monokai .tex .command,
-.highlight_theme_monokai .input_number {
-  color: #A6E22E;
+.highlight_theme_monokai .hljs-link_url, .highlight_theme_monokai .hljs-tag .hljs-value, .highlight_theme_monokai .hljs-string, .highlight_theme_monokai .hljs-bullet, .highlight_theme_monokai .hljs-subst, .highlight_theme_monokai .hljs-title, .highlight_theme_monokai .hljs-emphasis, .highlight_theme_monokai .hljs-type, .highlight_theme_monokai .hljs-preprocessor, .highlight_theme_monokai .hljs-pragma, .highlight_theme_monokai .ruby .hljs-class .hljs-parent, .highlight_theme_monokai .hljs-built_in, .highlight_theme_monokai .django .hljs-template_tag, .highlight_theme_monokai .django .hljs-variable, .highlight_theme_monokai .smalltalk .hljs-class, .highlight_theme_monokai .hljs-javadoc, .highlight_theme_monokai .django .hljs-filter .hljs-argument, .highlight_theme_monokai .smalltalk .hljs-localvars, .highlight_theme_monokai .smalltalk .hljs-array, .highlight_theme_monokai .hljs-attr_selector, .highlight_theme_monokai .hljs-pseudo, .highlight_theme_monokai .hljs-addition, .highlight_theme_monokai .hljs-stream, .highlight_theme_monokai .hljs-envvar, .highlight_theme_monokai .apache .hljs-tag, .highlight_theme_monokai .apache .hljs-cbracket, .highlight_theme_monokai .tex .hljs-command, .highlight_theme_monokai .hljs-prompt {
+  color: #a6e22e;
 }
 
-.highlight_theme_monokai .comment,
-.highlight_theme_monokai .java .annotation,
-.highlight_theme_monokai .python .decorator,
-.highlight_theme_monokai .template_comment,
-.highlight_theme_monokai .pi,
-.highlight_theme_monokai .doctype,
-.highlight_theme_monokai .deletion,
-.highlight_theme_monokai .shebang,
-.highlight_theme_monokai .apache .sqbracket,
-.highlight_theme_monokai .tex .formula {
-  color: #75715E;
+.highlight_theme_monokai .hljs-comment, .highlight_theme_monokai .hljs-annotation, .highlight_theme_monokai .smartquote, .highlight_theme_monokai .hljs-blockquote, .highlight_theme_monokai .hljs-horizontal_rule, .highlight_theme_monokai .hljs-decorator, .highlight_theme_monokai .hljs-pi, .highlight_theme_monokai .hljs-doctype, .highlight_theme_monokai .hljs-deletion, .highlight_theme_monokai .hljs-shebang, .highlight_theme_monokai .apache .hljs-sqbracket, .highlight_theme_monokai .tex .hljs-formula {
+  color: #75715e;
 }
 
-.highlight_theme_monokai .keyword,
-.highlight_theme_monokai .literal,
-.highlight_theme_monokai .css .id,
-.highlight_theme_monokai .phpdoc,
-.highlight_theme_monokai .title,
-.highlight_theme_monokai .haskell .type,
-.highlight_theme_monokai .vbscript .built_in,
-.highlight_theme_monokai .sql .aggregate,
-.highlight_theme_monokai .rsl .built_in,
-.highlight_theme_monokai .smalltalk .class,
-.highlight_theme_monokai .diff .header,
-.highlight_theme_monokai .chunk,
-.highlight_theme_monokai .winutils,
-.highlight_theme_monokai .bash .variable,
-.highlight_theme_monokai .apache .tag,
-.highlight_theme_monokai .tex .special,
-.highlight_theme_monokai .request,
-.highlight_theme_monokai .status {
+.highlight_theme_monokai .hljs-keyword, .highlight_theme_monokai .hljs-literal, .highlight_theme_monokai .css .hljs-id, .highlight_theme_monokai .hljs-phpdoc, .highlight_theme_monokai .hljs-dartdoc, .highlight_theme_monokai .hljs-title, .highlight_theme_monokai .hljs-header, .highlight_theme_monokai .hljs-type, .highlight_theme_monokai .vbscript .hljs-built_in, .highlight_theme_monokai .rsl .hljs-built_in, .highlight_theme_monokai .smalltalk .hljs-class, .highlight_theme_monokai .diff .hljs-header, .highlight_theme_monokai .hljs-chunk, .highlight_theme_monokai .hljs-winutils, .highlight_theme_monokai .bash .hljs-variable, .highlight_theme_monokai .apache .hljs-tag, .highlight_theme_monokai .tex .hljs-special, .highlight_theme_monokai .hljs-request, .highlight_theme_monokai .hljs-status {
   font-weight: bold;
 }
 
-.highlight_theme_monokai .coffeescript .javascript,
-.highlight_theme_monokai .xml .css,
-.highlight_theme_monokai .xml .javascript,
-.highlight_theme_monokai .xml .vbscript,
-.highlight_theme_monokai .tex .formula {
+.highlight_theme_monokai .coffeescript .javascript, .highlight_theme_monokai .javascript .xml, .highlight_theme_monokai .tex .hljs-formula, .highlight_theme_monokai .xml .javascript, .highlight_theme_monokai .xml .vbscript, .highlight_theme_monokai .xml .css, .highlight_theme_monokai .xml .hljs-cdata {
   opacity: 0.5;
 }

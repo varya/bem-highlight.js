@@ -4,87 +4,54 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 
 */
 
-.highlight_theme_solarized-light code {
-  display: block; padding: 0.5em;
-  background: #fdf6e3; color: #657b83;
+.highlight_theme_solarized-light .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fdf6e3;
+  color: #657b83;
+  -webkit-text-size-adjust: none;
 }
 
-.highlight_theme_solarized-light .comment,
-.highlight_theme_solarized-light .template_comment,
-.highlight_theme_solarized-light .diff .header,
-.highlight_theme_solarized-light .doctype,
-.highlight_theme_solarized-light .pi,
-.highlight_theme_solarized-light .lisp .string,
-.highlight_theme_solarized-light .javadoc {
+.highlight_theme_solarized-light .hljs-comment, .highlight_theme_solarized-light .diff .hljs-header, .highlight_theme_solarized-light .hljs-doctype, .highlight_theme_solarized-light .hljs-pi, .highlight_theme_solarized-light .lisp .hljs-string, .highlight_theme_solarized-light .hljs-javadoc {
   color: #93a1a1;
-  font-style: italic;
 }
 
-.highlight_theme_solarized-light .keyword,
-.highlight_theme_solarized-light .winutils,
-.highlight_theme_solarized-light .method,
-.highlight_theme_solarized-light .addition,
-.highlight_theme_solarized-light .css .tag,
-.highlight_theme_solarized-light .request,
-.highlight_theme_solarized-light .status,
-.highlight_theme_solarized-light .nginx .title {
+/* Solarized Green */
+.highlight_theme_solarized-light .hljs-keyword, .highlight_theme_solarized-light .hljs-winutils, .highlight_theme_solarized-light .method, .highlight_theme_solarized-light .hljs-addition, .highlight_theme_solarized-light .css .hljs-tag, .highlight_theme_solarized-light .hljs-request, .highlight_theme_solarized-light .hljs-status, .highlight_theme_solarized-light .nginx .hljs-title {
   color: #859900;
 }
 
-.highlight_theme_solarized-light .number,
-.highlight_theme_solarized-light .command,
-.highlight_theme_solarized-light .string,
-.highlight_theme_solarized-light .tag .value,
-.highlight_theme_solarized-light .phpdoc,
-.highlight_theme_solarized-light .tex .formula,
-.highlight_theme_solarized-light .regexp,
-.highlight_theme_solarized-light .hexcolor {
+/* Solarized Cyan */
+.highlight_theme_solarized-light .hljs-number, .highlight_theme_solarized-light .hljs-command, .highlight_theme_solarized-light .hljs-string, .highlight_theme_solarized-light .hljs-tag .hljs-value, .highlight_theme_solarized-light .hljs-rules .hljs-value, .highlight_theme_solarized-light .hljs-phpdoc, .highlight_theme_solarized-light .hljs-dartdoc, .highlight_theme_solarized-light .tex .hljs-formula, .highlight_theme_solarized-light .hljs-regexp, .highlight_theme_solarized-light .hljs-hexcolor, .highlight_theme_solarized-light .hljs-link_url {
   color: #2aa198;
 }
 
-.highlight_theme_solarized-light .title,
-.highlight_theme_solarized-light .localvars,
-.highlight_theme_solarized-light .chunk,
-.highlight_theme_solarized-light .decorator,
-.highlight_theme_solarized-light .builtin,
-.highlight_theme_solarized-light .built_in,
-.highlight_theme_solarized-light .identifier,
-.highlight_theme_solarized-light .title .keymethods,
-.highlight_theme_solarized-light .vhdl .literal,
-.highlight_theme_solarized-light .id {
+/* Solarized Blue */
+.highlight_theme_solarized-light .hljs-title, .highlight_theme_solarized-light .hljs-localvars, .highlight_theme_solarized-light .hljs-chunk, .highlight_theme_solarized-light .hljs-decorator, .highlight_theme_solarized-light .hljs-built_in, .highlight_theme_solarized-light .hljs-identifier, .highlight_theme_solarized-light .vhdl .hljs-literal, .highlight_theme_solarized-light .hljs-id, .highlight_theme_solarized-light .css .hljs-function {
   color: #268bd2;
 }
 
-.highlight_theme_solarized-light .attribute,
-.highlight_theme_solarized-light .variable,
-.highlight_theme_solarized-light .instancevar,
-.highlight_theme_solarized-light .lisp .body,
-.highlight_theme_solarized-light .smalltalk .number,
-.highlight_theme_solarized-light .constant,
-.highlight_theme_solarized-light .class .title,
-.highlight_theme_solarized-light .parent,
-.highlight_theme_solarized-light .haskell .type {
+/* Solarized Yellow */
+.highlight_theme_solarized-light .hljs-attribute, .highlight_theme_solarized-light .hljs-variable, .highlight_theme_solarized-light .lisp .hljs-body, .highlight_theme_solarized-light .smalltalk .hljs-number, .highlight_theme_solarized-light .hljs-constant, .highlight_theme_solarized-light .hljs-class .hljs-title, .highlight_theme_solarized-light .hljs-parent, .highlight_theme_solarized-light .hljs-type, .highlight_theme_solarized-light .hljs-link_reference {
   color: #b58900;
 }
 
-.highlight_theme_solarized-light .preprocessor,
-.highlight_theme_solarized-light .preprocessor .keyword,
-.highlight_theme_solarized-light .shebang,
-.highlight_theme_solarized-light .symbol,
-.highlight_theme_solarized-light .diff .change,
-.highlight_theme_solarized-light .special,
-.highlight_theme_solarized-light .keymethods,
-.highlight_theme_solarized-light .attr_selector,
-.highlight_theme_solarized-light .important,
-.highlight_theme_solarized-light .subst,
-.highlight_theme_solarized-light .cdata {
+/* Solarized Orange */
+.highlight_theme_solarized-light .hljs-preprocessor, .highlight_theme_solarized-light .hljs-preprocessor .hljs-keyword, .highlight_theme_solarized-light .hljs-pragma, .highlight_theme_solarized-light .hljs-shebang, .highlight_theme_solarized-light .hljs-symbol, .highlight_theme_solarized-light .hljs-symbol .hljs-string, .highlight_theme_solarized-light .diff .hljs-change, .highlight_theme_solarized-light .hljs-special, .highlight_theme_solarized-light .hljs-attr_selector, .highlight_theme_solarized-light .hljs-subst, .highlight_theme_solarized-light .hljs-cdata, .highlight_theme_solarized-light .css .hljs-pseudo, .highlight_theme_solarized-light .hljs-header {
   color: #cb4b16;
 }
 
-.highlight_theme_solarized-light .deletion {
+/* Solarized Red */
+.highlight_theme_solarized-light .hljs-deletion, .highlight_theme_solarized-light .hljs-important {
   color: #dc322f;
 }
 
-.highlight_theme_solarized-light .tex .formula {
+/* Solarized Violet */
+.highlight_theme_solarized-light .hljs-link_label {
+  color: #6c71c4;
+}
+
+.highlight_theme_solarized-light .tex .hljs-formula {
   background: #eee8d5;
 }

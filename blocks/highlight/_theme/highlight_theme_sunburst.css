@@ -4,146 +4,113 @@ Sunburst-like style (c) Vasily Polovnyov <vast@whiteants.net>
 
 */
 
-.highlight_theme_sunburst code {
-  display: block; padding: 0.5em;
-  background: #000; color: #f8f8f8;
+.highlight_theme_sunburst .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000;
+  color: #f8f8f8;
+  -webkit-text-size-adjust: none;
 }
 
-.highlight_theme_sunburst .comment,
-.highlight_theme_sunburst .template_comment,
-.highlight_theme_sunburst .javadoc {
+.highlight_theme_sunburst .hljs-comment, .highlight_theme_sunburst .hljs-javadoc {
   color: #aeaeae;
   font-style: italic;
 }
 
-.highlight_theme_sunburst .keyword,
-.highlight_theme_sunburst .ruby .function .keyword,
-.highlight_theme_sunburst .request,
-.highlight_theme_sunburst .status,
-.highlight_theme_sunburst .nginx .title {
-  color: #E28964;
+.highlight_theme_sunburst .hljs-keyword, .highlight_theme_sunburst .ruby .hljs-function .hljs-keyword, .highlight_theme_sunburst .hljs-request, .highlight_theme_sunburst .hljs-status, .highlight_theme_sunburst .nginx .hljs-title {
+  color: #e28964;
 }
 
-.highlight_theme_sunburst .function .keyword,
-.highlight_theme_sunburst .sub .keyword,
-.highlight_theme_sunburst .method,
-.highlight_theme_sunburst .list .title {
-  color: #99CF50;
+.highlight_theme_sunburst .hljs-function .hljs-keyword, .highlight_theme_sunburst .hljs-sub .hljs-keyword, .highlight_theme_sunburst .method, .highlight_theme_sunburst .hljs-list .hljs-title {
+  color: #99cf50;
 }
 
-.highlight_theme_sunburst .string,
-.highlight_theme_sunburst .tag .value,
-.highlight_theme_sunburst .cdata,
-.highlight_theme_sunburst .filter .argument,
-.highlight_theme_sunburst .attr_selector,
-.highlight_theme_sunburst .apache .cbracket,
-.highlight_theme_sunburst .date,
-.highlight_theme_sunburst .tex .command {
-  color: #65B042;
+.highlight_theme_sunburst .hljs-string, .highlight_theme_sunburst .hljs-tag .hljs-value, .highlight_theme_sunburst .hljs-cdata, .highlight_theme_sunburst .hljs-filter .hljs-argument, .highlight_theme_sunburst .hljs-attr_selector, .highlight_theme_sunburst .apache .hljs-cbracket, .highlight_theme_sunburst .hljs-date, .highlight_theme_sunburst .tex .hljs-command, .highlight_theme_sunburst .coffeescript .hljs-attribute {
+  color: #65b042;
 }
 
-.highlight_theme_sunburst .subst {
-  color: #DAEFA3;
+.highlight_theme_sunburst .hljs-subst {
+  color: #daefa3;
 }
 
-.highlight_theme_sunburst .regexp {
-  color: #E9C062;
+.highlight_theme_sunburst .hljs-regexp {
+  color: #e9c062;
 }
 
-.highlight_theme_sunburst .title,
-.highlight_theme_sunburst .sub .identifier,
-.highlight_theme_sunburst .pi,
-.highlight_theme_sunburst .tag,
-.highlight_theme_sunburst .tag .keyword,
-.highlight_theme_sunburst .decorator,
-.highlight_theme_sunburst .shebang,
-.highlight_theme_sunburst .input_number {
-  color: #89BDFF;
+.highlight_theme_sunburst .hljs-title, .highlight_theme_sunburst .hljs-sub .hljs-identifier, .highlight_theme_sunburst .hljs-pi, .highlight_theme_sunburst .hljs-tag, .highlight_theme_sunburst .hljs-tag .hljs-keyword, .highlight_theme_sunburst .hljs-decorator, .highlight_theme_sunburst .hljs-shebang, .highlight_theme_sunburst .hljs-prompt {
+  color: #89bdff;
 }
 
-.highlight_theme_sunburst .class .title,
-.highlight_theme_sunburst .haskell .type,
-.highlight_theme_sunburst .smalltalk .class,
-.highlight_theme_sunburst .javadoctag,
-.highlight_theme_sunburst .yardoctag,
-.highlight_theme_sunburst .phpdoc {
+.highlight_theme_sunburst .hljs-class .hljs-title, .highlight_theme_sunburst .hljs-type, .highlight_theme_sunburst .smalltalk .hljs-class, .highlight_theme_sunburst .hljs-javadoctag, .highlight_theme_sunburst .hljs-yardoctag, .highlight_theme_sunburst .hljs-phpdoc, .highlight_theme_sunburst .hljs-dartdoc {
   text-decoration: underline;
 }
 
-.highlight_theme_sunburst .symbol,
-.highlight_theme_sunburst .ruby .symbol .string,
-.highlight_theme_sunburst .ruby .symbol .keyword,
-.highlight_theme_sunburst .ruby .symbol .keymethods,
-.highlight_theme_sunburst .number {
-  color: #3387CC;
+.highlight_theme_sunburst .hljs-symbol, .highlight_theme_sunburst .ruby .hljs-symbol .hljs-string, .highlight_theme_sunburst .hljs-number {
+  color: #3387cc;
 }
 
-.highlight_theme_sunburst .params,
-.highlight_theme_sunburst .variable {
-  color: #3E87E3;
+.highlight_theme_sunburst .hljs-params, .highlight_theme_sunburst .hljs-variable, .highlight_theme_sunburst .clojure .hljs-attribute {
+  color: #3e87e3;
 }
 
-.highlight_theme_sunburst .css .tag,
-.highlight_theme_sunburst .rules .property,
-.highlight_theme_sunburst .pseudo,
-.highlight_theme_sunburst .tex .special {
-  color: #CDA869;
+.highlight_theme_sunburst .css .hljs-tag, .highlight_theme_sunburst .hljs-rules .hljs-property, .highlight_theme_sunburst .hljs-pseudo, .highlight_theme_sunburst .tex .hljs-special {
+  color: #cda869;
 }
 
-.highlight_theme_sunburst .css .class {
-  color: #9B703F;
+.highlight_theme_sunburst .css .hljs-class {
+  color: #9b703f;
 }
 
-.highlight_theme_sunburst .rules .keyword {
-  color: #C5AF75;
+.highlight_theme_sunburst .hljs-rules .hljs-keyword {
+  color: #c5af75;
 }
 
-.highlight_theme_sunburst .rules .value {
-  color: #CF6A4C;
+.highlight_theme_sunburst .hljs-rules .hljs-value {
+  color: #cf6a4c;
 }
 
-.highlight_theme_sunburst .css .id {
-  color: #8B98AB;
+.highlight_theme_sunburst .css .hljs-id {
+  color: #8b98ab;
 }
 
-.highlight_theme_sunburst .annotation,
-.highlight_theme_sunburst .apache .sqbracket,
-.highlight_theme_sunburst .nginx .built_in {
-  color: #9B859D;
+.highlight_theme_sunburst .hljs-annotation, .highlight_theme_sunburst .apache .hljs-sqbracket, .highlight_theme_sunburst .nginx .hljs-built_in {
+  color: #9b859d;
 }
 
-.highlight_theme_sunburst .preprocessor {
-  color: #8996A8;
+.highlight_theme_sunburst .hljs-preprocessor, .highlight_theme_sunburst .hljs-pragma {
+  color: #8996a8;
 }
 
-.highlight_theme_sunburst .hexcolor,
-.highlight_theme_sunburst .css .value .number {
-  color: #DD7B3B;
+.highlight_theme_sunburst .hljs-hexcolor, .highlight_theme_sunburst .css .hljs-value .hljs-number {
+  color: #dd7b3b;
 }
 
-.highlight_theme_sunburst .css .function {
-  color: #DAD085;
+.highlight_theme_sunburst .css .hljs-function {
+  color: #dad085;
 }
 
-.highlight_theme_sunburst .diff .header,
-.highlight_theme_sunburst .chunk,
-.highlight_theme_sunburst .tex .formula {
-  background-color: #0E2231;
-  color: #F8F8F8;
+.highlight_theme_sunburst .diff .hljs-header, .highlight_theme_sunburst .hljs-chunk, .highlight_theme_sunburst .tex .hljs-formula {
+  background-color: #0e2231;
+  color: #f8f8f8;
   font-style: italic;
 }
 
-.highlight_theme_sunburst .diff .change {
-  background-color: #4A410D;
-  color: #F8F8F8;
+.highlight_theme_sunburst .diff .hljs-change {
+  background-color: #4a410d;
+  color: #f8f8f8;
 }
 
-.highlight_theme_sunburst .addition {
-  background-color: #253B22;
-  color: #F8F8F8;
+.highlight_theme_sunburst .hljs-addition {
+  background-color: #253b22;
+  color: #f8f8f8;
 }
 
-.highlight_theme_sunburst .deletion {
-  background-color: #420E09;
-  color: #F8F8F8;
+.highlight_theme_sunburst .hljs-deletion {
+  background-color: #420e09;
+  color: #f8f8f8;
+}
+
+.highlight_theme_sunburst .coffeescript .javascript, .highlight_theme_sunburst .javascript .xml, .highlight_theme_sunburst .tex .hljs-formula, .highlight_theme_sunburst .xml .javascript, .highlight_theme_sunburst .xml .vbscript, .highlight_theme_sunburst .xml .css, .highlight_theme_sunburst .xml .hljs-cdata {
+  opacity: 0.5;
 }

@@ -1,0 +1,49 @@
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+.highlight_theme_default .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #f0f0f0;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_default .hljs, .highlight_theme_default .hljs-subst, .highlight_theme_default .hljs-tag .hljs-title, .highlight_theme_default .nginx .hljs-title {
+  color: black;
+}
+
+.highlight_theme_default .hljs-string, .highlight_theme_default .hljs-title, .highlight_theme_default .hljs-constant, .highlight_theme_default .hljs-parent, .highlight_theme_default .hljs-tag .hljs-value, .highlight_theme_default .hljs-rules .hljs-value, .highlight_theme_default .hljs-preprocessor, .highlight_theme_default .hljs-pragma, .highlight_theme_default .haml .hljs-symbol, .highlight_theme_default .ruby .hljs-symbol, .highlight_theme_default .ruby .hljs-symbol .hljs-string, .highlight_theme_default .hljs-template_tag, .highlight_theme_default .django .hljs-variable, .highlight_theme_default .smalltalk .hljs-class, .highlight_theme_default .hljs-addition, .highlight_theme_default .hljs-flow, .highlight_theme_default .hljs-stream, .highlight_theme_default .bash .hljs-variable, .highlight_theme_default .apache .hljs-tag, .highlight_theme_default .apache .hljs-cbracket, .highlight_theme_default .tex .hljs-command, .highlight_theme_default .tex .hljs-special, .highlight_theme_default .erlang_repl .hljs-function_or_atom, .highlight_theme_default .asciidoc .hljs-header, .highlight_theme_default .markdown .hljs-header, .highlight_theme_default .coffeescript .hljs-attribute {
+  color: #800;
+}
+
+.highlight_theme_default .smartquote, .highlight_theme_default .hljs-comment, .highlight_theme_default .hljs-annotation, .highlight_theme_default .diff .hljs-header, .highlight_theme_default .hljs-chunk, .highlight_theme_default .asciidoc .hljs-blockquote, .highlight_theme_default .markdown .hljs-blockquote {
+  color: #888;
+}
+
+.highlight_theme_default .hljs-number, .highlight_theme_default .hljs-date, .highlight_theme_default .hljs-regexp, .highlight_theme_default .hljs-literal, .highlight_theme_default .hljs-hexcolor, .highlight_theme_default .smalltalk .hljs-symbol, .highlight_theme_default .smalltalk .hljs-char, .highlight_theme_default .go .hljs-constant, .highlight_theme_default .hljs-change, .highlight_theme_default .lasso .hljs-variable, .highlight_theme_default .makefile .hljs-variable, .highlight_theme_default .asciidoc .hljs-bullet, .highlight_theme_default .markdown .hljs-bullet, .highlight_theme_default .asciidoc .hljs-link_url, .highlight_theme_default .markdown .hljs-link_url {
+  color: #080;
+}
+
+.highlight_theme_default .hljs-label, .highlight_theme_default .hljs-javadoc, .highlight_theme_default .ruby .hljs-string, .highlight_theme_default .hljs-decorator, .highlight_theme_default .hljs-filter .hljs-argument, .highlight_theme_default .hljs-localvars, .highlight_theme_default .hljs-array, .highlight_theme_default .hljs-attr_selector, .highlight_theme_default .hljs-important, .highlight_theme_default .hljs-pseudo, .highlight_theme_default .hljs-pi, .highlight_theme_default .haml .hljs-bullet, .highlight_theme_default .hljs-doctype, .highlight_theme_default .hljs-deletion, .highlight_theme_default .hljs-envvar, .highlight_theme_default .hljs-shebang, .highlight_theme_default .apache .hljs-sqbracket, .highlight_theme_default .nginx .hljs-built_in, .highlight_theme_default .tex .hljs-formula, .highlight_theme_default .erlang_repl .hljs-reserved, .highlight_theme_default .hljs-prompt, .highlight_theme_default .asciidoc .hljs-link_label, .highlight_theme_default .markdown .hljs-link_label, .highlight_theme_default .vhdl .hljs-attribute, .highlight_theme_default .clojure .hljs-attribute, .highlight_theme_default .asciidoc .hljs-attribute, .highlight_theme_default .lasso .hljs-attribute, .highlight_theme_default .coffeescript .hljs-property, .highlight_theme_default .hljs-phony {
+  color: #88f;
+}
+
+.highlight_theme_default .hljs-keyword, .highlight_theme_default .hljs-id, .highlight_theme_default .hljs-title, .highlight_theme_default .hljs-built_in, .highlight_theme_default .css .hljs-tag, .highlight_theme_default .hljs-javadoctag, .highlight_theme_default .hljs-phpdoc, .highlight_theme_default .hljs-dartdoc, .highlight_theme_default .hljs-yardoctag, .highlight_theme_default .smalltalk .hljs-class, .highlight_theme_default .hljs-winutils, .highlight_theme_default .bash .hljs-variable, .highlight_theme_default .apache .hljs-tag, .highlight_theme_default .hljs-type, .highlight_theme_default .hljs-typename, .highlight_theme_default .tex .hljs-command, .highlight_theme_default .asciidoc .hljs-strong, .highlight_theme_default .markdown .hljs-strong, .highlight_theme_default .hljs-request, .highlight_theme_default .hljs-status {
+  font-weight: bold;
+}
+
+.highlight_theme_default .asciidoc .hljs-emphasis, .highlight_theme_default .markdown .hljs-emphasis {
+  font-style: italic;
+}
+
+.highlight_theme_default .nginx .hljs-built_in {
+  font-weight: normal;
+}
+
+.highlight_theme_default .coffeescript .javascript, .highlight_theme_default .javascript .xml, .highlight_theme_default .lasso .markup, .highlight_theme_default .tex .hljs-formula, .highlight_theme_default .xml .javascript, .highlight_theme_default .xml .vbscript, .highlight_theme_default .xml .css, .highlight_theme_default .xml .hljs-cdata {
+  opacity: 0.5;
+}

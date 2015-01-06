@@ -1,0 +1,26 @@
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+.highlight_theme_ascetic .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_ascetic .hljs-string, .highlight_theme_ascetic .hljs-tag .hljs-value, .highlight_theme_ascetic .hljs-filter .hljs-argument, .highlight_theme_ascetic .hljs-addition, .highlight_theme_ascetic .hljs-change, .highlight_theme_ascetic .apache .hljs-tag, .highlight_theme_ascetic .apache .hljs-cbracket, .highlight_theme_ascetic .nginx .hljs-built_in, .highlight_theme_ascetic .tex .hljs-formula {
+  color: #888;
+}
+
+.highlight_theme_ascetic .hljs-comment, .highlight_theme_ascetic .hljs-shebang, .highlight_theme_ascetic .hljs-doctype, .highlight_theme_ascetic .hljs-pi, .highlight_theme_ascetic .hljs-javadoc, .highlight_theme_ascetic .hljs-deletion, .highlight_theme_ascetic .apache .hljs-sqbracket {
+  color: #ccc;
+}
+
+.highlight_theme_ascetic .hljs-keyword, .highlight_theme_ascetic .hljs-tag .hljs-title, .highlight_theme_ascetic .ini .hljs-title, .highlight_theme_ascetic .lisp .hljs-title, .highlight_theme_ascetic .http .hljs-title, .highlight_theme_ascetic .nginx .hljs-title, .highlight_theme_ascetic .css .hljs-tag, .highlight_theme_ascetic .hljs-winutils, .highlight_theme_ascetic .hljs-flow, .highlight_theme_ascetic .apache .hljs-tag, .highlight_theme_ascetic .tex .hljs-command, .highlight_theme_ascetic .hljs-request, .highlight_theme_ascetic .hljs-status {
+  font-weight: bold;
+}

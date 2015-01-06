@@ -1,0 +1,54 @@
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.highlight_theme_tomorrow .hljs-comment {
+  color: #8e908c;
+}
+
+/* Tomorrow Red */
+.highlight_theme_tomorrow .hljs-variable, .highlight_theme_tomorrow .hljs-attribute, .highlight_theme_tomorrow .hljs-tag, .highlight_theme_tomorrow .hljs-regexp, .highlight_theme_tomorrow .ruby .hljs-constant, .highlight_theme_tomorrow .xml .hljs-tag .hljs-title, .highlight_theme_tomorrow .xml .hljs-pi, .highlight_theme_tomorrow .xml .hljs-doctype, .highlight_theme_tomorrow .html .hljs-doctype, .highlight_theme_tomorrow .css .hljs-id, .highlight_theme_tomorrow .css .hljs-class, .highlight_theme_tomorrow .css .hljs-pseudo {
+  color: #c82829;
+}
+
+/* Tomorrow Orange */
+.highlight_theme_tomorrow .hljs-number, .highlight_theme_tomorrow .hljs-preprocessor, .highlight_theme_tomorrow .hljs-pragma, .highlight_theme_tomorrow .hljs-built_in, .highlight_theme_tomorrow .hljs-literal, .highlight_theme_tomorrow .hljs-params, .highlight_theme_tomorrow .hljs-constant {
+  color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.highlight_theme_tomorrow .ruby .hljs-class .hljs-title, .highlight_theme_tomorrow .css .hljs-rules .hljs-attribute {
+  color: #eab700;
+}
+
+/* Tomorrow Green */
+.highlight_theme_tomorrow .hljs-string, .highlight_theme_tomorrow .hljs-value, .highlight_theme_tomorrow .hljs-inheritance, .highlight_theme_tomorrow .hljs-header, .highlight_theme_tomorrow .ruby .hljs-symbol, .highlight_theme_tomorrow .xml .hljs-cdata {
+  color: #718c00;
+}
+
+/* Tomorrow Aqua */
+.highlight_theme_tomorrow .hljs-title, .highlight_theme_tomorrow .css .hljs-hexcolor {
+  color: #3e999f;
+}
+
+/* Tomorrow Blue */
+.highlight_theme_tomorrow .hljs-function, .highlight_theme_tomorrow .python .hljs-decorator, .highlight_theme_tomorrow .python .hljs-title, .highlight_theme_tomorrow .ruby .hljs-function .hljs-title, .highlight_theme_tomorrow .ruby .hljs-title .hljs-keyword, .highlight_theme_tomorrow .perl .hljs-sub, .highlight_theme_tomorrow .javascript .hljs-title, .highlight_theme_tomorrow .coffeescript .hljs-title {
+  color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.highlight_theme_tomorrow .hljs-keyword, .highlight_theme_tomorrow .javascript .hljs-function {
+  color: #8959a8;
+}
+
+.highlight_theme_tomorrow .hljs {
+  display: block;
+  overflow-x: auto;
+  background: white;
+  color: #4d4d4c;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_tomorrow .coffeescript .javascript, .highlight_theme_tomorrow .javascript .xml, .highlight_theme_tomorrow .tex .hljs-formula, .highlight_theme_tomorrow .xml .javascript, .highlight_theme_tomorrow .xml .vbscript, .highlight_theme_tomorrow .xml .css, .highlight_theme_tomorrow .xml .hljs-cdata {
+  opacity: 0.5;
+}

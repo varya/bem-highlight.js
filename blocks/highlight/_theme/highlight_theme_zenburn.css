@@ -5,111 +5,56 @@ based on dark.css by Ivan Sagalaev
 
 */
 
-.highlight_theme_zenburn code {
-  display: block; padding: 0.5em;
-  background: #3F3F3F;
-  color: #DCDCDC;
+.highlight_theme_zenburn .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #3f3f3f;
+  color: #dcdcdc;
+  -webkit-text-size-adjust: none;
 }
 
-.highlight_theme_zenburn .keyword,
-.highlight_theme_zenburn .tag,
-.highlight_theme_zenburn .css .class,
-.highlight_theme_zenburn .css .id,
-.highlight_theme_zenburn .lisp .title,
-.highlight_theme_zenburn .nginx .title,
-.highlight_theme_zenburn .request,
-.highlight_theme_zenburn .status {
-  color: #E3CEAB;
+.highlight_theme_zenburn .hljs-keyword, .highlight_theme_zenburn .hljs-tag, .highlight_theme_zenburn .css .hljs-class, .highlight_theme_zenburn .css .hljs-id, .highlight_theme_zenburn .lisp .hljs-title, .highlight_theme_zenburn .nginx .hljs-title, .highlight_theme_zenburn .hljs-request, .highlight_theme_zenburn .hljs-status, .highlight_theme_zenburn .clojure .hljs-attribute {
+  color: #e3ceab;
 }
 
-.highlight_theme_zenburn .django .template_tag,
-.highlight_theme_zenburn .django .variable,
-.highlight_theme_zenburn .django .filter .argument {
-  color: #DCDCDC;
+.highlight_theme_zenburn .django .hljs-template_tag, .highlight_theme_zenburn .django .hljs-variable, .highlight_theme_zenburn .django .hljs-filter .hljs-argument {
+  color: #dcdcdc;
 }
 
-.highlight_theme_zenburn .number,
-.highlight_theme_zenburn .date {
-  color: #8CD0D3;
+.highlight_theme_zenburn .hljs-number, .highlight_theme_zenburn .hljs-date {
+  color: #8cd0d3;
 }
 
-.highlight_theme_zenburn .dos .envvar,
-.highlight_theme_zenburn .dos .stream,
-.highlight_theme_zenburn .variable,
-.highlight_theme_zenburn .apache .sqbracket {
-  color: #EFDCBC;
+.highlight_theme_zenburn .dos .hljs-envvar, .highlight_theme_zenburn .dos .hljs-stream, .highlight_theme_zenburn .hljs-variable, .highlight_theme_zenburn .apache .hljs-sqbracket {
+  color: #efdcbc;
 }
 
-.highlight_theme_zenburn .dos .flow,
-.highlight_theme_zenburn .diff .change,
-.highlight_theme_zenburn .python .exception,
-.highlight_theme_zenburn .python .built_in,
-.highlight_theme_zenburn .literal,
-.highlight_theme_zenburn .tex .special {
-  color: #EFEFAF;
+.highlight_theme_zenburn .dos .hljs-flow, .highlight_theme_zenburn .diff .hljs-change, .highlight_theme_zenburn .python .exception, .highlight_theme_zenburn .python .hljs-built_in, .highlight_theme_zenburn .hljs-literal, .highlight_theme_zenburn .tex .hljs-special {
+  color: #efefaf;
 }
 
-.highlight_theme_zenburn .diff .chunk,
-.highlight_theme_zenburn .ruby .subst {
-  color: #8F8F8F;
+.highlight_theme_zenburn .diff .hljs-chunk, .highlight_theme_zenburn .hljs-subst {
+  color: #8f8f8f;
 }
 
-.highlight_theme_zenburn .dos .keyword,
-.highlight_theme_zenburn .python .decorator,
-.highlight_theme_zenburn .title,
-.highlight_theme_zenburn .haskell .type,
-.highlight_theme_zenburn .diff .header,
-.highlight_theme_zenburn .ruby .class .parent,
-.highlight_theme_zenburn .apache .tag,
-.highlight_theme_zenburn .nginx .built_in,
-.highlight_theme_zenburn .tex .command,
-.highlight_theme_zenburn .input_number {
-    color: #efef8f;
+.highlight_theme_zenburn .dos .hljs-keyword, .highlight_theme_zenburn .hljs-decorator, .highlight_theme_zenburn .hljs-title, .highlight_theme_zenburn .hljs-type, .highlight_theme_zenburn .diff .hljs-header, .highlight_theme_zenburn .ruby .hljs-class .hljs-parent, .highlight_theme_zenburn .apache .hljs-tag, .highlight_theme_zenburn .nginx .hljs-built_in, .highlight_theme_zenburn .tex .hljs-command, .highlight_theme_zenburn .hljs-prompt {
+  color: #efef8f;
 }
 
-.highlight_theme_zenburn .dos .winutils,
-.highlight_theme_zenburn .ruby .symbol,
-.highlight_theme_zenburn .ruby .symbol .string,
-.highlight_theme_zenburn .ruby .symbol .keyword,
-.highlight_theme_zenburn .ruby .symbol .keymethods,
-.highlight_theme_zenburn .ruby .string,
-.highlight_theme_zenburn .ruby .instancevar {
-  color: #DCA3A3;
+.highlight_theme_zenburn .dos .hljs-winutils, .highlight_theme_zenburn .ruby .hljs-symbol, .highlight_theme_zenburn .ruby .hljs-symbol .hljs-string, .highlight_theme_zenburn .ruby .hljs-string {
+  color: #dca3a3;
 }
 
-.highlight_theme_zenburn .diff .deletion,
-.highlight_theme_zenburn .string,
-.highlight_theme_zenburn .tag .value,
-.highlight_theme_zenburn .preprocessor,
-.highlight_theme_zenburn .built_in,
-.highlight_theme_zenburn .sql .aggregate,
-.highlight_theme_zenburn .javadoc,
-.highlight_theme_zenburn .smalltalk .class,
-.highlight_theme_zenburn .smalltalk .localvars,
-.highlight_theme_zenburn .smalltalk .array,
-.highlight_theme_zenburn .css .rules .value,
-.highlight_theme_zenburn .attr_selector,
-.highlight_theme_zenburn .pseudo,
-.highlight_theme_zenburn .apache .cbracket,
-.highlight_theme_zenburn .tex .formula {
-  color: #CC9393;
+.highlight_theme_zenburn .diff .hljs-deletion, .highlight_theme_zenburn .hljs-string, .highlight_theme_zenburn .hljs-tag .hljs-value, .highlight_theme_zenburn .hljs-preprocessor, .highlight_theme_zenburn .hljs-pragma, .highlight_theme_zenburn .hljs-built_in, .highlight_theme_zenburn .hljs-javadoc, .highlight_theme_zenburn .smalltalk .hljs-class, .highlight_theme_zenburn .smalltalk .hljs-localvars, .highlight_theme_zenburn .smalltalk .hljs-array, .highlight_theme_zenburn .css .hljs-rules .hljs-value, .highlight_theme_zenburn .hljs-attr_selector, .highlight_theme_zenburn .hljs-pseudo, .highlight_theme_zenburn .apache .hljs-cbracket, .highlight_theme_zenburn .tex .hljs-formula, .highlight_theme_zenburn .coffeescript .hljs-attribute {
+  color: #cc9393;
 }
 
-.highlight_theme_zenburn .shebang,
-.highlight_theme_zenburn .diff .addition,
-.highlight_theme_zenburn .comment,
-.highlight_theme_zenburn .java .annotation,
-.highlight_theme_zenburn .template_comment,
-.highlight_theme_zenburn .pi,
-.highlight_theme_zenburn .doctype {
-  color: #7F9F7F;
+.highlight_theme_zenburn .hljs-shebang, .highlight_theme_zenburn .diff .hljs-addition, .highlight_theme_zenburn .hljs-comment, .highlight_theme_zenburn .hljs-annotation, .highlight_theme_zenburn .hljs-pi, .highlight_theme_zenburn .hljs-doctype {
+  color: #7f9f7f;
 }
 
-.highlight_theme_zenburn .coffeescript .javascript,
-.highlight_theme_zenburn .xml .css,
-.highlight_theme_zenburn .xml .javascript,
-.highlight_theme_zenburn .xml .vbscript,
-.highlight_theme_zenburn .tex .formula {
+.highlight_theme_zenburn .coffeescript .javascript, .highlight_theme_zenburn .javascript .xml, .highlight_theme_zenburn .tex .hljs-formula, .highlight_theme_zenburn .xml .javascript, .highlight_theme_zenburn .xml .vbscript, .highlight_theme_zenburn .xml .css, .highlight_theme_zenburn .xml .hljs-cdata {
   opacity: 0.5;
 }
 

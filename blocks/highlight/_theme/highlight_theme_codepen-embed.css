@@ -1,0 +1,68 @@
+/*
+  codepen.io Embed Theme
+  Author: Justin Perry <http://github.com/ourmaninamsterdam>
+  Original theme - https://github.com/chriskempson/tomorrow-theme
+*/
+
+.highlight_theme_codepen-embed .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #222;
+  color: #fff;
+  font-family: Menlo, Monaco, 'Andale Mono', 'Lucida Console', 'Courier New', monospace;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_codepen-embed .hljs-comment, .highlight_theme_codepen-embed .hljs-title {
+  color: #777;
+}
+
+.highlight_theme_codepen-embed .hljs-variable, .highlight_theme_codepen-embed .hljs-attribute, .highlight_theme_codepen-embed .hljs-tag, .highlight_theme_codepen-embed .hljs-regexp, .highlight_theme_codepen-embed .ruby .constant, .highlight_theme_codepen-embed .xml .tag .title, .highlight_theme_codepen-embed .xml .pi, .highlight_theme_codepen-embed .xml .doctype, .highlight_theme_codepen-embed .html .doctype {
+  color: #ab875d;
+}
+
+.highlight_theme_codepen-embed .css .value {
+  color: #cd6a51;
+}
+
+.highlight_theme_codepen-embed .css .value .function, .highlight_theme_codepen-embed .css .value .string {
+  color: #a67f59;
+}
+
+.highlight_theme_codepen-embed .css .value .number {
+  color: #9b869c;
+}
+
+.highlight_theme_codepen-embed .css .id, .highlight_theme_codepen-embed .css .class, .highlight_theme_codepen-embed .css-pseudo, .highlight_theme_codepen-embed .css .selector, .highlight_theme_codepen-embed .css .tag {
+  color: #dfc48c;
+}
+
+.highlight_theme_codepen-embed .hljs-number, .highlight_theme_codepen-embed .hljs-preprocessor, .highlight_theme_codepen-embed .hljs-built_in, .highlight_theme_codepen-embed .hljs-literal, .highlight_theme_codepen-embed .hljs-params, .highlight_theme_codepen-embed .hljs-constant {
+  color: #ab875d;
+}
+
+.highlight_theme_codepen-embed .ruby .class .title, .highlight_theme_codepen-embed .css .rules .attribute {
+  color: #9b869b;
+}
+
+.highlight_theme_codepen-embed .hljs-string, .highlight_theme_codepen-embed .hljs-value, .highlight_theme_codepen-embed .hljs-inheritance, .highlight_theme_codepen-embed .hljs-header, .highlight_theme_codepen-embed .ruby .symbol, .highlight_theme_codepen-embed .xml .cdata {
+  color: #8f9c6c;
+}
+
+.highlight_theme_codepen-embed .css .hexcolor {
+  color: #cd6a51;
+}
+
+.highlight_theme_codepen-embed .function, .highlight_theme_codepen-embed .python .decorator, .highlight_theme_codepen-embed .python .title, .highlight_theme_codepen-embed .ruby .function .title, .highlight_theme_codepen-embed .ruby .title .keyword, .highlight_theme_codepen-embed .perl .sub, .highlight_theme_codepen-embed .javascript .title, .highlight_theme_codepen-embed .coffeescript .title {
+  color: #fff;
+}
+
+.highlight_theme_codepen-embed .hljs-keyword, .highlight_theme_codepen-embed .javascript .function {
+  color: #8f9c6c;
+}
+
+.highlight_theme_codepen-embed .coffeescript .javascript, .highlight_theme_codepen-embed .javascript, .highlight_theme_codepen-embed .javascript .xml, .highlight_theme_codepen-embed .tex .formula, .highlight_theme_codepen-embed .xml .javascript, .highlight_theme_codepen-embed .xml .vbscript, .highlight_theme_codepen-embed .xml .css, .highlight_theme_codepen-embed .xml .cdata {
+    background: transparent;
+    opacity: 1;
+}
