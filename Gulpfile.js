@@ -5,7 +5,7 @@ gulp.task('copy-source', function(){
   return gulp.src([
       'libs/highlight.js/src/*.js',
       'libs/highlight.js/src/*/*.js'
-    ]).pipe(gulp.dest('blocks/highlight-source'));
+    ]).pipe(gulp.dest('blocks/highlight/src'));
 
 });
 
