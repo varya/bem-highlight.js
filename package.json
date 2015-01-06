@@ -22,7 +22,8 @@
   },
   "devDependencies": {
     "bem": "~0.5.20",
-    "gulp": "^3.8.10"
+    "gulp": "^3.8.10",
+    "gulp-run": "^1.6.5"
   },
   "scripts": {
     "install": "./node_modules/bower-npm-install/bin/bower-npm-install",
