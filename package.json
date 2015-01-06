@@ -1,7 +1,7 @@
 {
   "author": "Varya Stepanova",
   "name": "bem-highlight.js",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "repository": {
     "type": "git",
     "url": "git://github.com/varya/bem-highlight.js"
@@ -30,8 +30,7 @@
     "postcss": "^4.0.0"
   },
   "scripts": {
-    "install": "./node_modules/bower-npm-install/bin/bower-npm-install",
-    "postinstall": "./node_modules/borschik/bin/borschik -i blocks/highlight/highlight.src.js -m no -o blocks/highlight/highlight.js"
+    "install": "./node_modules/bower-npm-install/bin/bower-npm-install"
   },
   "private": true
 }
