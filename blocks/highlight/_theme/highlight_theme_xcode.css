@@ -4,150 +4,99 @@ XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
 
 */
 
-.highlight_theme_xcode code {
-  display: block; padding: 0.5em;
-  background: #fff; color: black;
+.highlight_theme_xcode .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fff;
+  color: black;
+  -webkit-text-size-adjust: none;
 }
 
-.highlight_theme_xcode .comment,
-.highlight_theme_xcode .template_comment,
-.highlight_theme_xcode .javadoc,
-.highlight_theme_xcode .comment * {
-  color: rgb(0,106,0);
+.highlight_theme_xcode .hljs-comment, .highlight_theme_xcode .hljs-javadoc {
+  color: #006a00;
 }
 
-.highlight_theme_xcode .keyword,
-.highlight_theme_xcode .literal,
-.highlight_theme_xcode .nginx .title {
-  color: rgb(170,13,145);
+.highlight_theme_xcode .hljs-keyword, .highlight_theme_xcode .hljs-literal, .highlight_theme_xcode .nginx .hljs-title {
+  color: #aa0d91;
 }
-.highlight_theme_xcode .method,
-.highlight_theme_xcode .list .title,
-.highlight_theme_xcode .tag .title,
-.highlight_theme_xcode .setting .value,
-.highlight_theme_xcode .winutils,
-.highlight_theme_xcode .tex .command,
-.highlight_theme_xcode .http .title,
-.highlight_theme_xcode .request,
-.highlight_theme_xcode .status {
+.highlight_theme_xcode .method, .highlight_theme_xcode .hljs-list .hljs-title, .highlight_theme_xcode .hljs-tag .hljs-title, .highlight_theme_xcode .setting .hljs-value, .highlight_theme_xcode .hljs-winutils, .highlight_theme_xcode .tex .hljs-command, .highlight_theme_xcode .http .hljs-title, .highlight_theme_xcode .hljs-request, .highlight_theme_xcode .hljs-status {
   color: #008;
 }
 
-.highlight_theme_xcode .envvar,
-.highlight_theme_xcode .tex .special {
+.highlight_theme_xcode .hljs-envvar, .highlight_theme_xcode .tex .hljs-special {
   color: #660;
 }
 
-.highlight_theme_xcode .string {
-  color: rgb(196,26,22);
+.highlight_theme_xcode .hljs-string {
+  color: #c41a16;
 }
-.highlight_theme_xcode .tag .value,
-.highlight_theme_xcode .cdata,
-.highlight_theme_xcode .filter .argument,
-.highlight_theme_xcode .attr_selector,
-.highlight_theme_xcode .apache .cbracket,
-.highlight_theme_xcode .date,
-.highlight_theme_xcode .regexp {
+.highlight_theme_xcode .hljs-tag .hljs-value, .highlight_theme_xcode .hljs-cdata, .highlight_theme_xcode .hljs-filter .hljs-argument, .highlight_theme_xcode .hljs-attr_selector, .highlight_theme_xcode .apache .hljs-cbracket, .highlight_theme_xcode .hljs-date, .highlight_theme_xcode .hljs-regexp {
   color: #080;
 }
 
-.highlight_theme_xcode .sub .identifier,
-.highlight_theme_xcode .pi,
-.highlight_theme_xcode .tag,
-.highlight_theme_xcode .tag .keyword,
-.highlight_theme_xcode .decorator,
-.highlight_theme_xcode .ini .title,
-.highlight_theme_xcode .shebang,
-.highlight_theme_xcode .input_number,
-.highlight_theme_xcode .hexcolor,
-.highlight_theme_xcode .rules .value,
-.highlight_theme_xcode .css .value .number,
-.highlight_theme_xcode .symbol,
-.highlight_theme_xcode .ruby .symbol .string,
-.highlight_theme_xcode .ruby .symbol .keyword,
-.highlight_theme_xcode .ruby .symbol .keymethods,
-.highlight_theme_xcode .number,
-.highlight_theme_xcode .css .function {
-  color: rgb(28,0,207);
+.highlight_theme_xcode .hljs-sub .hljs-identifier, .highlight_theme_xcode .hljs-pi, .highlight_theme_xcode .hljs-tag, .highlight_theme_xcode .hljs-tag .hljs-keyword, .highlight_theme_xcode .hljs-decorator, .highlight_theme_xcode .ini .hljs-title, .highlight_theme_xcode .hljs-shebang, .highlight_theme_xcode .hljs-prompt, .highlight_theme_xcode .hljs-hexcolor, .highlight_theme_xcode .hljs-rules .hljs-value, .highlight_theme_xcode .hljs-symbol, .highlight_theme_xcode .hljs-symbol .hljs-string, .highlight_theme_xcode .hljs-number, .highlight_theme_xcode .css .hljs-function, .highlight_theme_xcode .hljs-function .hljs-title, .highlight_theme_xcode .coffeescript .hljs-attribute {
+  color: #1c00cf;
 }
 
-.highlight_theme_xcode .class .title,
-.highlight_theme_xcode .haskell .type,
-.highlight_theme_xcode .smalltalk .class,
-.highlight_theme_xcode .javadoctag,
-.highlight_theme_xcode .yardoctag,
-.highlight_theme_xcode .phpdoc,
-.highlight_theme_xcode .typename,
-.highlight_theme_xcode .tag .attribute,
-.highlight_theme_xcode .doctype,
-.highlight_theme_xcode .class .id,
-.highlight_theme_xcode .built_in,
-.highlight_theme_xcode .setting,
-.highlight_theme_xcode .params {
-  color: rgb(92,38,153);
+.highlight_theme_xcode .hljs-class .hljs-title, .highlight_theme_xcode .smalltalk .hljs-class, .highlight_theme_xcode .hljs-javadoctag, .highlight_theme_xcode .hljs-yardoctag, .highlight_theme_xcode .hljs-phpdoc, .highlight_theme_xcode .hljs-dartdoc, .highlight_theme_xcode .hljs-type, .highlight_theme_xcode .hljs-typename, .highlight_theme_xcode .hljs-tag .hljs-attribute, .highlight_theme_xcode .hljs-doctype, .highlight_theme_xcode .hljs-class .hljs-id, .highlight_theme_xcode .hljs-built_in, .highlight_theme_xcode .setting, .highlight_theme_xcode .hljs-params, .highlight_theme_xcode .clojure .hljs-attribute {
+  color: #5c2699;
 }
 
-.highlight_theme_xcode .variable {
- color: rgb(63,110,116);
+.highlight_theme_xcode .hljs-variable {
+ color: #3f6e74;
 }
-.highlight_theme_xcode .css .tag,
-.highlight_theme_xcode .rules .property,
-.highlight_theme_xcode .pseudo,
-.highlight_theme_xcode .subst {
+.highlight_theme_xcode .css .hljs-tag, .highlight_theme_xcode .hljs-rules .hljs-property, .highlight_theme_xcode .hljs-pseudo, .highlight_theme_xcode .hljs-subst {
   color: #000;
 }
 
-.highlight_theme_xcode .css .class, .highlight_theme_xcode .css .id {
-  color: #9B703F;
+.highlight_theme_xcode .css .hljs-class, .highlight_theme_xcode .css .hljs-id {
+  color: #9b703f;
 }
 
-.highlight_theme_xcode .value .important {
+.highlight_theme_xcode .hljs-value .hljs-important {
   color: #ff7700;
   font-weight: bold;
 }
 
-.highlight_theme_xcode .rules .keyword {
-  color: #C5AF75;
+.highlight_theme_xcode .hljs-rules .hljs-keyword {
+  color: #c5af75;
 }
 
-.highlight_theme_xcode .annotation,
-.highlight_theme_xcode .apache .sqbracket,
-.highlight_theme_xcode .nginx .built_in {
-  color: #9B859D;
+.highlight_theme_xcode .hljs-annotation, .highlight_theme_xcode .apache .hljs-sqbracket, .highlight_theme_xcode .nginx .hljs-built_in {
+  color: #9b859d;
 }
 
-.highlight_theme_xcode .preprocessor,
-.highlight_theme_xcode .preprocessor * {
-  color: rgb(100,56,32);
+.highlight_theme_xcode .hljs-preprocessor, .highlight_theme_xcode .hljs-preprocessor *, .highlight_theme_xcode .hljs-pragma {
+  color: #643820;
 }
 
-.highlight_theme_xcode .tex .formula {
-  background-color: #EEE;
+.highlight_theme_xcode .tex .hljs-formula {
+  background-color: #eee;
   font-style: italic;
 }
 
-.highlight_theme_xcode .diff .header,
-.highlight_theme_xcode .chunk {
+.highlight_theme_xcode .diff .hljs-header, .highlight_theme_xcode .hljs-chunk {
   color: #808080;
   font-weight: bold;
 }
 
-.highlight_theme_xcode .diff .change {
-  background-color: #BCCFF9;
+.highlight_theme_xcode .diff .hljs-change {
+  background-color: #bccff9;
 }
 
-.highlight_theme_xcode .addition {
-  background-color: #BAEEBA;
+.highlight_theme_xcode .hljs-addition {
+  background-color: #baeeba;
 }
 
-.highlight_theme_xcode .deletion {
-  background-color: #FFC8BD;
+.highlight_theme_xcode .hljs-deletion {
+  background-color: #ffc8bd;
 }
 
-.highlight_theme_xcode .comment .yardoctag {
+.highlight_theme_xcode .hljs-comment .hljs-yardoctag {
   font-weight: bold;
 }
 
-.highlight_theme_xcode .method .id {
+.highlight_theme_xcode .method .hljs-id {
   color: #000;
 }

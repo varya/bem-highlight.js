@@ -1,7 +1,7 @@
 {
   "author": "Varya Stepanova",
   "name": "bem-highlight.js",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "repository": {
     "type": "git",
     "url": "git://github.com/varya/bem-highlight.js"
@@ -21,11 +21,16 @@
     "borschik": "^1.0.5"
   },
   "devDependencies": {
-    "bem": "~0.5.20"
+    "amdefine": "^0.1.0",
+    "bem": "~0.5.20",
+    "event-stream": "^3.2.1",
+    "gulp": "^3.8.10",
+    "gulp-rename": "^1.2.0",
+    "gulp-run": "^1.6.5",
+    "postcss": "^4.0.0"
   },
   "scripts": {
-    "install": "./node_modules/bower-npm-install/bin/bower-npm-install",
-    "postinstall": "./node_modules/borschik/bin/borschik -i blocks/highlight/highlight.src.js -m no -o blocks/highlight/highlight.js"
+    "install": "./node_modules/bower-npm-install/bin/bower-npm-install"
   },
   "private": true
 }

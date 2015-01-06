@@ -1,0 +1,57 @@
+/* Base16 Atelier Heath Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+/* https://github.com/jmblog/color-themes-for-highlightjs */
+
+/* Atelier Heath Light Comment */
+.highlight_theme_atelier-heath-light .hljs-comment, .highlight_theme_atelier-heath-light .hljs-title {
+  color: #776977;
+}
+
+/* Atelier Heath Light Red */
+.highlight_theme_atelier-heath-light .hljs-variable, .highlight_theme_atelier-heath-light .hljs-attribute, .highlight_theme_atelier-heath-light .hljs-tag, .highlight_theme_atelier-heath-light .hljs-regexp, .highlight_theme_atelier-heath-light .ruby .hljs-constant, .highlight_theme_atelier-heath-light .xml .hljs-tag .hljs-title, .highlight_theme_atelier-heath-light .xml .hljs-pi, .highlight_theme_atelier-heath-light .xml .hljs-doctype, .highlight_theme_atelier-heath-light .html .hljs-doctype, .highlight_theme_atelier-heath-light .css .hljs-id, .highlight_theme_atelier-heath-light .css .hljs-class, .highlight_theme_atelier-heath-light .css .hljs-pseudo {
+  color: #ca402b;
+}
+
+/* Atelier Heath Light Orange */
+.highlight_theme_atelier-heath-light .hljs-number, .highlight_theme_atelier-heath-light .hljs-preprocessor, .highlight_theme_atelier-heath-light .hljs-pragma, .highlight_theme_atelier-heath-light .hljs-built_in, .highlight_theme_atelier-heath-light .hljs-literal, .highlight_theme_atelier-heath-light .hljs-params, .highlight_theme_atelier-heath-light .hljs-constant {
+  color: #a65926;
+}
+
+/* Atelier Heath Light Yellow */
+.highlight_theme_atelier-heath-light .hljs-ruby .hljs-class .hljs-title, .highlight_theme_atelier-heath-light .css .hljs-rules .hljs-attribute {
+  color: #bb8a35;
+}
+
+/* Atelier Heath Light Green */
+.highlight_theme_atelier-heath-light .hljs-string, .highlight_theme_atelier-heath-light .hljs-value, .highlight_theme_atelier-heath-light .hljs-inheritance, .highlight_theme_atelier-heath-light .hljs-header, .highlight_theme_atelier-heath-light .ruby .hljs-symbol, .highlight_theme_atelier-heath-light .xml .hljs-cdata {
+  color: #379a37;
+}
+
+/* Atelier Heath Light Aqua */
+.highlight_theme_atelier-heath-light .css .hljs-hexcolor {
+  color: #159393;
+}
+
+/* Atelier Heath Light Blue */
+.highlight_theme_atelier-heath-light .hljs-function, .highlight_theme_atelier-heath-light .python .hljs-decorator, .highlight_theme_atelier-heath-light .python .hljs-title, .highlight_theme_atelier-heath-light .ruby .hljs-function .hljs-title, .highlight_theme_atelier-heath-light .ruby .hljs-title .hljs-keyword, .highlight_theme_atelier-heath-light .perl .hljs-sub, .highlight_theme_atelier-heath-light .javascript .hljs-title, .highlight_theme_atelier-heath-light .coffeescript .hljs-title {
+  color: #516aec;
+}
+
+/* Atelier Heath Light Purple */
+.highlight_theme_atelier-heath-light .hljs-keyword, .highlight_theme_atelier-heath-light .javascript .hljs-function {
+  color: #7b59c0;
+}
+
+.highlight_theme_atelier-heath-light .hljs {
+  display: block;
+  overflow-x: auto;
+  background: #f7f3f7;
+  color: #695d69;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_atelier-heath-light .coffeescript .javascript, .highlight_theme_atelier-heath-light .javascript .xml, .highlight_theme_atelier-heath-light .tex .hljs-formula, .highlight_theme_atelier-heath-light .xml .javascript, .highlight_theme_atelier-heath-light .xml .vbscript, .highlight_theme_atelier-heath-light .xml .css, .highlight_theme_atelier-heath-light .xml .hljs-cdata {
+  opacity: 0.5;
+}

@@ -1,0 +1,96 @@
+/*
+Docco style used in http://jashkenas.github.com/docco/ converted by Simon Madine (@thingsinjars)
+*/
+
+.highlight_theme_docco .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #000;
+  background: #f8f8ff;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_docco .hljs-comment, .highlight_theme_docco .diff .hljs-header, .highlight_theme_docco .hljs-javadoc {
+  color: #408080;
+  font-style: italic;
+}
+
+.highlight_theme_docco .hljs-keyword, .highlight_theme_docco .assignment, .highlight_theme_docco .hljs-literal, .highlight_theme_docco .css .rule .hljs-keyword, .highlight_theme_docco .hljs-winutils, .highlight_theme_docco .javascript .hljs-title, .highlight_theme_docco .lisp .hljs-title, .highlight_theme_docco .hljs-subst {
+  color: #954121;
+}
+
+.highlight_theme_docco .hljs-number, .highlight_theme_docco .hljs-hexcolor {
+  color: #40a070;
+}
+
+.highlight_theme_docco .hljs-string, .highlight_theme_docco .hljs-tag .hljs-value, .highlight_theme_docco .hljs-phpdoc, .highlight_theme_docco .hljs-dartdoc, .highlight_theme_docco .tex .hljs-formula {
+  color: #219161;
+}
+
+.highlight_theme_docco .hljs-title, .highlight_theme_docco .hljs-id {
+  color: #19469d;
+}
+.highlight_theme_docco .hljs-params {
+  color: #00f;
+}
+
+.highlight_theme_docco .javascript .hljs-title, .highlight_theme_docco .lisp .hljs-title, .highlight_theme_docco .hljs-subst {
+  font-weight: normal;
+}
+
+.highlight_theme_docco .hljs-class .hljs-title, .highlight_theme_docco .haskell .hljs-label, .highlight_theme_docco .tex .hljs-command {
+  color: #458;
+  font-weight: bold;
+}
+
+.highlight_theme_docco .hljs-tag, .highlight_theme_docco .hljs-tag .hljs-title, .highlight_theme_docco .hljs-rules .hljs-property, .highlight_theme_docco .django .hljs-tag .hljs-keyword {
+  color: #000080;
+  font-weight: normal;
+}
+
+.highlight_theme_docco .hljs-attribute, .highlight_theme_docco .hljs-variable, .highlight_theme_docco .instancevar, .highlight_theme_docco .lisp .hljs-body {
+  color: #008080;
+}
+
+.highlight_theme_docco .hljs-regexp {
+  color: #b68;
+}
+
+.highlight_theme_docco .hljs-class {
+  color: #458;
+  font-weight: bold;
+}
+
+.highlight_theme_docco .hljs-symbol, .highlight_theme_docco .ruby .hljs-symbol .hljs-string, .highlight_theme_docco .ruby .hljs-symbol .hljs-keyword, .highlight_theme_docco .ruby .hljs-symbol .keymethods, .highlight_theme_docco .lisp .hljs-keyword, .highlight_theme_docco .tex .hljs-special, .highlight_theme_docco .input_number {
+  color: #990073;
+}
+
+.highlight_theme_docco .builtin, .highlight_theme_docco .constructor, .highlight_theme_docco .hljs-built_in, .highlight_theme_docco .lisp .hljs-title {
+  color: #0086b3;
+}
+
+.highlight_theme_docco .hljs-preprocessor, .highlight_theme_docco .hljs-pragma, .highlight_theme_docco .hljs-pi, .highlight_theme_docco .hljs-doctype, .highlight_theme_docco .hljs-shebang, .highlight_theme_docco .hljs-cdata {
+  color: #999;
+  font-weight: bold;
+}
+
+.highlight_theme_docco .hljs-deletion {
+  background: #fdd;
+}
+
+.highlight_theme_docco .hljs-addition {
+  background: #dfd;
+}
+
+.highlight_theme_docco .diff .hljs-change {
+  background: #0086b3;
+}
+
+.highlight_theme_docco .hljs-chunk {
+  color: #aaa;
+}
+
+.highlight_theme_docco .tex .hljs-formula {
+  opacity: 0.5;
+}

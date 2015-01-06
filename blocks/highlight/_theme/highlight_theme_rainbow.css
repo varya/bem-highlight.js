@@ -1,0 +1,66 @@
+/*
+
+Style with support for rainbow parens
+
+*/
+
+.highlight_theme_rainbow .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #474949;
+  color: #d1d9e1;
+  -webkit-text-size-adjust: none;
+}
+
+
+.highlight_theme_rainbow .hljs-body, .highlight_theme_rainbow .hljs-collection {
+   color: #d1d9e1;
+}
+
+.highlight_theme_rainbow .hljs-comment, .highlight_theme_rainbow .diff .hljs-header, .highlight_theme_rainbow .hljs-doctype, .highlight_theme_rainbow .lisp .hljs-string, .highlight_theme_rainbow .hljs-javadoc {
+  color: #969896;
+  font-style: italic;
+}
+
+.highlight_theme_rainbow .hljs-keyword, .highlight_theme_rainbow .clojure .hljs-attribute, .highlight_theme_rainbow .hljs-winutils, .highlight_theme_rainbow .javascript .hljs-title, .highlight_theme_rainbow .hljs-addition, .highlight_theme_rainbow .css .hljs-tag {
+  color: #cc99cc;
+}
+
+.highlight_theme_rainbow .hljs-number { color: #f99157; }
+
+.highlight_theme_rainbow .hljs-command, .highlight_theme_rainbow .hljs-string, .highlight_theme_rainbow .hljs-tag .hljs-value, .highlight_theme_rainbow .hljs-phpdoc, .highlight_theme_rainbow .hljs-dartdoc, .highlight_theme_rainbow .tex .hljs-formula, .highlight_theme_rainbow .hljs-regexp, .highlight_theme_rainbow .hljs-hexcolor {
+  color: #8abeb7;
+}
+
+.highlight_theme_rainbow .hljs-title, .highlight_theme_rainbow .hljs-localvars, .highlight_theme_rainbow .hljs-function .hljs-title, .highlight_theme_rainbow .hljs-chunk, .highlight_theme_rainbow .hljs-decorator, .highlight_theme_rainbow .hljs-built_in, .highlight_theme_rainbow .hljs-identifier {
+  color: #b5bd68;
+}
+
+.highlight_theme_rainbow .hljs-class .hljs-keyword {
+  color: #f2777a;
+}
+
+.highlight_theme_rainbow .hljs-variable, .highlight_theme_rainbow .smalltalk .hljs-number, .highlight_theme_rainbow .hljs-constant, .highlight_theme_rainbow .hljs-class .hljs-title, .highlight_theme_rainbow .hljs-parent, .highlight_theme_rainbow .haskell .hljs-label, .highlight_theme_rainbow .hljs-id {
+   color: #ffcc66;
+}
+
+.highlight_theme_rainbow .hljs-tag .hljs-title, .highlight_theme_rainbow .hljs-rules .hljs-property, .highlight_theme_rainbow .django .hljs-tag .hljs-keyword {
+  font-weight: bold;
+}
+
+.highlight_theme_rainbow .hljs-attribute {
+  color: #81a2be;
+}
+
+.highlight_theme_rainbow .hljs-preprocessor, .highlight_theme_rainbow .hljs-pragma, .highlight_theme_rainbow .hljs-pi, .highlight_theme_rainbow .hljs-shebang, .highlight_theme_rainbow .hljs-symbol, .highlight_theme_rainbow .hljs-symbol .hljs-string, .highlight_theme_rainbow .diff .hljs-change, .highlight_theme_rainbow .hljs-special, .highlight_theme_rainbow .hljs-attr_selector, .highlight_theme_rainbow .hljs-important, .highlight_theme_rainbow .hljs-subst, .highlight_theme_rainbow .hljs-cdata {
+  color: #f99157;
+}
+
+.highlight_theme_rainbow .hljs-deletion {
+  color: #dc322f;
+}
+
+.highlight_theme_rainbow .tex .hljs-formula {
+  background: #eee8d5;
+}

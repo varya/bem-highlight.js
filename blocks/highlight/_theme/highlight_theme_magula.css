@@ -1,4 +1,4 @@
-﻿/*
+/*
 Description: Magula style for highligh.js
 Author: Ruslan Keba <rukeba@gmail.com>
 Website: http://rukeba.com/
@@ -7,113 +7,49 @@ Date: 2009-01-03
 Music: Aphex Twin / Xtal
 */
 
-.highlight_theme_magula code {
-  display: block; padding: 0.5em;
+.highlight_theme_magula .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
   background-color: #f4f4f4;
+  -webkit-text-size-adjust: none;
 }
 
-.highlight_theme_magula code,
-.highlight_theme_magula .ruby .subst,
-.highlight_theme_magula .lisp .title {
+.highlight_theme_magula .hljs, .highlight_theme_magula .hljs-subst {
   color: black;
 }
 
-.highlight_theme_magula .string,
-.highlight_theme_magula .title,
-.highlight_theme_magula .parent,
-.highlight_theme_magula .tag .value,
-.highlight_theme_magula .rules .value,
-.highlight_theme_magula .rules .value .number,
-.highlight_theme_magula .preprocessor,
-.highlight_theme_magula .ruby .symbol,
-.highlight_theme_magula .ruby .symbol .string,
-.highlight_theme_magula .ruby .symbol .keyword,
-.highlight_theme_magula .ruby .symbol .keymethods,
-.highlight_theme_magula .instancevar,
-.highlight_theme_magula .aggregate,
-.highlight_theme_magula .template_tag,
-.highlight_theme_magula .django .variable,
-.highlight_theme_magula .smalltalk .class,
-.highlight_theme_magula .addition,
-.highlight_theme_magula .flow,
-.highlight_theme_magula .stream,
-.highlight_theme_magula .bash .variable,
-.highlight_theme_magula .apache .cbracket {
+.highlight_theme_magula .hljs-string, .highlight_theme_magula .hljs-title, .highlight_theme_magula .hljs-parent, .highlight_theme_magula .hljs-tag .hljs-value, .highlight_theme_magula .hljs-rules .hljs-value, .highlight_theme_magula .hljs-preprocessor, .highlight_theme_magula .hljs-pragma, .highlight_theme_magula .ruby .hljs-symbol, .highlight_theme_magula .ruby .hljs-symbol .hljs-string, .highlight_theme_magula .hljs-template_tag, .highlight_theme_magula .django .hljs-variable, .highlight_theme_magula .smalltalk .hljs-class, .highlight_theme_magula .hljs-addition, .highlight_theme_magula .hljs-flow, .highlight_theme_magula .hljs-stream, .highlight_theme_magula .bash .hljs-variable, .highlight_theme_magula .apache .hljs-cbracket, .highlight_theme_magula .coffeescript .hljs-attribute {
   color: #050;
 }
 
-.highlight_theme_magula .comment,
-.highlight_theme_magula .annotation,
-.highlight_theme_magula .template_comment,
-.highlight_theme_magula .diff .header,
-.highlight_theme_magula .chunk {
+.highlight_theme_magula .hljs-comment, .highlight_theme_magula .hljs-annotation, .highlight_theme_magula .diff .hljs-header, .highlight_theme_magula .hljs-chunk {
   color: #777;
 }
 
-.highlight_theme_magula .number,
-.highlight_theme_magula .date,
-.highlight_theme_magula .regexp,
-.highlight_theme_magula .literal,
-.highlight_theme_magula .smalltalk .symbol,
-.highlight_theme_magula .smalltalk .char,
-.highlight_theme_magula .change,
-.highlight_theme_magula .tex .special {
+.highlight_theme_magula .hljs-number, .highlight_theme_magula .hljs-date, .highlight_theme_magula .hljs-regexp, .highlight_theme_magula .hljs-literal, .highlight_theme_magula .smalltalk .hljs-symbol, .highlight_theme_magula .smalltalk .hljs-char, .highlight_theme_magula .hljs-change, .highlight_theme_magula .tex .hljs-special {
   color: #800;
 }
 
-.highlight_theme_magula .label,
-.highlight_theme_magula .javadoc,
-.highlight_theme_magula .ruby .string,
-.highlight_theme_magula .decorator,
-.highlight_theme_magula .filter .argument,
-.highlight_theme_magula .localvars,
-.highlight_theme_magula .array,
-.highlight_theme_magula .attr_selector,
-.highlight_theme_magula .pseudo,
-.highlight_theme_magula .pi,
-.highlight_theme_magula .doctype,
-.highlight_theme_magula .deletion,
-.highlight_theme_magula .envvar,
-.highlight_theme_magula .shebang,
-.highlight_theme_magula .apache .sqbracket,
-.highlight_theme_magula .nginx .built_in,
-.highlight_theme_magula .tex .formula,
-.highlight_theme_magula .input_number {
+.highlight_theme_magula .hljs-label, .highlight_theme_magula .hljs-javadoc, .highlight_theme_magula .ruby .hljs-string, .highlight_theme_magula .hljs-decorator, .highlight_theme_magula .hljs-filter .hljs-argument, .highlight_theme_magula .hljs-localvars, .highlight_theme_magula .hljs-array, .highlight_theme_magula .hljs-attr_selector, .highlight_theme_magula .hljs-pseudo, .highlight_theme_magula .hljs-pi, .highlight_theme_magula .hljs-doctype, .highlight_theme_magula .hljs-deletion, .highlight_theme_magula .hljs-envvar, .highlight_theme_magula .hljs-shebang, .highlight_theme_magula .apache .hljs-sqbracket, .highlight_theme_magula .nginx .hljs-built_in, .highlight_theme_magula .tex .hljs-formula, .highlight_theme_magula .hljs-prompt, .highlight_theme_magula .clojure .hljs-attribute {
   color: #00e;
 }
 
-.highlight_theme_magula .keyword,
-.highlight_theme_magula .id,
-.highlight_theme_magula .phpdoc,
-.highlight_theme_magula .title,
-.highlight_theme_magula .built_in,
-.highlight_theme_magula .aggregate,
-.highlight_theme_magula .smalltalk .class,
-.highlight_theme_magula .winutils,
-.highlight_theme_magula .bash .variable,
-.highlight_theme_magula .apache .tag,
-.highlight_theme_magula .xml .tag,
-.highlight_theme_magula .tex .command,
-.highlight_theme_magula .request,
-.highlight_theme_magula .status {
+.highlight_theme_magula .hljs-keyword, .highlight_theme_magula .hljs-id, .highlight_theme_magula .hljs-phpdoc, .highlight_theme_magula .hljs-dartdoc, .highlight_theme_magula .hljs-title, .highlight_theme_magula .hljs-built_in, .highlight_theme_magula .smalltalk .hljs-class, .highlight_theme_magula .hljs-winutils, .highlight_theme_magula .bash .hljs-variable, .highlight_theme_magula .apache .hljs-tag, .highlight_theme_magula .xml .hljs-tag, .highlight_theme_magula .tex .hljs-command, .highlight_theme_magula .hljs-request, .highlight_theme_magula .hljs-status {
   font-weight: bold;
   color: navy;
 }
 
-.highlight_theme_magula .nginx .built_in {
+.highlight_theme_magula .nginx .hljs-built_in {
   font-weight: normal;
 }
 
-.highlight_theme_magula .coffeescript .javascript,
-.highlight_theme_magula .xml .css,
-.highlight_theme_magula .xml .javascript,
-.highlight_theme_magula .xml .vbscript,
-.highlight_theme_magula .tex .formula {
+.highlight_theme_magula .coffeescript .javascript, .highlight_theme_magula .javascript .xml, .highlight_theme_magula .tex .hljs-formula, .highlight_theme_magula .xml .javascript, .highlight_theme_magula .xml .vbscript, .highlight_theme_magula .xml .css, .highlight_theme_magula .xml .hljs-cdata {
   opacity: 0.5;
 }
 
 /* --- */
-.highlight_theme_magula .apache .tag {
+.highlight_theme_magula .apache .hljs-tag {
   font-weight: bold;
   color: blue;
 }

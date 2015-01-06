@@ -4,130 +4,85 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 
 */
 
-.highlight_theme_github code {
-  display: block; padding: 0.5em;
-  color: #000;
-  background: #f8f8ff
+.highlight_theme_github .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+  -webkit-text-size-adjust: none;
 }
 
-.highlight_theme_github .comment,
-.highlight_theme_github .template_comment,
-.highlight_theme_github .diff .header,
-.highlight_theme_github .javadoc {
+.highlight_theme_github .hljs-comment, .highlight_theme_github .diff .hljs-header, .highlight_theme_github .hljs-javadoc {
   color: #998;
-  font-style: italic
+  font-style: italic;
 }
 
-.highlight_theme_github .keyword,
-.highlight_theme_github .css .rule .keyword,
-.highlight_theme_github .winutils,
-.highlight_theme_github .javascript .title,
-.highlight_theme_github .lisp .title,
-.highlight_theme_github .nginx .title,
-.highlight_theme_github .subst,
-.highlight_theme_github .request,
-.highlight_theme_github .status {
-  color: #000;
-  font-weight: bold
+.highlight_theme_github .hljs-keyword, .highlight_theme_github .css .rule .hljs-keyword, .highlight_theme_github .hljs-winutils, .highlight_theme_github .nginx .hljs-title, .highlight_theme_github .hljs-subst, .highlight_theme_github .hljs-request, .highlight_theme_github .hljs-status {
+  color: #333;
+  font-weight: bold;
 }
 
-.highlight_theme_github .number,
-.highlight_theme_github .hexcolor {
-  color: #40a070
+.highlight_theme_github .hljs-number, .highlight_theme_github .hljs-hexcolor, .highlight_theme_github .ruby .hljs-constant {
+  color: #008080;
 }
 
-.highlight_theme_github .string,
-.highlight_theme_github .tag .value,
-.highlight_theme_github .phpdoc,
-.highlight_theme_github .tex .formula {
-  color: #d14
+.highlight_theme_github .hljs-string, .highlight_theme_github .hljs-tag .hljs-value, .highlight_theme_github .hljs-phpdoc, .highlight_theme_github .hljs-dartdoc, .highlight_theme_github .tex .hljs-formula {
+  color: #d14;
 }
 
-.highlight_theme_github .title,
-.highlight_theme_github .id {
+.highlight_theme_github .hljs-title, .highlight_theme_github .hljs-id, .highlight_theme_github .scss .hljs-preprocessor {
   color: #900;
-  font-weight: bold
+  font-weight: bold;
 }
 
-.highlight_theme_github .javascript .title,
-.highlight_theme_github .lisp .title,
-.highlight_theme_github .subst {
-  font-weight: normal
+.highlight_theme_github .hljs-list .hljs-keyword, .highlight_theme_github .hljs-subst {
+  font-weight: normal;
 }
 
-.highlight_theme_github .class .title,
-.highlight_theme_github .haskell .type,
-.highlight_theme_github .vhdl .literal,
-.highlight_theme_github .tex .command {
+.highlight_theme_github .hljs-class .hljs-title, .highlight_theme_github .hljs-type, .highlight_theme_github .vhdl .hljs-literal, .highlight_theme_github .tex .hljs-command {
   color: #458;
-  font-weight: bold
+  font-weight: bold;
 }
 
-.highlight_theme_github .tag,
-.highlight_theme_github .tag .title,
-.highlight_theme_github .rules .property,
-.highlight_theme_github .django .tag .keyword {
+.highlight_theme_github .hljs-tag, .highlight_theme_github .hljs-tag .hljs-title, .highlight_theme_github .hljs-rules .hljs-property, .highlight_theme_github .django .hljs-tag .hljs-keyword {
   color: #000080;
-  font-weight: normal
+  font-weight: normal;
 }
 
-.highlight_theme_github .attribute,
-.highlight_theme_github .variable,
-.highlight_theme_github .instancevar,
-.highlight_theme_github .lisp .body {
-  color: #008080
+.highlight_theme_github .hljs-attribute, .highlight_theme_github .hljs-variable, .highlight_theme_github .lisp .hljs-body {
+  color: #008080;
 }
 
-.highlight_theme_github .regexp {
-  color: #009926
+.highlight_theme_github .hljs-regexp {
+  color: #009926;
 }
 
-.highlight_theme_github .class {
-  color: #458;
-  font-weight: bold
+.highlight_theme_github .hljs-symbol, .highlight_theme_github .ruby .hljs-symbol .hljs-string, .highlight_theme_github .lisp .hljs-keyword, .highlight_theme_github .clojure .hljs-keyword, .highlight_theme_github .scheme .hljs-keyword, .highlight_theme_github .tex .hljs-special, .highlight_theme_github .hljs-prompt {
+  color: #990073;
 }
 
-.highlight_theme_github .symbol,
-.highlight_theme_github .ruby .symbol .string,
-.highlight_theme_github .ruby .symbol .keyword,
-.highlight_theme_github .ruby .symbol .keymethods,
-.highlight_theme_github .lisp .keyword,
-.highlight_theme_github .tex .special,
-.highlight_theme_github .input_number {
-  color: #990073
+.highlight_theme_github .hljs-built_in {
+  color: #0086b3;
 }
 
-.highlight_theme_github .builtin,
-.highlight_theme_github .built_in,
-.highlight_theme_github .lisp .title {
-  color: #0086b3
-}
-
-.highlight_theme_github .preprocessor,
-.highlight_theme_github .pi,
-.highlight_theme_github .doctype,
-.highlight_theme_github .shebang,
-.highlight_theme_github .cdata {
+.highlight_theme_github .hljs-preprocessor, .highlight_theme_github .hljs-pragma, .highlight_theme_github .hljs-pi, .highlight_theme_github .hljs-doctype, .highlight_theme_github .hljs-shebang, .highlight_theme_github .hljs-cdata {
   color: #999;
-  font-weight: bold
+  font-weight: bold;
 }
 
-.highlight_theme_github .deletion {
-  background: #fdd
+.highlight_theme_github .hljs-deletion {
+  background: #fdd;
 }
 
-.highlight_theme_github .addition {
-  background: #dfd
+.highlight_theme_github .hljs-addition {
+  background: #dfd;
 }
 
-.highlight_theme_github .diff .change {
-  background: #0086b3
+.highlight_theme_github .diff .hljs-change {
+  background: #0086b3;
 }
 
-.highlight_theme_github .chunk {
-  color: #aaa
-}
-
-.highlight_theme_github .tex .formula {
-  opacity: 0.5;
+.highlight_theme_github .hljs-chunk {
+  color: #aaa;
 }

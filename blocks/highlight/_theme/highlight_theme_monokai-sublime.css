@@ -1,0 +1,66 @@
+/*
+
+Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-license.org/
+
+*/
+
+.highlight_theme_monokai-sublime .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #23241f;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_monokai-sublime .hljs, .highlight_theme_monokai-sublime .hljs-tag, .highlight_theme_monokai-sublime .css .hljs-rules, .highlight_theme_monokai-sublime .css .hljs-value, .highlight_theme_monokai-sublime .aspectj .hljs-function, .highlight_theme_monokai-sublime .css .hljs-function
+.hljs-preprocessor, .highlight_theme_monokai-sublime .hljs-pragma {
+  color: #f8f8f2;
+}
+
+.highlight_theme_monokai-sublime .hljs-strongemphasis, .highlight_theme_monokai-sublime .hljs-strong, .highlight_theme_monokai-sublime .hljs-emphasis {
+  color: #a8a8a2;
+}
+
+.highlight_theme_monokai-sublime .hljs-bullet, .highlight_theme_monokai-sublime .hljs-blockquote, .highlight_theme_monokai-sublime .hljs-horizontal_rule, .highlight_theme_monokai-sublime .hljs-number, .highlight_theme_monokai-sublime .hljs-regexp, .highlight_theme_monokai-sublime .alias .hljs-keyword, .highlight_theme_monokai-sublime .hljs-literal, .highlight_theme_monokai-sublime .hljs-hexcolor {
+  color: #ae81ff;
+}
+
+.highlight_theme_monokai-sublime .hljs-tag .hljs-value, .highlight_theme_monokai-sublime .hljs-code, .highlight_theme_monokai-sublime .hljs-title, .highlight_theme_monokai-sublime .css .hljs-class, .highlight_theme_monokai-sublime .hljs-class .hljs-title:last-child {
+  color: #a6e22e;
+}
+
+.highlight_theme_monokai-sublime .hljs-link_url {
+  font-size: 80%;
+}
+
+.highlight_theme_monokai-sublime .hljs-strong, .highlight_theme_monokai-sublime .hljs-strongemphasis {
+  font-weight: bold;
+}
+
+.highlight_theme_monokai-sublime .hljs-emphasis, .highlight_theme_monokai-sublime .hljs-strongemphasis, .highlight_theme_monokai-sublime .hljs-class .hljs-title:last-child, .highlight_theme_monokai-sublime .hljs-typename {
+  font-style: italic;
+}
+
+.highlight_theme_monokai-sublime .hljs-keyword, .highlight_theme_monokai-sublime .ruby .hljs-class .hljs-keyword:first-child, .highlight_theme_monokai-sublime .ruby .hljs-function .hljs-keyword, .highlight_theme_monokai-sublime .hljs-function, .highlight_theme_monokai-sublime .hljs-change, .highlight_theme_monokai-sublime .hljs-winutils, .highlight_theme_monokai-sublime .hljs-flow, .highlight_theme_monokai-sublime .nginx .hljs-title, .highlight_theme_monokai-sublime .tex .hljs-special, .highlight_theme_monokai-sublime .hljs-header, .highlight_theme_monokai-sublime .hljs-attribute, .highlight_theme_monokai-sublime .hljs-symbol, .highlight_theme_monokai-sublime .hljs-symbol .hljs-string, .highlight_theme_monokai-sublime .hljs-tag .hljs-title, .highlight_theme_monokai-sublime .hljs-value, .highlight_theme_monokai-sublime .alias .hljs-keyword:first-child, .highlight_theme_monokai-sublime .css .hljs-tag, .highlight_theme_monokai-sublime .css .unit, .highlight_theme_monokai-sublime .css .hljs-important {
+  color: #f92672;
+}
+
+.highlight_theme_monokai-sublime .hljs-function .hljs-keyword, .highlight_theme_monokai-sublime .hljs-class .hljs-keyword:first-child, .highlight_theme_monokai-sublime .hljs-aspect .hljs-keyword:first-child, .highlight_theme_monokai-sublime .hljs-constant, .highlight_theme_monokai-sublime .hljs-typename, .highlight_theme_monokai-sublime .css .hljs-attribute {
+  color: #66d9ef;
+}
+
+.highlight_theme_monokai-sublime .hljs-variable, .highlight_theme_monokai-sublime .hljs-params, .highlight_theme_monokai-sublime .hljs-class .hljs-title, .highlight_theme_monokai-sublime .hljs-aspect .hljs-title {
+  color: #f8f8f2;
+}
+
+.highlight_theme_monokai-sublime .hljs-string, .highlight_theme_monokai-sublime .css .hljs-id, .highlight_theme_monokai-sublime .hljs-subst, .highlight_theme_monokai-sublime .hljs-type, .highlight_theme_monokai-sublime .ruby .hljs-class .hljs-parent, .highlight_theme_monokai-sublime .hljs-built_in, .highlight_theme_monokai-sublime .django .hljs-template_tag, .highlight_theme_monokai-sublime .django .hljs-variable, .highlight_theme_monokai-sublime .smalltalk .hljs-class, .highlight_theme_monokai-sublime .django .hljs-filter .hljs-argument, .highlight_theme_monokai-sublime .smalltalk .hljs-localvars, .highlight_theme_monokai-sublime .smalltalk .hljs-array, .highlight_theme_monokai-sublime .hljs-attr_selector, .highlight_theme_monokai-sublime .hljs-pseudo, .highlight_theme_monokai-sublime .hljs-addition, .highlight_theme_monokai-sublime .hljs-stream, .highlight_theme_monokai-sublime .hljs-envvar, .highlight_theme_monokai-sublime .apache .hljs-tag, .highlight_theme_monokai-sublime .apache .hljs-cbracket, .highlight_theme_monokai-sublime .tex .hljs-command, .highlight_theme_monokai-sublime .hljs-prompt, .highlight_theme_monokai-sublime .hljs-link_label, .highlight_theme_monokai-sublime .hljs-link_url {
+  color: #e6db74;
+}
+
+.highlight_theme_monokai-sublime .hljs-comment, .highlight_theme_monokai-sublime .hljs-javadoc, .highlight_theme_monokai-sublime .hljs-annotation, .highlight_theme_monokai-sublime .hljs-decorator, .highlight_theme_monokai-sublime .hljs-pi, .highlight_theme_monokai-sublime .hljs-doctype, .highlight_theme_monokai-sublime .hljs-deletion, .highlight_theme_monokai-sublime .hljs-shebang, .highlight_theme_monokai-sublime .apache .hljs-sqbracket, .highlight_theme_monokai-sublime .tex .hljs-formula {
+  color: #75715e;
+}
+
+.highlight_theme_monokai-sublime .coffeescript .javascript, .highlight_theme_monokai-sublime .javascript .xml, .highlight_theme_monokai-sublime .tex .hljs-formula, .highlight_theme_monokai-sublime .xml .javascript, .highlight_theme_monokai-sublime .xml .vbscript, .highlight_theme_monokai-sublime .xml .css, .highlight_theme_monokai-sublime .xml .hljs-cdata, .highlight_theme_monokai-sublime .xml .php, .highlight_theme_monokai-sublime .php .xml {
+  opacity: 0.5;
+}

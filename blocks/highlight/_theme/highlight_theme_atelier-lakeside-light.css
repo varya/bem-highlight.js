@@ -1,0 +1,57 @@
+/* Base16 Atelier Lakeside Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside/) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+/* https://github.com/jmblog/color-themes-for-highlightjs */
+
+/* Atelier Lakeside Light Comment */
+.highlight_theme_atelier-lakeside-light .hljs-comment, .highlight_theme_atelier-lakeside-light .hljs-title {
+  color: #5a7b8c;
+}
+
+/* Atelier Lakeside Light Red */
+.highlight_theme_atelier-lakeside-light .hljs-variable, .highlight_theme_atelier-lakeside-light .hljs-attribute, .highlight_theme_atelier-lakeside-light .hljs-tag, .highlight_theme_atelier-lakeside-light .hljs-regexp, .highlight_theme_atelier-lakeside-light .ruby .hljs-constant, .highlight_theme_atelier-lakeside-light .xml .hljs-tag .hljs-title, .highlight_theme_atelier-lakeside-light .xml .hljs-pi, .highlight_theme_atelier-lakeside-light .xml .hljs-doctype, .highlight_theme_atelier-lakeside-light .html .hljs-doctype, .highlight_theme_atelier-lakeside-light .css .hljs-id, .highlight_theme_atelier-lakeside-light .css .hljs-class, .highlight_theme_atelier-lakeside-light .css .hljs-pseudo {
+  color: #d22d72;
+}
+
+/* Atelier Lakeside Light Orange */
+.highlight_theme_atelier-lakeside-light .hljs-number, .highlight_theme_atelier-lakeside-light .hljs-preprocessor, .highlight_theme_atelier-lakeside-light .hljs-pragma, .highlight_theme_atelier-lakeside-light .hljs-built_in, .highlight_theme_atelier-lakeside-light .hljs-literal, .highlight_theme_atelier-lakeside-light .hljs-params, .highlight_theme_atelier-lakeside-light .hljs-constant {
+  color: #935c25;
+}
+
+/* Atelier Lakeside Light Yellow */
+.highlight_theme_atelier-lakeside-light .hljs-ruby .hljs-class .hljs-title, .highlight_theme_atelier-lakeside-light .css .hljs-rules .hljs-attribute {
+  color: #8a8a0f;
+}
+
+/* Atelier Lakeside Light Green */
+.highlight_theme_atelier-lakeside-light .hljs-string, .highlight_theme_atelier-lakeside-light .hljs-value, .highlight_theme_atelier-lakeside-light .hljs-inheritance, .highlight_theme_atelier-lakeside-light .hljs-header, .highlight_theme_atelier-lakeside-light .ruby .hljs-symbol, .highlight_theme_atelier-lakeside-light .xml .hljs-cdata {
+  color: #568c3b;
+}
+
+/* Atelier Lakeside Light Aqua */
+.highlight_theme_atelier-lakeside-light .css .hljs-hexcolor {
+  color: #2d8f6f;
+}
+
+/* Atelier Lakeside Light Blue */
+.highlight_theme_atelier-lakeside-light .hljs-function, .highlight_theme_atelier-lakeside-light .python .hljs-decorator, .highlight_theme_atelier-lakeside-light .python .hljs-title, .highlight_theme_atelier-lakeside-light .ruby .hljs-function .hljs-title, .highlight_theme_atelier-lakeside-light .ruby .hljs-title .hljs-keyword, .highlight_theme_atelier-lakeside-light .perl .hljs-sub, .highlight_theme_atelier-lakeside-light .javascript .hljs-title, .highlight_theme_atelier-lakeside-light .coffeescript .hljs-title {
+  color: #257fad;
+}
+
+/* Atelier Lakeside Light Purple */
+.highlight_theme_atelier-lakeside-light .hljs-keyword, .highlight_theme_atelier-lakeside-light .javascript .hljs-function {
+  color: #5d5db1;
+}
+
+.highlight_theme_atelier-lakeside-light .hljs {
+  display: block;
+  overflow-x: auto;
+  background: #ebf8ff;
+  color: #516d7b;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_atelier-lakeside-light .coffeescript .javascript, .highlight_theme_atelier-lakeside-light .javascript .xml, .highlight_theme_atelier-lakeside-light .tex .hljs-formula, .highlight_theme_atelier-lakeside-light .xml .javascript, .highlight_theme_atelier-lakeside-light .xml .vbscript, .highlight_theme_atelier-lakeside-light .xml .css, .highlight_theme_atelier-lakeside-light .xml .hljs-cdata {
+  opacity: 0.5;
+}

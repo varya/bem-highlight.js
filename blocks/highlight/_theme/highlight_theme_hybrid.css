@@ -1,0 +1,82 @@
+/*
+
+vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
+
+*/
+
+/*background color*/
+.highlight_theme_hybrid .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #1d1f21;
+  -webkit-text-size-adjust: none;
+}
+
+/*selection color*/
+.highlight_theme_hybrid .hljs::selection, .highlight_theme_hybrid .hljs span::selection {
+	background: #373b41;
+}
+.highlight_theme_hybrid .hljs::-moz-selection, .highlight_theme_hybrid .hljs span::-moz-selection {
+	background: #373b41;
+}
+
+/*foreground color*/
+.highlight_theme_hybrid .hljs, .highlight_theme_hybrid .hljs-setting .hljs-value, .highlight_theme_hybrid .hljs-expression .hljs-variable, .highlight_theme_hybrid .hljs-expression .hljs-begin-block, .highlight_theme_hybrid .hljs-expression .hljs-end-block, .highlight_theme_hybrid .hljs-class .hljs-params, .highlight_theme_hybrid .hljs-function .hljs-params, .highlight_theme_hybrid .hljs-at_rule .hljs-preprocessor {
+  color: #c5c8c6;
+}
+
+/*color: fg_yellow*/
+.highlight_theme_hybrid .hljs-title, .highlight_theme_hybrid .hljs-function .hljs-title, .highlight_theme_hybrid .hljs-keyword .hljs-common, .highlight_theme_hybrid .hljs-class .hljs-title, .highlight_theme_hybrid .hljs-decorator, .highlight_theme_hybrid .hljs-tag .hljs-title, .highlight_theme_hybrid .hljs-header, .highlight_theme_hybrid .hljs-sub, .highlight_theme_hybrid .hljs-function {
+  color: #f0c674;
+}
+
+/*color: fg_comment*/
+.highlight_theme_hybrid .hljs-comment, .highlight_theme_hybrid .hljs-javadoc, .highlight_theme_hybrid .hljs-output .hljs-value, .highlight_theme_hybrid .hljs-pi, .highlight_theme_hybrid .hljs-shebang, .highlight_theme_hybrid .hljs-doctype {
+  color: #707880;
+}
+
+/*color: fg_red*/
+.highlight_theme_hybrid .hljs-number, .highlight_theme_hybrid .hljs-symbol, .highlight_theme_hybrid .hljs-literal, .highlight_theme_hybrid .hljs-deletion, .highlight_theme_hybrid .hljs-link_url, .highlight_theme_hybrid .hljs-symbol .hljs-string, .highlight_theme_hybrid .hljs-argument, .highlight_theme_hybrid .hljs-hexcolor, .highlight_theme_hybrid .hljs-input .hljs-prompt, .highlight_theme_hybrid .hljs-char {
+ color: #cc6666
+}
+
+/*color: fg_green*/
+.highlight_theme_hybrid .hljs-string, .highlight_theme_hybrid .hljs-special, .highlight_theme_hybrid .hljs-javadoctag, .highlight_theme_hybrid .hljs-addition, .highlight_theme_hybrid .hljs-important, .highlight_theme_hybrid .hljs-tag .hljs-value, .highlight_theme_hybrid .hljs-at.rule .hljs-keyword, .highlight_theme_hybrid .hljs-regexp, .highlight_theme_hybrid .hljs-attr_selector {
+  color: #b5bd68;
+}
+
+/*color: fg_purple*/
+.highlight_theme_hybrid .hljs-variable, .highlight_theme_hybrid .hljs-property, .highlight_theme_hybrid .hljs-envar, .highlight_theme_hybrid .hljs-code, .highlight_theme_hybrid .hljs-expression, .highlight_theme_hybrid .hljs-localvars, .highlight_theme_hybrid .hljs-id, .highlight_theme_hybrid .hljs-variable .hljs-filter, .highlight_theme_hybrid .hljs-variable .hljs-filter .hljs-keyword, .highlight_theme_hybrid .hljs-template_tag .hljs-filter .hljs-keyword {
+ color: #b294bb;
+}
+
+/*color: fg_blue*/
+.highlight_theme_hybrid .hljs-statement, .highlight_theme_hybrid .hljs-label, .highlight_theme_hybrid .hljs-keyword, .highlight_theme_hybrid .hljs-xmlDocTag, .highlight_theme_hybrid .hljs-function .hljs-keyword, .highlight_theme_hybrid .hljs-chunk, .highlight_theme_hybrid .hljs-cdata, .highlight_theme_hybrid .hljs-link_label, .highlight_theme_hybrid .hljs-bullet, .highlight_theme_hybrid .hljs-class .hljs-keyword, .highlight_theme_hybrid .hljs-smartquote, .highlight_theme_hybrid .hljs-method, .highlight_theme_hybrid .hljs-list .hljs-title, .highlight_theme_hybrid .hljs-tag {
+ color: #81a2be;
+}
+
+/*color: fg_aqua*/
+.highlight_theme_hybrid .hljs-pseudo, .highlight_theme_hybrid .hljs-exception, .highlight_theme_hybrid .hljs-annotation, .highlight_theme_hybrid .hljs-subst, .highlight_theme_hybrid .hljs-change, .highlight_theme_hybrid .hljs-cbracket, .highlight_theme_hybrid .hljs-operator, .highlight_theme_hybrid .hljs-horizontal_rule, .highlight_theme_hybrid .hljs-preprocessor .hljs-keyword, .highlight_theme_hybrid .hljs-typedef, .highlight_theme_hybrid .hljs-template_tag, .highlight_theme_hybrid .hljs-variable, .highlight_theme_hybrid .hljs-variable .hljs-filter .hljs-argument, .highlight_theme_hybrid .hljs-at_rule, .highlight_theme_hybrid .hljs-at_rule .hljs-string, .highlight_theme_hybrid .hljs-at_rule .hljs-keyword {
+  color: #8abeb7;
+}
+
+
+/*color: fg_orange*/
+.highlight_theme_hybrid .hljs-type, .highlight_theme_hybrid .hljs-typename, .highlight_theme_hybrid .hljs-inheritance .hljs-parent, .highlight_theme_hybrid .hljs-constant, .highlight_theme_hybrid .hljs-built_in, .highlight_theme_hybrid .hljs-setting, .highlight_theme_hybrid .hljs-structure, .highlight_theme_hybrid .hljs-link_reference, .highlight_theme_hybrid .hljs-attribute, .highlight_theme_hybrid .hljs-blockquote, .highlight_theme_hybrid .hljs-quoted, .highlight_theme_hybrid .hljs-class, .highlight_theme_hybrid .hljs-header {
+  color: #de935f;
+}
+
+.highlight_theme_hybrid .hljs-emphasis
+{
+  font-style: italic;
+}
+
+.highlight_theme_hybrid .hljs-strong
+{
+  font-weight: bold;
+}
+
+
+
+

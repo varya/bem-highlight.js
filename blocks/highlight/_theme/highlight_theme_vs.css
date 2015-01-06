@@ -3,83 +3,40 @@
 Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
 
 */
-.highlight_theme_vs code {
-  display: block; padding: 0.5em;
+.highlight_theme_vs .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+  -webkit-text-size-adjust: none;
 }
 
-.highlight_theme_vs .comment,
-.highlight_theme_vs .annotation,
-.highlight_theme_vs .template_comment,
-.highlight_theme_vs .diff .header,
-.highlight_theme_vs .chunk,
-.highlight_theme_vs .apache .cbracket {
-  color: rgb(0, 128, 0);
+.highlight_theme_vs .hljs-comment, .highlight_theme_vs .hljs-annotation, .highlight_theme_vs .diff .hljs-header, .highlight_theme_vs .hljs-chunk, .highlight_theme_vs .apache .hljs-cbracket {
+  color: #008000;
 }
 
-.highlight_theme_vs .keyword,
-.highlight_theme_vs .id,
-.highlight_theme_vs .built_in,
-.highlight_theme_vs .smalltalk .class,
-.highlight_theme_vs .winutils,
-.highlight_theme_vs .bash .variable,
-.highlight_theme_vs .tex .command,
-.highlight_theme_vs .request,
-.highlight_theme_vs .status,
-.highlight_theme_vs .nginx .title {
-  color: rgb(0, 0, 255);
+.highlight_theme_vs .hljs-keyword, .highlight_theme_vs .hljs-id, .highlight_theme_vs .hljs-built_in, .highlight_theme_vs .css
+.smalltalk .hljs-class, .highlight_theme_vs .hljs-winutils, .highlight_theme_vs .bash .hljs-variable, .highlight_theme_vs .tex .hljs-command, .highlight_theme_vs .hljs-request, .highlight_theme_vs .hljs-status, .highlight_theme_vs .nginx .hljs-title, .highlight_theme_vs .xml .hljs-tag, .highlight_theme_vs .xml .hljs-tag .hljs-value {
+  color: #00f;
 }
 
-.highlight_theme_vs .string,
-.highlight_theme_vs .title,
-.highlight_theme_vs .parent,
-.highlight_theme_vs .tag .value,
-.highlight_theme_vs .rules .value,
-.highlight_theme_vs .rules .value .number,
-.highlight_theme_vs .ruby .symbol,
-.highlight_theme_vs .ruby .symbol .string,
-.highlight_theme_vs .ruby .symbol .keyword,
-.highlight_theme_vs .ruby .symbol .keymethods,
-.highlight_theme_vs .instancevar,
-.highlight_theme_vs .aggregate,
-.highlight_theme_vs .template_tag,
-.highlight_theme_vs .django .variable,
-.highlight_theme_vs .addition,
-.highlight_theme_vs .flow,
-.highlight_theme_vs .stream,
-.highlight_theme_vs .apache .tag,
-.highlight_theme_vs .date,
-.highlight_theme_vs .tex .formula {
-  color: rgb(163, 21, 21);
+.highlight_theme_vs .hljs-string, .highlight_theme_vs .hljs-title, .highlight_theme_vs .hljs-parent, .highlight_theme_vs .hljs-tag .hljs-value, .highlight_theme_vs .hljs-rules .hljs-value, .highlight_theme_vs .ruby .hljs-symbol, .highlight_theme_vs .ruby .hljs-symbol .hljs-string, .highlight_theme_vs .hljs-template_tag, .highlight_theme_vs .django .hljs-variable, .highlight_theme_vs .hljs-addition, .highlight_theme_vs .hljs-flow, .highlight_theme_vs .hljs-stream, .highlight_theme_vs .apache .hljs-tag, .highlight_theme_vs .hljs-date, .highlight_theme_vs .tex .hljs-formula, .highlight_theme_vs .coffeescript .hljs-attribute {
+  color: #a31515;
 }
 
-.highlight_theme_vs .ruby .string,
-.highlight_theme_vs .decorator,
-.highlight_theme_vs .filter .argument,
-.highlight_theme_vs .localvars,
-.highlight_theme_vs .array,
-.highlight_theme_vs .attr_selector,
-.highlight_theme_vs .pseudo,
-.highlight_theme_vs .pi,
-.highlight_theme_vs .doctype,
-.highlight_theme_vs .deletion,
-.highlight_theme_vs .envvar,
-.highlight_theme_vs .shebang,
-.highlight_theme_vs .preprocessor,
-.highlight_theme_vs .userType,
-.highlight_theme_vs .apache .sqbracket,
-.highlight_theme_vs .nginx .built_in,
-.highlight_theme_vs .tex .special,
-.highlight_theme_vs .input_number {
-  color: rgb(43, 145, 175);
+.highlight_theme_vs .ruby .hljs-string, .highlight_theme_vs .hljs-decorator, .highlight_theme_vs .hljs-filter .hljs-argument, .highlight_theme_vs .hljs-localvars, .highlight_theme_vs .hljs-array, .highlight_theme_vs .hljs-attr_selector, .highlight_theme_vs .hljs-pseudo, .highlight_theme_vs .hljs-pi, .highlight_theme_vs .hljs-doctype, .highlight_theme_vs .hljs-deletion, .highlight_theme_vs .hljs-envvar, .highlight_theme_vs .hljs-shebang, .highlight_theme_vs .hljs-preprocessor, .highlight_theme_vs .hljs-pragma, .highlight_theme_vs .userType, .highlight_theme_vs .apache .hljs-sqbracket, .highlight_theme_vs .nginx .hljs-built_in, .highlight_theme_vs .tex .hljs-special, .highlight_theme_vs .hljs-prompt {
+  color: #2b91af;
 }
 
-.highlight_theme_vs .phpdoc,
-.highlight_theme_vs .javadoc,
-.highlight_theme_vs .xmlDocTag {
-  color: rgb(128, 128, 128);
+.highlight_theme_vs .hljs-phpdoc, .highlight_theme_vs .hljs-dartdoc, .highlight_theme_vs .hljs-javadoc, .highlight_theme_vs .hljs-xmlDocTag {
+  color: #808080;
 }
 
-.highlight_theme_vs .vhdl .typename { font-weight: bold; }
-.highlight_theme_vs .vhdl .string { color: #666666; }
-.highlight_theme_vs .vhdl .literal { color: rgb(163, 21, 21); }
-.highlight_theme_vs .vhdl .attribute { color: #00B0E8; }
+.highlight_theme_vs .hljs-type, .highlight_theme_vs .hljs-typename { font-weight: bold; }
+
+.highlight_theme_vs .vhdl .hljs-string { color: #666666; }
+.highlight_theme_vs .vhdl .hljs-literal { color: #a31515; }
+.highlight_theme_vs .vhdl .hljs-attribute { color: #00b0e8; }
+
+.highlight_theme_vs .xml .hljs-attribute { color: #f00; }

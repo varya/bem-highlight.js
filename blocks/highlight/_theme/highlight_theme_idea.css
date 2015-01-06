@@ -4,119 +4,74 @@ Intellij Idea-like styling (c) Vasily Polovnyov <vast@whiteants.net>
 
 */
 
-.highlight_theme_idea code {
-  display: block; padding: 0.5em;
+.highlight_theme_idea .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
   color: #000;
   background: #fff;
+  -webkit-text-size-adjust: none;
 }
 
-.highlight_theme_idea .subst,
-.highlight_theme_idea .title {
+.highlight_theme_idea .hljs-subst, .highlight_theme_idea .hljs-title, .highlight_theme_idea .json .hljs-value {
   font-weight: normal;
   color: #000;
 }
 
-.highlight_theme_idea .comment,
-.highlight_theme_idea .template_comment,
-.highlight_theme_idea .javadoc,
-.highlight_theme_idea .diff .header {
+.highlight_theme_idea .hljs-comment, .highlight_theme_idea .hljs-javadoc, .highlight_theme_idea .diff .hljs-header {
   color: #808080;
   font-style: italic;
 }
 
-.highlight_theme_idea .annotation,
-.highlight_theme_idea .decorator,
-.highlight_theme_idea .preprocessor,
-.highlight_theme_idea .doctype,
-.highlight_theme_idea .pi,
-.highlight_theme_idea .chunk,
-.highlight_theme_idea .shebang,
-.highlight_theme_idea .apache .cbracket,
-.highlight_theme_idea .input_number,
-.highlight_theme_idea .http .title {
+.highlight_theme_idea .hljs-annotation, .highlight_theme_idea .hljs-decorator, .highlight_theme_idea .hljs-preprocessor, .highlight_theme_idea .hljs-pragma, .highlight_theme_idea .hljs-doctype, .highlight_theme_idea .hljs-pi, .highlight_theme_idea .hljs-chunk, .highlight_theme_idea .hljs-shebang, .highlight_theme_idea .apache .hljs-cbracket, .highlight_theme_idea .hljs-prompt, .highlight_theme_idea .http .hljs-title {
   color: #808000;
 }
 
-.highlight_theme_idea .tag,
-.highlight_theme_idea .pi {
+.highlight_theme_idea .hljs-tag, .highlight_theme_idea .hljs-pi {
   background: #efefef;
 }
 
-.highlight_theme_idea .tag .title,
-.highlight_theme_idea .id,
-.highlight_theme_idea .attr_selector,
-.highlight_theme_idea .pseudo,
-.highlight_theme_idea .literal,
-.highlight_theme_idea .keyword,
-.highlight_theme_idea .hexcolor,
-.highlight_theme_idea .css .function,
-.highlight_theme_idea .ini .title,
-.highlight_theme_idea .css .class,
-.highlight_theme_idea .list .title,
-.highlight_theme_idea .nginx .title,
-.highlight_theme_idea .tex .command,
-.highlight_theme_idea .request,
-.highlight_theme_idea .status {
+.highlight_theme_idea .hljs-tag .hljs-title, .highlight_theme_idea .hljs-id, .highlight_theme_idea .hljs-attr_selector, .highlight_theme_idea .hljs-pseudo, .highlight_theme_idea .hljs-literal, .highlight_theme_idea .hljs-keyword, .highlight_theme_idea .hljs-hexcolor, .highlight_theme_idea .css .hljs-function, .highlight_theme_idea .ini .hljs-title, .highlight_theme_idea .css .hljs-class, .highlight_theme_idea .hljs-list .hljs-keyword, .highlight_theme_idea .nginx .hljs-title, .highlight_theme_idea .tex .hljs-command, .highlight_theme_idea .hljs-request, .highlight_theme_idea .hljs-status {
   font-weight: bold;
   color: #000080;
 }
 
-.highlight_theme_idea .attribute,
-.highlight_theme_idea .rules .keyword,
-.highlight_theme_idea .number,
-.highlight_theme_idea .date,
-.highlight_theme_idea .regexp,
-.highlight_theme_idea .tex .special {
+.highlight_theme_idea .hljs-attribute, .highlight_theme_idea .hljs-rules .hljs-keyword, .highlight_theme_idea .hljs-number, .highlight_theme_idea .hljs-date, .highlight_theme_idea .hljs-regexp, .highlight_theme_idea .tex .hljs-special {
   font-weight: bold;
   color: #0000ff;
 }
 
-.highlight_theme_idea .number,
-.highlight_theme_idea .regexp {
+.highlight_theme_idea .hljs-number, .highlight_theme_idea .hljs-regexp {
   font-weight: normal;
 }
 
-.highlight_theme_idea .string,
-.highlight_theme_idea .value,
-.highlight_theme_idea .filter .argument,
-.highlight_theme_idea .css .function .params,
-.highlight_theme_idea .apache .tag {
+.highlight_theme_idea .hljs-string, .highlight_theme_idea .hljs-value, .highlight_theme_idea .hljs-filter .hljs-argument, .highlight_theme_idea .css .hljs-function .hljs-params, .highlight_theme_idea .apache .hljs-tag {
   color: #008000;
   font-weight: bold;
 }
 
-.highlight_theme_idea .symbol,
-.highlight_theme_idea .ruby .symbol .string,
-.highlight_theme_idea .ruby .symbol .keyword,
-.highlight_theme_idea .ruby .symbol .keymethods,
-.highlight_theme_idea .char,
-.highlight_theme_idea .tex .formula {
+.highlight_theme_idea .hljs-symbol, .highlight_theme_idea .ruby .hljs-symbol .hljs-string, .highlight_theme_idea .hljs-char, .highlight_theme_idea .tex .hljs-formula {
   color: #000;
   background: #d0eded;
   font-style: italic;
 }
 
-.highlight_theme_idea .phpdoc,
-.highlight_theme_idea .yardoctag,
-.highlight_theme_idea .javadoctag {
+.highlight_theme_idea .hljs-phpdoc, .highlight_theme_idea .hljs-dartdoc, .highlight_theme_idea .hljs-yardoctag, .highlight_theme_idea .hljs-javadoctag {
   text-decoration: underline;
 }
 
-.highlight_theme_idea .variable,
-.highlight_theme_idea .envvar,
-.highlight_theme_idea .apache .sqbracket,
-.highlight_theme_idea .nginx .built_in {
+.highlight_theme_idea .hljs-variable, .highlight_theme_idea .hljs-envvar, .highlight_theme_idea .apache .hljs-sqbracket, .highlight_theme_idea .nginx .hljs-built_in {
   color: #660e7a;
 }
 
-.highlight_theme_idea .addition {
+.highlight_theme_idea .hljs-addition {
   background: #baeeba;
 }
 
-.highlight_theme_idea .deletion {
+.highlight_theme_idea .hljs-deletion {
   background: #ffc8bd;
 }
 
-.highlight_theme_idea .diff .change {
+.highlight_theme_idea .diff .hljs-change {
   background: #bccff9;
 }

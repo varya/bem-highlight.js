@@ -1,0 +1,61 @@
+/*
+
+Colorbrewer theme
+Original: https://github.com/mbostock/colorbrewer-theme (c) Mike Bostock <mike@ocks.org>
+Ported by Fabrício Tavares de Oliveira
+
+*/
+
+.highlight_theme_color-brewer .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fff;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_color-brewer .hljs, .highlight_theme_color-brewer .hljs-subst, .highlight_theme_color-brewer .hljs-tag .hljs-title, .highlight_theme_color-brewer .nginx .hljs-title {
+  color: #000;
+}
+
+.highlight_theme_color-brewer .hljs-string, .highlight_theme_color-brewer .hljs-title, .highlight_theme_color-brewer .hljs-constant, .highlight_theme_color-brewer .hljs-parent, .highlight_theme_color-brewer .hljs-tag .hljs-value, .highlight_theme_color-brewer .hljs-rules .hljs-value, .highlight_theme_color-brewer .hljs-preprocessor, .highlight_theme_color-brewer .hljs-pragma, .highlight_theme_color-brewer .haml .hljs-symbol, .highlight_theme_color-brewer .ruby .hljs-symbol, .highlight_theme_color-brewer .ruby .hljs-symbol .hljs-string, .highlight_theme_color-brewer .hljs-template_tag, .highlight_theme_color-brewer .django .hljs-variable, .highlight_theme_color-brewer .smalltalk .hljs-class, .highlight_theme_color-brewer .hljs-addition, .highlight_theme_color-brewer .hljs-flow, .highlight_theme_color-brewer .hljs-stream, .highlight_theme_color-brewer .bash .hljs-variable, .highlight_theme_color-brewer .apache .hljs-tag, .highlight_theme_color-brewer .apache .hljs-cbracket, .highlight_theme_color-brewer .tex .hljs-command, .highlight_theme_color-brewer .tex .hljs-special, .highlight_theme_color-brewer .erlang_repl .hljs-function_or_atom, .highlight_theme_color-brewer .asciidoc .hljs-header, .highlight_theme_color-brewer .markdown .hljs-header, .highlight_theme_color-brewer .coffeescript .hljs-attribute {
+  color: #756bb1;
+}
+
+.highlight_theme_color-brewer .smartquote, .highlight_theme_color-brewer .hljs-comment, .highlight_theme_color-brewer .hljs-annotation, .highlight_theme_color-brewer .diff .hljs-header, .highlight_theme_color-brewer .hljs-chunk, .highlight_theme_color-brewer .asciidoc .hljs-blockquote, .highlight_theme_color-brewer .markdown .hljs-blockquote {
+  color: #636363;
+}
+
+.highlight_theme_color-brewer .hljs-number, .highlight_theme_color-brewer .hljs-date, .highlight_theme_color-brewer .hljs-regexp, .highlight_theme_color-brewer .hljs-literal, .highlight_theme_color-brewer .hljs-hexcolor, .highlight_theme_color-brewer .smalltalk .hljs-symbol, .highlight_theme_color-brewer .smalltalk .hljs-char, .highlight_theme_color-brewer .go .hljs-constant, .highlight_theme_color-brewer .hljs-change, .highlight_theme_color-brewer .lasso .hljs-variable, .highlight_theme_color-brewer .makefile .hljs-variable, .highlight_theme_color-brewer .asciidoc .hljs-bullet, .highlight_theme_color-brewer .markdown .hljs-bullet, .highlight_theme_color-brewer .asciidoc .hljs-link_url, .highlight_theme_color-brewer .markdown .hljs-link_url {
+  color: #31a354;
+}
+
+.highlight_theme_color-brewer .hljs-label, .highlight_theme_color-brewer .hljs-javadoc, .highlight_theme_color-brewer .ruby .hljs-string, .highlight_theme_color-brewer .hljs-decorator, .highlight_theme_color-brewer .hljs-filter .hljs-argument, .highlight_theme_color-brewer .hljs-localvars, .highlight_theme_color-brewer .hljs-array, .highlight_theme_color-brewer .hljs-attr_selector, .highlight_theme_color-brewer .hljs-important, .highlight_theme_color-brewer .hljs-pseudo, .highlight_theme_color-brewer .hljs-pi, .highlight_theme_color-brewer .haml .hljs-bullet, .highlight_theme_color-brewer .hljs-doctype, .highlight_theme_color-brewer .hljs-deletion, .highlight_theme_color-brewer .hljs-envvar, .highlight_theme_color-brewer .hljs-shebang, .highlight_theme_color-brewer .apache .hljs-sqbracket, .highlight_theme_color-brewer .nginx .hljs-built_in, .highlight_theme_color-brewer .hljs-list .hljs-built_in, .highlight_theme_color-brewer .tex .hljs-formula, .highlight_theme_color-brewer .erlang_repl .hljs-reserved, .highlight_theme_color-brewer .hljs-prompt, .highlight_theme_color-brewer .asciidoc .hljs-link_label, .highlight_theme_color-brewer .markdown .hljs-link_label, .highlight_theme_color-brewer .vhdl .hljs-attribute, .highlight_theme_color-brewer .clojure .hljs-attribute, .highlight_theme_color-brewer .asciidoc .hljs-attribute, .highlight_theme_color-brewer .lasso .hljs-attribute, .highlight_theme_color-brewer .coffeescript .hljs-property, .highlight_theme_color-brewer .hljs-phony {
+  color: #88f;
+}
+
+
+
+.highlight_theme_color-brewer .hljs-keyword, .highlight_theme_color-brewer .hljs-id, .highlight_theme_color-brewer .hljs-title, .highlight_theme_color-brewer .hljs-built_in, .highlight_theme_color-brewer .css .hljs-tag, .highlight_theme_color-brewer .hljs-javadoctag, .highlight_theme_color-brewer .hljs-phpdoc, .highlight_theme_color-brewer .hljs-dartdoc, .highlight_theme_color-brewer .hljs-yardoctag, .highlight_theme_color-brewer .smalltalk .hljs-class, .highlight_theme_color-brewer .hljs-winutils, .highlight_theme_color-brewer .bash .hljs-variable, .highlight_theme_color-brewer .apache .hljs-tag, .highlight_theme_color-brewer .hljs-type, .highlight_theme_color-brewer .hljs-typename, .highlight_theme_color-brewer .tex .hljs-command, .highlight_theme_color-brewer .asciidoc .hljs-strong, .highlight_theme_color-brewer .markdown .hljs-strong, .highlight_theme_color-brewer .hljs-request, .highlight_theme_color-brewer .hljs-status {
+  color: #3182bd;
+}
+
+.highlight_theme_color-brewer .asciidoc .hljs-emphasis, .highlight_theme_color-brewer .markdown .hljs-emphasis {
+  font-style: italic;
+}
+
+.highlight_theme_color-brewer .nginx .hljs-built_in {
+  font-weight: normal;
+}
+
+.highlight_theme_color-brewer .coffeescript .javascript, .highlight_theme_color-brewer .javascript .xml, .highlight_theme_color-brewer .lasso .markup, .highlight_theme_color-brewer .tex .hljs-formula, .highlight_theme_color-brewer .xml .javascript, .highlight_theme_color-brewer .xml .vbscript, .highlight_theme_color-brewer .xml .css, .highlight_theme_color-brewer .xml .hljs-cdata {
+  opacity: 0.5;
+}
+
+.highlight_theme_color-brewer .css .hljs-attribute, .highlight_theme_color-brewer .html .hljs-attribute {
+  color: #e6550d;
+}
+
+.highlight_theme_color-brewer .css .hljs-class, .highlight_theme_color-brewer .html .hljs-tag, .highlight_theme_color-brewer .html .hljs-title {
+  color: #3182bd;
+}

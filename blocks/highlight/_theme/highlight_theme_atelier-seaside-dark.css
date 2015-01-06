@@ -1,0 +1,57 @@
+/* Base16 Atelier Seaside Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside/) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+/* https://github.com/jmblog/color-themes-for-highlightjs */
+
+/* Atelier Seaside Dark Comment */
+.highlight_theme_atelier-seaside-dark .hljs-comment, .highlight_theme_atelier-seaside-dark .hljs-title {
+  color: #809980;
+}
+
+/* Atelier Seaside Dark Red */
+.highlight_theme_atelier-seaside-dark .hljs-variable, .highlight_theme_atelier-seaside-dark .hljs-attribute, .highlight_theme_atelier-seaside-dark .hljs-tag, .highlight_theme_atelier-seaside-dark .hljs-regexp, .highlight_theme_atelier-seaside-dark .ruby .hljs-constant, .highlight_theme_atelier-seaside-dark .xml .hljs-tag .hljs-title, .highlight_theme_atelier-seaside-dark .xml .hljs-pi, .highlight_theme_atelier-seaside-dark .xml .hljs-doctype, .highlight_theme_atelier-seaside-dark .html .hljs-doctype, .highlight_theme_atelier-seaside-dark .css .hljs-id, .highlight_theme_atelier-seaside-dark .css .hljs-class, .highlight_theme_atelier-seaside-dark .css .hljs-pseudo {
+  color: #e6193c;
+}
+
+/* Atelier Seaside Dark Orange */
+.highlight_theme_atelier-seaside-dark .hljs-number, .highlight_theme_atelier-seaside-dark .hljs-preprocessor, .highlight_theme_atelier-seaside-dark .hljs-pragma, .highlight_theme_atelier-seaside-dark .hljs-built_in, .highlight_theme_atelier-seaside-dark .hljs-literal, .highlight_theme_atelier-seaside-dark .hljs-params, .highlight_theme_atelier-seaside-dark .hljs-constant {
+  color: #87711d;
+}
+
+/* Atelier Seaside Dark Yellow */
+.highlight_theme_atelier-seaside-dark .hljs-ruby .hljs-class .hljs-title, .highlight_theme_atelier-seaside-dark .css .hljs-rules .hljs-attribute {
+  color: #c3c322;
+}
+
+/* Atelier Seaside Dark Green */
+.highlight_theme_atelier-seaside-dark .hljs-string, .highlight_theme_atelier-seaside-dark .hljs-value, .highlight_theme_atelier-seaside-dark .hljs-inheritance, .highlight_theme_atelier-seaside-dark .hljs-header, .highlight_theme_atelier-seaside-dark .ruby .hljs-symbol, .highlight_theme_atelier-seaside-dark .xml .hljs-cdata {
+  color: #29a329;
+}
+
+/* Atelier Seaside Dark Aqua */
+.highlight_theme_atelier-seaside-dark .css .hljs-hexcolor {
+  color: #1999b3;
+}
+
+/* Atelier Seaside Dark Blue */
+.highlight_theme_atelier-seaside-dark .hljs-function, .highlight_theme_atelier-seaside-dark .python .hljs-decorator, .highlight_theme_atelier-seaside-dark .python .hljs-title, .highlight_theme_atelier-seaside-dark .ruby .hljs-function .hljs-title, .highlight_theme_atelier-seaside-dark .ruby .hljs-title .hljs-keyword, .highlight_theme_atelier-seaside-dark .perl .hljs-sub, .highlight_theme_atelier-seaside-dark .javascript .hljs-title, .highlight_theme_atelier-seaside-dark .coffeescript .hljs-title {
+  color: #3d62f5;
+}
+
+/* Atelier Seaside Dark Purple */
+.highlight_theme_atelier-seaside-dark .hljs-keyword, .highlight_theme_atelier-seaside-dark .javascript .hljs-function {
+  color: #ad2bee;
+}
+
+.highlight_theme_atelier-seaside-dark .hljs {
+  display: block;
+  overflow-x: auto;
+  background: #242924;
+  color: #8ca68c;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_atelier-seaside-dark .coffeescript .javascript, .highlight_theme_atelier-seaside-dark .javascript .xml, .highlight_theme_atelier-seaside-dark .tex .hljs-formula, .highlight_theme_atelier-seaside-dark .xml .javascript, .highlight_theme_atelier-seaside-dark .xml .vbscript, .highlight_theme_atelier-seaside-dark .xml .css, .highlight_theme_atelier-seaside-dark .xml .hljs-cdata {
+  opacity: 0.5;
+}

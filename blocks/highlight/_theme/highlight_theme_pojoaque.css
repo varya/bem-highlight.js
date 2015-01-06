@@ -1,106 +1,61 @@
 /*
 
 Pojoaque Style by Jason Tate
-http://web-cms-designs.com/ftopict-10-pojoaque-style-for.highlight_theme_pojoaque-js-code.highlight_theme_pojoaqueer.html
+http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html
 Based on Solarized Style from http://ethanschoonover.com/solarized
 
 */
 
-.highlight_theme_pojoaque code {
-  display: block; padding: 0.5em;
-  color: #DCCF8F;
+.highlight_theme_pojoaque .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #dccf8f;
   background: url(./pojoaque.jpg) repeat scroll left top #181914;
+  -webkit-text-size-adjust: none;
 }
 
-.highlight_theme_pojoaque .comment,
-.highlight_theme_pojoaque .template_comment,
-.highlight_theme_pojoaque .diff .header,
-.highlight_theme_pojoaque .doctype,
-.highlight_theme_pojoaque .lisp .string,
-.highlight_theme_pojoaque .javadoc {
+.highlight_theme_pojoaque .hljs-comment, .highlight_theme_pojoaque .diff .hljs-header, .highlight_theme_pojoaque .hljs-doctype, .highlight_theme_pojoaque .lisp .hljs-string, .highlight_theme_pojoaque .hljs-javadoc {
   color: #586e75;
   font-style: italic;
 }
 
-.highlight_theme_pojoaque .keyword,
-.highlight_theme_pojoaque .css .rule .keyword,
-.highlight_theme_pojoaque .winutils,
-.highlight_theme_pojoaque .javascript .title,
-.highlight_theme_pojoaque .method,
-.highlight_theme_pojoaque .addition,
-.highlight_theme_pojoaque .css .tag,
-.highlight_theme_pojoaque .lisp .title,
-.highlight_theme_pojoaque .nginx .title {
-  color: #B64926;
+.highlight_theme_pojoaque .hljs-keyword, .highlight_theme_pojoaque .css .rule .hljs-keyword, .highlight_theme_pojoaque .hljs-winutils, .highlight_theme_pojoaque .javascript .hljs-title, .highlight_theme_pojoaque .method, .highlight_theme_pojoaque .hljs-addition, .highlight_theme_pojoaque .css .hljs-tag, .highlight_theme_pojoaque .hljs-list .hljs-keyword, .highlight_theme_pojoaque .nginx .hljs-title {
+  color: #b64926;
 }
 
-.highlight_theme_pojoaque .number,
-.highlight_theme_pojoaque .command,
-.highlight_theme_pojoaque .string,
-.highlight_theme_pojoaque .tag .value,
-.highlight_theme_pojoaque .phpdoc,
-.highlight_theme_pojoaque .tex .formula,
-.highlight_theme_pojoaque .regexp,
-.highlight_theme_pojoaque .hexcolor {
+.highlight_theme_pojoaque .hljs-number, .highlight_theme_pojoaque .hljs-command, .highlight_theme_pojoaque .hljs-string, .highlight_theme_pojoaque .hljs-tag .hljs-value, .highlight_theme_pojoaque .hljs-phpdoc, .highlight_theme_pojoaque .hljs-dartdoc, .highlight_theme_pojoaque .tex .hljs-formula, .highlight_theme_pojoaque .hljs-regexp, .highlight_theme_pojoaque .hljs-hexcolor {
   color: #468966;
 }
 
-.highlight_theme_pojoaque .title,
-.highlight_theme_pojoaque .localvars,
-.highlight_theme_pojoaque .function .title,
-.highlight_theme_pojoaque .chunk,
-.highlight_theme_pojoaque .decorator,
-.highlight_theme_pojoaque .builtin,
-.highlight_theme_pojoaque .built_in,
-.highlight_theme_pojoaque .lisp .title,
-.highlight_theme_pojoaque .identifier,
-.highlight_theme_pojoaque .title .keymethods,
-.highlight_theme_pojoaque .id {
-  color: #FFB03B;
+.highlight_theme_pojoaque .hljs-title, .highlight_theme_pojoaque .hljs-localvars, .highlight_theme_pojoaque .hljs-function .hljs-title, .highlight_theme_pojoaque .hljs-chunk, .highlight_theme_pojoaque .hljs-decorator, .highlight_theme_pojoaque .hljs-built_in, .highlight_theme_pojoaque .hljs-identifier, .highlight_theme_pojoaque .hljs-id {
+  color: #ffb03b;
 }
 
-.highlight_theme_pojoaque .attribute,
-.highlight_theme_pojoaque .variable,
-.highlight_theme_pojoaque .instancevar,
-.highlight_theme_pojoaque .lisp .body,
-.highlight_theme_pojoaque .smalltalk .number,
-.highlight_theme_pojoaque .constant,
-.highlight_theme_pojoaque .class .title,
-.highlight_theme_pojoaque .parent,
-.highlight_theme_pojoaque .haskell .type {
+.highlight_theme_pojoaque .hljs-attribute, .highlight_theme_pojoaque .hljs-variable, .highlight_theme_pojoaque .lisp .hljs-body, .highlight_theme_pojoaque .smalltalk .hljs-number, .highlight_theme_pojoaque .hljs-constant, .highlight_theme_pojoaque .hljs-class .hljs-title, .highlight_theme_pojoaque .hljs-parent, .highlight_theme_pojoaque .hljs-type {
   color: #b58900;
 }
 
-.highlight_theme_pojoaque .css .attribute {
+.highlight_theme_pojoaque .css .hljs-attribute {
   color: #b89859;
 }
 
-.highlight_theme_pojoaque .css .number,.highlight_theme_pojoaque .css .hexcolor{
-  color: #DCCF8F;
+.highlight_theme_pojoaque .css .hljs-number, .highlight_theme_pojoaque .css .hljs-hexcolor {
+  color: #dccf8f;
 }
 
-.highlight_theme_pojoaque .css .class {
+.highlight_theme_pojoaque .css .hljs-class {
   color: #d3a60c;
 }
 
-.highlight_theme_pojoaque .preprocessor,
-.highlight_theme_pojoaque .pi,
-.highlight_theme_pojoaque .shebang,
-.highlight_theme_pojoaque .symbol,
-.highlight_theme_pojoaque .diff .change,
-.highlight_theme_pojoaque .special,
-.highlight_theme_pojoaque .keymethods,
-.highlight_theme_pojoaque .attr_selector,
-.highlight_theme_pojoaque .important,
-.highlight_theme_pojoaque .subst,
-.highlight_theme_pojoaque .cdata {
+.highlight_theme_pojoaque .hljs-preprocessor, .highlight_theme_pojoaque .hljs-pragma, .highlight_theme_pojoaque .hljs-pi, .highlight_theme_pojoaque .hljs-shebang, .highlight_theme_pojoaque .hljs-symbol, .highlight_theme_pojoaque .hljs-symbol .hljs-string, .highlight_theme_pojoaque .diff .hljs-change, .highlight_theme_pojoaque .hljs-special, .highlight_theme_pojoaque .hljs-attr_selector, .highlight_theme_pojoaque .hljs-important, .highlight_theme_pojoaque .hljs-subst, .highlight_theme_pojoaque .hljs-cdata {
   color: #cb4b16;
 }
 
-.highlight_theme_pojoaque .deletion {
+.highlight_theme_pojoaque .hljs-deletion {
   color: #dc322f;
 }
 
-.highlight_theme_pojoaque .tex .formula {
+.highlight_theme_pojoaque .tex .hljs-formula {
   background: #073642;
 }

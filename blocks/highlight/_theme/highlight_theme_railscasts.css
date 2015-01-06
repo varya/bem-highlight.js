@@ -1,0 +1,130 @@
+/*
+
+Railscasts-like style (c) Visoft, Inc. (Damien White)
+
+*/
+
+.highlight_theme_railscasts .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #232323;
+  color: #e6e1dc;
+  -webkit-text-size-adjust: none;
+}
+
+.highlight_theme_railscasts .hljs-comment, .highlight_theme_railscasts .hljs-javadoc, .highlight_theme_railscasts .hljs-shebang {
+  color: #bc9458;
+  font-style: italic;
+}
+
+.highlight_theme_railscasts .hljs-keyword, .highlight_theme_railscasts .ruby .hljs-function .hljs-keyword, .highlight_theme_railscasts .hljs-request, .highlight_theme_railscasts .hljs-status, .highlight_theme_railscasts .nginx .hljs-title, .highlight_theme_railscasts .method, .highlight_theme_railscasts .hljs-list .hljs-title {
+  color: #c26230;
+}
+
+.highlight_theme_railscasts .hljs-string, .highlight_theme_railscasts .hljs-number, .highlight_theme_railscasts .hljs-regexp, .highlight_theme_railscasts .hljs-tag .hljs-value, .highlight_theme_railscasts .hljs-cdata, .highlight_theme_railscasts .hljs-filter .hljs-argument, .highlight_theme_railscasts .hljs-attr_selector, .highlight_theme_railscasts .apache .hljs-cbracket, .highlight_theme_railscasts .hljs-date, .highlight_theme_railscasts .tex .hljs-command, .highlight_theme_railscasts .asciidoc .hljs-link_label, .highlight_theme_railscasts .markdown .hljs-link_label {
+  color: #a5c261;
+}
+
+.highlight_theme_railscasts .hljs-subst {
+  color: #519f50;
+}
+
+.highlight_theme_railscasts .hljs-tag, .highlight_theme_railscasts .hljs-tag .hljs-keyword, .highlight_theme_railscasts .hljs-tag .hljs-title, .highlight_theme_railscasts .hljs-doctype, .highlight_theme_railscasts .hljs-sub .hljs-identifier, .highlight_theme_railscasts .hljs-pi, .highlight_theme_railscasts .input_number {
+  color: #e8bf6a;
+}
+
+.highlight_theme_railscasts .hljs-identifier {
+  color: #d0d0ff;
+}
+
+.highlight_theme_railscasts .hljs-class .hljs-title, .highlight_theme_railscasts .hljs-type, .highlight_theme_railscasts .smalltalk .hljs-class, .highlight_theme_railscasts .hljs-javadoctag, .highlight_theme_railscasts .hljs-yardoctag, .highlight_theme_railscasts .hljs-phpdoc, .highlight_theme_railscasts .hljs-dartdoc {
+  text-decoration: none;
+}
+
+.highlight_theme_railscasts .hljs-constant {
+  color: #da4939;
+}
+
+
+.highlight_theme_railscasts .hljs-symbol, .highlight_theme_railscasts .hljs-built_in, .highlight_theme_railscasts .ruby .hljs-symbol .hljs-string, .highlight_theme_railscasts .ruby .hljs-symbol .hljs-identifier, .highlight_theme_railscasts .asciidoc .hljs-link_url, .highlight_theme_railscasts .markdown .hljs-link_url, .highlight_theme_railscasts .hljs-attribute {
+  color: #6d9cbe;
+}
+
+.highlight_theme_railscasts .asciidoc .hljs-link_url, .highlight_theme_railscasts .markdown .hljs-link_url {
+  text-decoration: underline;
+}
+
+
+
+.highlight_theme_railscasts .hljs-params, .highlight_theme_railscasts .hljs-variable, .highlight_theme_railscasts .clojure .hljs-attribute {
+  color: #d0d0ff;
+}
+
+.highlight_theme_railscasts .css .hljs-tag, .highlight_theme_railscasts .hljs-rules .hljs-property, .highlight_theme_railscasts .hljs-pseudo, .highlight_theme_railscasts .tex .hljs-special {
+  color: #cda869;
+}
+
+.highlight_theme_railscasts .css .hljs-class {
+  color: #9b703f;
+}
+
+.highlight_theme_railscasts .hljs-rules .hljs-keyword {
+  color: #c5af75;
+}
+
+.highlight_theme_railscasts .hljs-rules .hljs-value {
+  color: #cf6a4c;
+}
+
+.highlight_theme_railscasts .css .hljs-id {
+  color: #8b98ab;
+}
+
+.highlight_theme_railscasts .hljs-annotation, .highlight_theme_railscasts .apache .hljs-sqbracket, .highlight_theme_railscasts .nginx .hljs-built_in {
+  color: #9b859d;
+}
+
+.highlight_theme_railscasts .hljs-preprocessor, .highlight_theme_railscasts .hljs-preprocessor *, .highlight_theme_railscasts .hljs-pragma {
+  color: #8996a8 !important;
+}
+
+.highlight_theme_railscasts .hljs-hexcolor, .highlight_theme_railscasts .css .hljs-value .hljs-number {
+  color: #a5c261;
+}
+
+.highlight_theme_railscasts .hljs-title, .highlight_theme_railscasts .hljs-decorator, .highlight_theme_railscasts .css .hljs-function {
+  color: #ffc66d;
+}
+
+.highlight_theme_railscasts .diff .hljs-header, .highlight_theme_railscasts .hljs-chunk {
+  background-color: #2f33ab;
+  color: #e6e1dc;
+  display: inline-block;
+  width: 100%;
+}
+
+.highlight_theme_railscasts .diff .hljs-change {
+  background-color: #4a410d;
+  color: #f8f8f8;
+  display: inline-block;
+  width: 100%;
+}
+
+.highlight_theme_railscasts .hljs-addition {
+  background-color: #144212;
+  color: #e6e1dc;
+  display: inline-block;
+  width: 100%;
+}
+
+.highlight_theme_railscasts .hljs-deletion {
+  background-color: #600;
+  color: #e6e1dc;
+  display: inline-block;
+  width: 100%;
+}
+
+.highlight_theme_railscasts .coffeescript .javascript, .highlight_theme_railscasts .javascript .xml, .highlight_theme_railscasts .tex .hljs-formula, .highlight_theme_railscasts .xml .javascript, .highlight_theme_railscasts .xml .vbscript, .highlight_theme_railscasts .xml .css, .highlight_theme_railscasts .xml .hljs-cdata {
+  opacity: 0.7;
+}

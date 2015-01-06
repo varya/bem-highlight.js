@@ -4,140 +4,86 @@ Google Code style (c) Aahan Krish <geekpanth3r@gmail.com>
 
 */
 
-.highlight_theme_googlecode code {
-  display: block; padding: 0.5em;
-  background: white; color: black;
+.highlight_theme_googlecode .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+  -webkit-text-size-adjust: none;
 }
 
-.highlight_theme_googlecode .comment,
-.highlight_theme_googlecode .template_comment,
-.highlight_theme_googlecode .javadoc,
-.highlight_theme_googlecode .comment * {
+.highlight_theme_googlecode .hljs-comment, .highlight_theme_googlecode .hljs-javadoc {
   color: #800;
 }
 
-.highlight_theme_googlecode .keyword,
-.highlight_theme_googlecode .method,
-.highlight_theme_googlecode .list .title,
-.highlight_theme_googlecode .nginx .title,
-.highlight_theme_googlecode .tag .title,
-.highlight_theme_googlecode .setting .value,
-.highlight_theme_googlecode .winutils,
-.highlight_theme_googlecode .tex .command,
-.highlight_theme_googlecode .http .title,
-.highlight_theme_googlecode .request,
-.highlight_theme_googlecode .status {
+.highlight_theme_googlecode .hljs-keyword, .highlight_theme_googlecode .method, .highlight_theme_googlecode .hljs-list .hljs-keyword, .highlight_theme_googlecode .nginx .hljs-title, .highlight_theme_googlecode .hljs-tag .hljs-title, .highlight_theme_googlecode .setting .hljs-value, .highlight_theme_googlecode .hljs-winutils, .highlight_theme_googlecode .tex .hljs-command, .highlight_theme_googlecode .http .hljs-title, .highlight_theme_googlecode .hljs-request, .highlight_theme_googlecode .hljs-status {
   color: #008;
 }
 
-.highlight_theme_googlecode .envvar,
-.highlight_theme_googlecode .tex .special {
+.highlight_theme_googlecode .hljs-envvar, .highlight_theme_googlecode .tex .hljs-special {
   color: #660;
 }
 
-.highlight_theme_googlecode .string,
-.highlight_theme_googlecode .tag .value,
-.highlight_theme_googlecode .cdata,
-.highlight_theme_googlecode .filter .argument,
-.highlight_theme_googlecode .attr_selector,
-.highlight_theme_googlecode .apache .cbracket,
-.highlight_theme_googlecode .date,
-.highlight_theme_googlecode .regexp {
+.highlight_theme_googlecode .hljs-string, .highlight_theme_googlecode .hljs-tag .hljs-value, .highlight_theme_googlecode .hljs-cdata, .highlight_theme_googlecode .hljs-filter .hljs-argument, .highlight_theme_googlecode .hljs-attr_selector, .highlight_theme_googlecode .apache .hljs-cbracket, .highlight_theme_googlecode .hljs-date, .highlight_theme_googlecode .hljs-regexp, .highlight_theme_googlecode .coffeescript .hljs-attribute {
   color: #080;
 }
 
-.highlight_theme_googlecode .sub .identifier,
-.highlight_theme_googlecode .pi,
-.highlight_theme_googlecode .tag,
-.highlight_theme_googlecode .tag .keyword,
-.highlight_theme_googlecode .decorator,
-.highlight_theme_googlecode .ini .title,
-.highlight_theme_googlecode .shebang,
-.highlight_theme_googlecode .input_number,
-.highlight_theme_googlecode .hexcolor,
-.highlight_theme_googlecode .rules .value,
-.highlight_theme_googlecode .css .value .number,
-.highlight_theme_googlecode .literal,
-.highlight_theme_googlecode .symbol,
-.highlight_theme_googlecode .ruby .symbol .string,
-.highlight_theme_googlecode .ruby .symbol .keyword,
-.highlight_theme_googlecode .ruby .symbol .keymethods,
-.highlight_theme_googlecode .number,
-.highlight_theme_googlecode .css .function {
+.highlight_theme_googlecode .hljs-sub .hljs-identifier, .highlight_theme_googlecode .hljs-pi, .highlight_theme_googlecode .hljs-tag, .highlight_theme_googlecode .hljs-tag .hljs-keyword, .highlight_theme_googlecode .hljs-decorator, .highlight_theme_googlecode .ini .hljs-title, .highlight_theme_googlecode .hljs-shebang, .highlight_theme_googlecode .hljs-prompt, .highlight_theme_googlecode .hljs-hexcolor, .highlight_theme_googlecode .hljs-rules .hljs-value, .highlight_theme_googlecode .hljs-literal, .highlight_theme_googlecode .hljs-symbol, .highlight_theme_googlecode .ruby .hljs-symbol .hljs-string, .highlight_theme_googlecode .hljs-number, .highlight_theme_googlecode .css .hljs-function, .highlight_theme_googlecode .clojure .hljs-attribute {
   color: #066;
 }
 
-.highlight_theme_googlecode .class .title,
-.highlight_theme_googlecode .haskell .type,
-.highlight_theme_googlecode .smalltalk .class,
-.highlight_theme_googlecode .javadoctag,
-.highlight_theme_googlecode .yardoctag,
-.highlight_theme_googlecode .phpdoc,
-.highlight_theme_googlecode .typename,
-.highlight_theme_googlecode .tag .attribute,
-.highlight_theme_googlecode .doctype,
-.highlight_theme_googlecode .class .id,
-.highlight_theme_googlecode .built_in,
-.highlight_theme_googlecode .setting,
-.highlight_theme_googlecode .params,
-.highlight_theme_googlecode .variable {
+.highlight_theme_googlecode .hljs-class .hljs-title, .highlight_theme_googlecode .smalltalk .hljs-class, .highlight_theme_googlecode .hljs-javadoctag, .highlight_theme_googlecode .hljs-yardoctag, .highlight_theme_googlecode .hljs-phpdoc, .highlight_theme_googlecode .hljs-dartdoc, .highlight_theme_googlecode .hljs-type, .highlight_theme_googlecode .hljs-typename, .highlight_theme_googlecode .hljs-tag .hljs-attribute, .highlight_theme_googlecode .hljs-doctype, .highlight_theme_googlecode .hljs-class .hljs-id, .highlight_theme_googlecode .hljs-built_in, .highlight_theme_googlecode .setting, .highlight_theme_googlecode .hljs-params, .highlight_theme_googlecode .hljs-variable {
   color: #606;
 }
 
-.highlight_theme_googlecode .css .tag,
-.highlight_theme_googlecode .rules .property,
-.highlight_theme_googlecode .pseudo,
-.highlight_theme_googlecode .subst {
+.highlight_theme_googlecode .css .hljs-tag, .highlight_theme_googlecode .hljs-rules .hljs-property, .highlight_theme_googlecode .hljs-pseudo, .highlight_theme_googlecode .hljs-subst {
   color: #000;
 }
 
-.highlight_theme_googlecode .css .class, .highlight_theme_googlecode .css .id {
-  color: #9B703F;
+.highlight_theme_googlecode .css .hljs-class, .highlight_theme_googlecode .css .hljs-id {
+  color: #9b703f;
 }
 
-.highlight_theme_googlecode .value .important {
+.highlight_theme_googlecode .hljs-value .hljs-important {
   color: #ff7700;
   font-weight: bold;
 }
 
-.highlight_theme_googlecode .rules .keyword {
-  color: #C5AF75;
+.highlight_theme_googlecode .hljs-rules .hljs-keyword {
+  color: #c5af75;
 }
 
-.highlight_theme_googlecode .annotation,
-.highlight_theme_googlecode .apache .sqbracket,
-.highlight_theme_googlecode .nginx .built_in {
-  color: #9B859D;
+.highlight_theme_googlecode .hljs-annotation, .highlight_theme_googlecode .apache .hljs-sqbracket, .highlight_theme_googlecode .nginx .hljs-built_in {
+  color: #9b859d;
 }
 
-.highlight_theme_googlecode .preprocessor,
-.highlight_theme_googlecode .preprocessor * {
+.highlight_theme_googlecode .hljs-preprocessor, .highlight_theme_googlecode .hljs-preprocessor *, .highlight_theme_googlecode .hljs-pragma {
   color: #444;
 }
 
-.highlight_theme_googlecode .tex .formula {
-  background-color: #EEE;
+.highlight_theme_googlecode .tex .hljs-formula {
+  background-color: #eee;
   font-style: italic;
 }
 
-.highlight_theme_googlecode .diff .header,
-.highlight_theme_googlecode .chunk {
+.highlight_theme_googlecode .diff .hljs-header, .highlight_theme_googlecode .hljs-chunk {
   color: #808080;
   font-weight: bold;
 }
 
-.highlight_theme_googlecode .diff .change {
-  background-color: #BCCFF9;
+.highlight_theme_googlecode .diff .hljs-change {
+  background-color: #bccff9;
 }
 
-.highlight_theme_googlecode .addition {
-  background-color: #BAEEBA;
+.highlight_theme_googlecode .hljs-addition {
+  background-color: #baeeba;
 }
 
-.highlight_theme_googlecode .deletion {
-  background-color: #FFC8BD;
+.highlight_theme_googlecode .hljs-deletion {
+  background-color: #ffc8bd;
 }
 
-.highlight_theme_googlecode .comment .yardoctag {
+.highlight_theme_googlecode .hljs-comment .hljs-yardoctag {
   font-weight: bold;
 }
