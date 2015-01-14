@@ -30,7 +30,7 @@
     "postcss": "^4.0.0"
   },
   "scripts": {
-    "install": "./node_modules/bower-npm-install/bin/bower-npm-install"
+    "install": "node ./node_modules/bower-npm-install/bin/bower-npm-install"
   },
   "private": true
 }
